@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnocentZombie | Spreadsheet Database Compiler</title>
+    <meta name="description" content="A premium offline-friendly spreadsheet to javascript compiler for InnocentZombie model catalog.">
+    <!-- Visual Engine Styles -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .converter-container {
+            max-width: 700px;
+            margin: 4rem auto;
+            background: var(--bg-glass);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid var(--border-glass);
+            border-radius: 24px;
+            padding: 3rem;
+            box-shadow: var(--shadow-card-glow), var(--shadow-purple-glow);
+            text-align: center;
+        }
+
+        .drop-zone {
+            border: 2px dashed rgba(168, 85, 247, 0.3);
+            border-radius: 16px;
+            padding: 4rem 2rem;
+            margin: 2.5rem 0;
+            cursor: pointer;
+            background: rgba(7, 9, 14, 0.4);
+            transition: var(--transition-normal);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .drop-zone.dragover {
+            border-color: var(--accent-cyan);
+            background: rgba(6, 182, 212, 0.05);
+            box-shadow: var(--shadow-cyan-glow);
+            transform: scale(1.02);
+        }
+
+        .drop-zone-icon {
+            width: 64px;
+            height: 64px;
+            color: var(--accent-purple);
+            margin-bottom: 1.5rem;
+            transition: var(--transition-normal);
+        }
+
+        .drop-zone.dragover .drop-zone-icon {
+            color: var(--accent-cyan);
+            transform: translateY(-5px);
+        }
+
+        .drop-zone-title {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+
+        .drop-zone-text {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .output-console {
+            background: rgba(3, 5, 8, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: left;
+            font-family: monospace;
+            font-size: 0.85rem;
+            color: #10b981; /* terminal green */
+            margin-bottom: 2rem;
+            display: none;
+            max-height: 250px;
+            overflow-y: auto;
+        }
+
+        .btn-download {
+            display: none;
+            margin: 0 auto;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .step-guide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 2rem;
+        }
+
+        .step-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .step-num {
+            background: rgba(255, 255, 255, 0.05);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        /* SheetJS library CDN error state fallback */
+        .lib-warning {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+            padding: 0.75rem 1rem;
+            border-radius: 10px;
+            font-size: 0.85rem;
+            margin-bottom: 1.5rem;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Decorative Glowing Ambient Blobs -->
+    <div class="bg-glow-blob blob-purple"></div>
+    <div class="bg-glow-blob blob-cyan"></div>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo-container">
+                <a href="index.html" class="logo-text" style="text-decoration: none;">InnocentZombie</a>
+                <span class="logo-subtitle">Catalog Database Compiler</span>
+            </div>
+
+        </header>
+
+        <!-- Main Compiler Box -->
+        <main class="converter-container">
+            <div class="lib-warning" id="library-alert">
+                Error: SheetJS library failed to load. Please make sure you are connected to the internet.
+            </div>
+
+            <h1 class="logo-text" style="font-size: 2.25rem;">Excel-to-Web Compiler</h1>
+            <p class="drop-zone-text" style="margin-top: 0.5rem;">Update your live model catalog database without installing Python or running any terminal commands.</p>
+
+            <!-- File Drag and Drop Zone -->
+            <!-- Existing Drop Zone -->
+            <div class="drop-zone" id="drop-zone">
+                <input type="file" id="file-input" style="display: none;" accept=".xlsx">
+                
+                <!-- Spreadsheet SVG -->
+                <svg class="drop-zone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                <h3 class="drop-zone-title">Drag & Drop Excel Catalog here</h3>
+                <p class="drop-zone-text">or click to browse your folders</p>
+                <p class="drop-zone-text" style="font-size: 0.75rem; margin-top: 0.5rem; opacity: 0.5;">Supports: 3D Printing Model Catalog (2).xlsx</p>
+            </div>
+
+            <!-- Google Sheet Import -->
+            <div class="google-sheet-import" style="margin-top: 1.5rem; text-align: center;">
+                <input type="text" id="google-sheet-url" placeholder="Paste Google Sheet URL here" style="width: 70%; padding: 0.6rem 0.8rem; border: 1px solid var(--border-glass); border-radius: 12px; background: rgba(7,9,14,0.6); color: var(--text-primary);" />
+                <button class="btn-primary" id="load-sheet-btn" style="margin-left: 0.5rem;">Load from Google Sheet</button>
+            </div>
+                <input type="file" id="file-input" style="display: none;" accept=".xlsx">
+                
+                <!-- Spreadsheet SVG -->
+                <svg class="drop-zone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><line x1="10" y1="9" x2="8" y2="9"></line></svg>
+                
+                <h3 class="drop-zone-title">Drag & Drop Excel Catalog here</h3>
+                <p class="drop-zone-text">or click to browse your folders</p>
+                <p class="drop-zone-text" style="font-size: 0.75rem; margin-top: 0.5rem; opacity: 0.5;">Supports: 3D Printing Model Catalog (2).xlsx</p>
+            </div>
+
+            <!-- Terminal Output Log -->
+            <div class="output-console" id="log-console">
+                Initializing compiler...<br>
+            </div>
+
+            <!-- Download compiled data.js button -->
+            <button class="btn-primary btn-download" id="download-btn">
+                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.25rem;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Download Updated data.js
+            </button>
+
+            <!-- Guide Steps -->
+            <div class="step-guide">
+                <div class="step-item">
+                    <span class="step-num">1</span>
+                    <span>Drop Excel document</span>
+                </div>
+                <div class="step-item">
+                    <span class="step-num">2</span>
+                    <span>Download data.js</span>
+                </div>
+                <div class="step-item">
+                    <span class="step-num">3</span>
+                    <span>Save in website folder</span>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p class="footer-text">&copy; 2026 InnocentZombie. Browser-based Serverless SheetJS Compiler.</p>
+        </footer>
+    </div>
+
+    <!-- SheetJS CDN Library -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" onerror="document.getElementById('library-alert').style.display='block';"></script>
+    
+    <!-- Compiler controller script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const dropZone = document.getElementById("drop-zone");
+            const fileInput = document.getElementById("file-input");
+            const logConsole = document.getElementById("log-console");
+            const downloadBtn = document.getElementById("download-btn");
+            
+            let compiledJsContent = "";
+
+            // Helper: Log message to green console
+            function log(msg, color = "#10b981") {
+                logConsole.style.display = "block";
+                const line = document.createElement("div");
+                line.style.color = color;
+                line.innerHTML = `> ${msg}`;
+                logConsole.appendChild(line);
+                logConsole.scrollTop = logConsole.scrollHeight;
+            }
+
+            // Click zone to trigger native file select
+            dropZone.addEventListener("click", () => fileInput.click());
+
+            // Drag behaviors
+            dropZone.addEventListener("dragover", (e) => {
+                e.preventDefault();
+                dropZone.classList.add("dragover");
+            });
+
+            dropZone.addEventListener("dragleave", () => {
+                dropZone.classList.remove("dragover");
+            });
+
+            dropZone.addEventListener("drop", (e) => {
+                e.preventDefault();
+                dropZone.classList.remove("dragover");
+                
+                const files = e.dataTransfer.files;
+                if (files.length > 0) {
+                    processFile(files[0]);
+                }
+            });
+
+            fileInput.addEventListener("change", (e) => {
+                const files = e.target.files;
+                if (files.length > 0) {
+                    processFile(files[0]);
+                }
+            });
+
+            function cleanValue(val) {
+                if (val === undefined || val === null) return null;
+                const str = String(val).trim();
+                if (str.toLowerCase() === 'nan' || str.toLowerCase() === 'null' || str.toLowerCase() === 'none' || str === '') {
+                    return null;
+                }
+                return str;
+            }
+
+            function processFile(file) {
+                if (!window.XLSX) {
+                    log("Error: SheetJS library failed to load. Check your internet connection.", "#ef4444");
+                    return;
+                }
+
+                if (!file.name.endsWith(".xlsx")) {
+                    log("Error: Please select a valid Excel file (.xlsx format only).", "#ef4444");
+                    return;
+                }
+
+                logConsole.innerHTML = "";
+                log(`Loaded file: ${file.name}`);
+                log(`Parsing workbook spreadsheet structure...`);
+
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        const data = new Uint8Array(e.target.result);
+                        const workbook = XLSX.read(data, { type: 'array' });
+                        
+                        const models = [];
+                        
+                        // --- 1. Parse CA3D Models ---
+                        const sheet1 = workbook.Sheets['CA3D Models'];
+                        if (sheet1) {
+                            log("Parsing sheet: 'CA3D Models'...");
+                            const rows1 = XLSX.utils.sheet_to_json(sheet1, { header: 1 });
+                            let ca3dCount = 0;
+
+                            // We start from rows1[2] (skips title row 0 and headers row 1)
+                            for (let i = 2; i < rows1.length; i++) {
+                                const row = rows1[i];
+                                if (!row || row.length === 0) continue;
+                                
+                                const img_url = cleanValue(row[0]);
+                                const model_name = cleanValue(row[4]);
+                                const model_url = cleanValue(row[6]);
+                                const bust_url = cleanValue(row[8]);
+                                const spicy_url = cleanValue(row[10]);
+                                const category = cleanValue(row[12]);
+                                const rank = cleanValue(row[14]);
+                                const file_location = cleanValue(row[15]);
+
+                                if (!model_name && !img_url) continue;
+
+                                models.push({
+                                    creator: "CA3D Studios",
+                                    name: model_name || "Unnamed Model",
+                                    img_url: img_url,
+                                    url: model_url,
+                                    bust_url: bust_url,
+                                    spicy_url: spicy_url,
+                                    category: category || "Other",
+                                    rank: rank,
+                                    file_location: file_location
+                                });
+                                ca3dCount++;
+                            }
+                            log(`Parsed ${ca3dCount} models from CA3D Models.`, "#38bdf8");
+                        } else {
+                            log("Warning: 'CA3D Models' sheet not found in workbook.", "#f59e0b");
+                        }
+
+                        // --- 2. Parse Tanuki ---
+                        const sheet2 = workbook.Sheets['Tanuki'];
+                        if (sheet2) {
+                            log("Parsing sheet: 'Tanuki'...");
+                            const rows2 = XLSX.utils.sheet_to_json(sheet2, { header: 1 });
+                            let tanukiCount = 0;
+
+                            // We start from rows2[1] (skips headers row 0)
+                            for (let i = 1; i < rows2.length; i++) {
+                                const row = rows2[i];
+                                if (!row || row.length === 0) continue;
+
+                                const img_url = cleanValue(row[0]);
+                                const model_name = cleanValue(row[3]);
+                                const model_url = cleanValue(row[5]);
+                                const bust_url = cleanValue(row[7]);
+                                const spicy_url = cleanValue(row[9]);
+                                const category = cleanValue(row[11]);
+                                const file_location = cleanValue(row[13]);
+
+                                if (!model_name && !img_url) continue;
+
+                                models.push({
+                                    creator: "Tanuki Figures",
+                                    name: model_name || "Unnamed Model",
+                                    img_url: img_url,
+                                    url: model_url,
+                                    bust_url: bust_url,
+                                    spicy_url: spicy_url,
+                                    category: category || "Anime",
+                                    rank: null,
+                                    file_location: file_location
+                                });
+                                tanukiCount++;
+                            }
+                            log(`Parsed ${tanukiCount} models from Tanuki.`, "#38bdf8");
+                        } else {
+                            log("Warning: 'Tanuki' sheet not found in workbook.", "#f59e0b");
+                        }
+
+                        log(`Total compiled: ${models.length} designs.`, "#34d399");
+
+                        if (models.length === 0) {
+                            log("Error: No models found. Please make sure sheets are formatted correctly.", "#ef4444");
+                            return;
+                        }
+
+                        // Build Javascript Content
+                        compiledJsContent = 
+                            "// InnocentZombie Local Catalog Database (Automatically Compiled)\n" +
+                            "window.catalogData = " + 
+                            JSON.stringify(models, null, 4) + 
+                            ";\n";
+
+                        // Activate Download Button
+                        downloadBtn.style.display = "inline-flex";
+                        
+                        // Auto-download data.js
+                        triggerDownload(compiledJsContent);
+                        log("Success! Compiled database has been compiled and downloaded as data.js.", "#34d399");
+                        log("Instructions: Save data.js in your website folder, overwriting the old one. Then open index.html!");
+
+                    } catch (err) {
+                        log(`Error parsing spreadsheet: ${err.message}`, "#ef4444");
+                        console.error(err);
+                    }
+                };
+                
+                reader.readAsArrayBuffer(file);
+            }
+
+            function triggerDownload(content) {
+                const blob = new Blob([content], { type: "application/javascript;charset=utf-8" });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = "data.js";
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }
+
+            downloadBtn.addEventListener("click", () => {
+                if (compiledJsContent) {
+                    triggerDownload(compiledJsContent);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
