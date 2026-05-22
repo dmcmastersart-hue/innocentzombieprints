@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
         search: "",
         creator: "all",
         type: "all",
-        category: "all"
+        category: "all",
+        nsfw: false // NSFW toggle default off
     };
     
     let currentPage = 1;
@@ -139,6 +140,14 @@ document.addEventListener("DOMContentLoaded", () => {
     bindPillGroup(creatorPills, "creator");
     bindPillGroup(typePills, "type");
     bindPillGroup(categoryPills, "category");
+    // NSFW toggle event listener
+    const nsfwToggle = document.getElementById("nsfw-toggle");
+    if (nsfwToggle) {
+        nsfwToggle.addEventListener("change", (e) => {
+            activeFilters.nsfw = e.target.checked;
+            applyFiltersAndRender();
+        });
+    }
 
     function bindPillGroup(container, filterKey) {
         container.addEventListener("click", (e) => {
@@ -185,6 +194,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (activeFilters.type === "spicy" && !model.spicy_url) return false;
                 if (activeFilters.type === "standard" && (model.bust_url || model.spicy_url)) return false;
             }
+            // NSFW toggle filter: hide spicy models when toggle is off
+            if (!activeFilters.nsfw && model.spicy_url) return false;
 
             return true;
         });
@@ -250,6 +261,21 @@ document.addEventListener("DOMContentLoaded", () => {
         currentPage++;
         renderSlice();
     });
+    // Back-to-top button logic
+    const backToTopBtn = document.getElementById("back-to-top");
+    if (backToTopBtn) {
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add("show");
+            } else {
+                backToTopBtn.classList.remove("show");
+            }
+        });
+        backToTopBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    }
 
     // Helper: Create individual model card DOM element
     function createModelCard(model, idx) {
