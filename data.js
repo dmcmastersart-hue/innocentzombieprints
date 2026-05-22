@@ -162,7 +162,7 @@ window.catalogData = [
         "bust_url": "https://cults3d.com/en/3d-model/art/alien-bust-3d-print",
         "spicy_url": null,
         "category": "Movie",
-        "rank": "2",
+        "rank": 2,
         "file_location": null
     },
     {
@@ -1053,7 +1053,7 @@ window.catalogData = [
         "bust_url": "https://cults3d.com/en/3d-model/art/david-martinez-bust-3d-print",
         "spicy_url": null,
         "category": "Anime",
-        "rank": "2",
+        "rank": 2,
         "file_location": null
     },
     {
@@ -1559,7 +1559,7 @@ window.catalogData = [
         "bust_url": null,
         "spicy_url": null,
         "category": "LotR",
-        "rank": "2",
+        "rank": 2,
         "file_location": null
     },
     {
@@ -1823,7 +1823,7 @@ window.catalogData = [
         "bust_url": "https://cults3d.com/en/3d-model/art/isaac-clarke-bust-3d-print",
         "spicy_url": null,
         "category": "Video Games",
-        "rank": "1",
+        "rank": 1,
         "file_location": null
     },
     {
@@ -1933,7 +1933,7 @@ window.catalogData = [
         "bust_url": "https://cults3d.com/en/3d-model/art/johnny-silverhand-bust-3d-print",
         "spicy_url": null,
         "category": "Video Games",
-        "rank": "2",
+        "rank": 2,
         "file_location": null
     },
     {
@@ -2021,7 +2021,7 @@ window.catalogData = [
         "bust_url": "https://cults3d.com/en/3d-model/art/karl-bust-3d-print",
         "spicy_url": null,
         "category": "Comic",
-        "rank": "2",
+        "rank": 2,
         "file_location": null
     },
     {
@@ -2032,7 +2032,7 @@ window.catalogData = [
         "bust_url": "https://cults3d.com/en/3d-model/art/karlach-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/karlach-nsfw-3d-print",
         "category": "Video Games",
-        "rank": "2",
+        "rank": 2,
         "file_location": null
     },
     {
@@ -2417,7 +2417,7 @@ window.catalogData = [
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lucy-cyberpunk-edgerunners-nsfw-3d-print",
         "category": "Anime",
-        "rank": "2",
+        "rank": 2,
         "file_location": null
     },
     {
@@ -3440,7 +3440,7 @@ window.catalogData = [
         "bust_url": "https://cults3d.com/en/3d-model/art/rocket-bust-3d-print",
         "spicy_url": null,
         "category": "Marvel",
-        "rank": "1",
+        "rank": 1,
         "file_location": null
     },
     {
@@ -3935,7 +3935,7 @@ window.catalogData = [
         "bust_url": "https://cults3d.com/en/3d-model/art/star-lord-bust-3d-print",
         "spicy_url": null,
         "category": "Marvel",
-        "rank": "1",
+        "rank": 1,
         "file_location": null
     },
     {
@@ -4221,7 +4221,7 @@ window.catalogData = [
         "bust_url": null,
         "spicy_url": null,
         "category": "Comic",
-        "rank": "2",
+        "rank": 2,
         "file_location": null
     },
     {
@@ -4507,7 +4507,7 @@ window.catalogData = [
         "bust_url": null,
         "spicy_url": null,
         "category": "Anime",
-        "rank": "3",
+        "rank": 3,
         "file_location": null
     },
     {
@@ -4722,6 +4722,50 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "23B - Nier Automata",
+        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3b10bdc1-ea95-41a5-8c1f-080850d0f566/0.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-3d-print",
+        "bust_url": null,
+        "spicy_url": "https://cults3d.com/en/3d-model/naughties/2b-nsfw-3d-print",
+        "category": "Video Games",
+        "rank": null,
+        "file_location": null
+    },
+    {
+        "creator": "Test studios",
+        "name": "24B",
+        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ddd3b7b4-8cc9-43c0-a42f-541fc16c317d/2b1.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/2b-3d-print",
+        "bust_url": "https://cults3d.com/en/3d-model/art/2b-bust-3d-print",
+        "spicy_url": "https://cults3d.com/en/3d-model/naughties/2b-nsfw-3d-print-carlose",
+        "category": "Video Games",
+        "rank": null,
+        "file_location": null
+    },
+    {
+        "creator": "Test studios",
+        "name": "24B - Nier Automata",
+        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3b10bdc1-ea95-41a5-8c1f-080850d0f566/0.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-3d-print",
+        "bust_url": null,
+        "spicy_url": "https://cults3d.com/en/3d-model/naughties/2b-nsfw-3d-print",
+        "category": "Video Games",
+        "rank": null,
+        "file_location": null
+    },
+    {
+        "creator": "Copy of Test studios",
+        "name": "24B",
+        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ddd3b7b4-8cc9-43c0-a42f-541fc16c317d/2b1.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/2b-3d-print",
+        "bust_url": "https://cults3d.com/en/3d-model/art/2b-bust-3d-print",
+        "spicy_url": "https://cults3d.com/en/3d-model/naughties/2b-nsfw-3d-print-carlose",
+        "category": "Video Games",
+        "rank": null,
+        "file_location": null
+    },
+    {
+        "creator": "Copy of Test studios",
+        "name": "24B - Nier Automata",
         "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3b10bdc1-ea95-41a5-8c1f-080850d0f566/0.jpg",
         "url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-3d-print",
         "bust_url": null,

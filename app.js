@@ -231,11 +231,29 @@ document.addEventListener("DOMContentLoaded", () => {
         const slice = filteredModels.slice(startIdx, endIdx);
 
         if (slice.length === 0 && currentPage === 1) {
+            // Check if there are models that were filtered out solely due to the NSFW toggle being off
+            const hiddenByNsfw = allModels.some(model => {
+                if (activeFilters.creator !== "all" && model.creator !== activeFilters.creator) return false;
+                if (activeFilters.category !== "all" && model.category !== activeFilters.category) return false;
+                if (activeFilters.search) {
+                    const nameMatch = model.name && model.name.toLowerCase().includes(activeFilters.search);
+                    const catMatch = model.category && model.category.toLowerCase().includes(activeFilters.search);
+                    const creatorMatch = model.creator && model.creator.toLowerCase().includes(activeFilters.search);
+                    if (!nameMatch && !catMatch && !creatorMatch) return false;
+                }
+                return !activeFilters.nsfw && model.spicy_url;
+            });
+
+            const extraText = hiddenByNsfw 
+                ? `<p class="no-results-text" style="color: var(--accent-pink, #ec4899); font-weight: bold; margin-top: 0.75rem;">Note: Models exist for this filter but are currently hidden as NSFW. Toggle "Show NSFW Models" to reveal them!</p>`
+                : "";
+
             catalogGrid.innerHTML = `
                 <div class="no-results">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                     <h3 class="no-results-title">No models found</h3>
                     <p class="no-results-text">We couldn't find any designs matching your search criteria. Try adjusting your filters!</p>
+                    ${extraText}
                 </div>
             `;
             loadMoreWrapper.style.display = "none";
@@ -283,8 +301,15 @@ document.addEventListener("DOMContentLoaded", () => {
         card.className = "model-card";
         card.setAttribute("data-index", idx);
 
-        // Creator classification
-        const creatorClass = model.creator === "CA3D Studios" ? "badge-creator-ca3d" : "badge-creator-tanuki";
+        // Creator classification class
+        let creatorClass = "badge-creator-generic";
+        if (model.creator === "CA3D Studios") {
+            creatorClass = "badge-creator-ca3d";
+        } else if (model.creator === "Tanuki Figures" || model.creator === "Tanuki") {
+            creatorClass = "badge-creator-tanuki";
+        } else if (model.creator) {
+            creatorClass = `badge-creator-${model.creator.toLowerCase().replace(/[^a-z0-9]/g, "-")}`;
+        }
         
         // Check variants
         const hasBust = model.bust_url ? "active" : "";
@@ -300,7 +325,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 ${
                     model.img_url 
-                     ? (() => { const previewUrl = `https://images.weserv.nl/?url=${encodeURIComponent(model.img_url)}&w=400&q=80`; return `<img src="${previewUrl}" data-fullsrc="${model.img_url}" alt="${model.name}" class="card-image loading" loading="lazy">`; })()
+                     ? `<img src="${model.img_url}" alt="${model.name}" class="card-image loading" loading="lazy">`
                      : `<div class="image-placeholder">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
                         No Image Available
@@ -349,8 +374,16 @@ document.addEventListener("DOMContentLoaded", () => {
         modalTitle.innerText = model.name;
         modalCreator.innerText = model.creator;
         
-        // Add class styling based on creator
-        modalCreator.className = "modal-creator-tag " + (model.creator === "CA3D Studios" ? "tag-ca3d" : "tag-tanuki");
+        // Add class styling based on creator dynamically
+        let creatorTagClass = "tag-generic";
+        if (model.creator === "CA3D Studios") {
+            creatorTagClass = "tag-ca3d";
+        } else if (model.creator === "Tanuki Figures" || model.creator === "Tanuki") {
+            creatorTagClass = "tag-tanuki";
+        } else if (model.creator) {
+            creatorTagClass = `tag-${model.creator.toLowerCase().replace(/[^a-z0-9]/g, "-")}`;
+        }
+        modalCreator.className = "modal-creator-tag " + creatorTagClass;
         
         modalCategory.innerText = model.category || "Other";
         
@@ -362,11 +395,14 @@ document.addEventListener("DOMContentLoaded", () => {
             modalRank.style.display = "none";
         }
 
-        // Preview Image
+        // Preview Image using the already loaded/cached original image from the catalog card
         if (model.img_url) {
             modalImage.src = model.img_url;
             modalImage.style.display = "block";
+            // Ensure no blur filter is applied since the cached original image loads instantly
+            modalImage.classList.remove("modal-preview-blur");
         } else {
+            modalImage.src = "";
             modalImage.style.display = "none";
         }
 
