@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Press+Start+2P&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Press+Start+2P&family=Share+Tech+Mono&family=Syncopate:wght@400;700&family=Syne:wght@700;800&display=swap');
 
 :root {
     /* Color Palette */
@@ -42,6 +42,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: var(--bg-primary);
     color: var(--text-primary);
@@ -81,7 +85,7 @@ body {
 
 /* Decorative Background Blobs */
 .bg-glow-blob {
-    position: absolute;
+    position: fixed; /* Fixed position prevents layout-stretching and horizontal scrollbars on mobile! */
     width: 600px;
     height: 600px;
     border-radius: 50%;
@@ -202,7 +206,7 @@ body {
 
 .logo-text {
     font-family: var(--font-heading);
-    font-size: 3rem;
+    font-size: clamp(2.25rem, 6.5vw, 3rem);
     font-weight: 800;
     letter-spacing: -0.05em;
     background: var(--accent-gradient);
@@ -639,25 +643,24 @@ body {
     margin-bottom: 5rem;
 }
 
-/* Modal Layout (Details Overlay) */
 .modal-overlay {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(3, 5, 8, 0.85);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    background-color: rgba(3, 5, 8, 0.9);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1000;
     opacity: 0;
     pointer-events: none;
-    transition: opacity var(--transition-normal);
+    transition: opacity 0.18s ease-out;
     padding: 1.5rem;
-    will-change: opacity, transform;
+    will-change: opacity;
 }
 
 .modal-overlay.active {
@@ -675,11 +678,11 @@ body {
     max-height: min(720px, 90vh);
     overflow: hidden;
     position: relative;
-    transform: scale(0.9) translateY(20px);
-    transition: transform var(--transition-normal);
+    transform: scale(0.96) translateY(10px);
+    transition: transform 0.18s cubic-bezier(0.25, 0.8, 0.25, 1);
     display: flex;
     flex-direction: row;
-    will-change: transform, opacity;
+    will-change: transform;
 }
 
 @media (max-width: 768px) {
@@ -1015,7 +1018,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     gap: 3rem;
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin-top: 3rem;
 }
 
@@ -1075,6 +1078,17 @@ body {
     border-color: rgba(6, 182, 212, 0.35);
 }
 
+/* REZIN8 Labs Card Hover States */
+.card-rezin8:hover {
+    transform: translateY(-8px);
+    background: var(--bg-glass-hover);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(236, 72, 153, 0.15);
+}
+
+.card-rezin8:hover::before {
+    border-color: rgba(236, 72, 153, 0.35);
+}
+
 /* Icon Styling and Animations */
 .portal-card-icon {
     width: 80px;
@@ -1118,6 +1132,17 @@ body {
     filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.5));
 }
 
+.card-rezin8:hover .icon-rezin8 {
+    background: rgba(236, 72, 153, 0.15);
+    border-color: rgba(236, 72, 153, 0.3);
+    transform: scale(1.1);
+}
+
+.card-rezin8:hover .icon-rezin8 svg {
+    color: var(--accent-pink);
+    filter: drop-shadow(0 0 8px rgba(236, 72, 153, 0.5));
+}
+
 /* Typography Inside Portal */
 .portal-card h2 {
     font-family: var(--font-heading);
@@ -1137,6 +1162,12 @@ body {
 
 .card-etsy:hover h2 {
     background: linear-gradient(135deg, var(--accent-cyan) 0%, var(--accent-pink) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-rezin8:hover h2 {
+    background: linear-gradient(135deg, var(--accent-pink) 0%, var(--accent-cyan) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1198,6 +1229,19 @@ body {
     box-shadow: var(--shadow-cyan-glow);
 }
 
+.btn-rezin8-action {
+    background: rgba(236, 72, 153, 0.06);
+    border: 1px solid rgba(236, 72, 153, 0.25);
+    color: #fbcfe8;
+}
+
+.card-rezin8:hover .btn-rezin8-action {
+    background: linear-gradient(135deg, var(--accent-pink) 0%, var(--accent-cyan) 100%);
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.25);
+}
+
 /* Premium Responsiveness Improvements */
 @media (max-width: 768px) {
     /* Global layout padding adjustment */
@@ -1207,7 +1251,7 @@ body {
     
     /* Header optimization */
     .logo-text {
-        font-size: 2.25rem;
+        font-size: clamp(1.2rem, 3.8vw, 2.25rem);
     }
     .logo-subtitle {
         font-size: 0.85rem;
@@ -1257,12 +1301,27 @@ body {
         margin-bottom: 2.5rem;
     }
     
-    /* Back to top button styling for mobile */
+    /* Back to top button styling for mobile - centered using bulletproof viewport translate model */
     #back-to-top {
-        bottom: 1.5rem;
-        right: 1.5rem;
-        padding: 0.5rem 0.8rem;
-        font-size: 0.85rem;
+        position: fixed !important;
+        bottom: 1.5rem !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translate3d(-50%, 0, 0) !important;
+        width: fit-content !important;
+        padding: 0.5rem 0.8rem !important;
+        font-size: 0.85rem !important;
+        
+        /* GPU hardware-compositing layer promotion to prevent scroll-lag and address bar jitter! */
+        will-change: transform, opacity;
+        backface-visibility: hidden;
+        transition: opacity 0.15s ease-out, visibility 0.15s ease-out, transform 0.15s ease-out;
+    }
+    
+    /* Support retro hover translate shifts on mobile while keeping centered position locked! */
+    .theme-retro-dusk #back-to-top:hover,
+    .theme-retro-emerald #back-to-top:hover {
+        transform: translate3d(-50%, -2px, 0) !important;
     }
 
     /* Portal adjustments for 768px */
@@ -1282,7 +1341,8 @@ body {
 
 @media (max-width: 480px) {
     .logo-text {
-        font-size: 1.85rem;
+        font-size: clamp(1.05rem, 3.8vw, 1.85rem);
+        letter-spacing: 0.08em; /* slightly tighter on mobile to guarantee a perfect viewport fit for extended fonts */
     }
     
     /* Catalog pills scroll instead of stacking to save vertical space (very premium mobile look!) */
@@ -1397,6 +1457,103 @@ body {
     --shadow-card-glow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 1px rgba(255, 255, 255, 0.1) inset;
 }
 
+.theme-midnight-blaze {
+    --bg-primary: #060204;
+    --bg-secondary: #12040a;
+    --bg-glass: rgba(26, 6, 15, 0.55);
+    --bg-card-info: rgba(26, 6, 15, 0.25);
+    --border-glass: rgba(255, 255, 255, 0.05);
+    --border-glass-active: rgba(217, 65, 101, 0.4);
+    
+    --accent-purple: #ff8b72; /* Salmon Peach */
+    --accent-cyan: #d94165; /* Plum Rose */
+    --accent-pink: #8c2543; /* Burgundy */
+    --accent-gradient: linear-gradient(135deg, #ff8b72 0%, #d94165 50%, #8c2543 100%);
+    --accent-gradient-hover: linear-gradient(135deg, #ffa08c 0%, #e15b7c 50%, #a43455 100%);
+    
+    --text-primary: #fff0f2;
+    --text-secondary: #e5d0d4;
+    --text-muted: #9a8287;
+    
+    --shadow-purple-glow: 0 0 20px rgba(255, 139, 114, 0.25);
+    --shadow-cyan-glow: 0 0 20px rgba(217, 65, 101, 0.25);
+    --shadow-card-glow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 1px rgba(255, 255, 255, 0.1) inset;
+    
+    --font-heading: 'Syne', 'Outfit', sans-serif;
+}
+
+/* Special branding font override & glowing drop shadow for Midnight Blaze */
+.theme-midnight-blaze .logo-text {
+    font-family: 'Syncopate', 'Outfit', sans-serif !important;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    filter: drop-shadow(0 0 15px rgba(217, 65, 101, 0.5));
+    padding-right: 0.4rem; /* prevent letter-spacing cutoff */
+}
+
+.theme-midnight-blaze .logo-subtitle {
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-secondary);
+    letter-spacing: 0.25em; /* extra spacious tracking */
+    text-shadow: 0 0 8px rgba(255, 139, 114, 0.2);
+}
+
+.theme-glacial-glass {
+    --bg-primary: #04060c; /* Deep obsidian slate black */
+    --bg-secondary: #0a1122; /* Navy slate dark glass */
+    --bg-glass: rgba(18, 30, 54, 0.42); /* Crisp frosted periwinkle glass */
+    --bg-card-info: rgba(18, 30, 54, 0.20);
+    --border-glass: rgba(154, 176, 229, 0.08); /* Frosted glass white-blue edge */
+    --border-glass-active: rgba(159, 179, 232, 0.45); /* Glistening periwinkle border */
+    
+    --accent-purple: #9fb3e8; /* Soft Lavender */
+    --accent-cyan: #7c91cc; /* Cool Periwinkle */
+    --accent-pink: #b5c4f5; /* Ice Blue */
+    --accent-gradient: linear-gradient(135deg, #b5c4f5 0%, #9fb3e8 50%, #7c91cc 100%);
+    --accent-gradient-hover: linear-gradient(135deg, #cbd7ff 0%, #b5c4f5 50%, #91a5db 100%);
+    
+    --text-primary: #f0f4ff;
+    --text-secondary: #cbd6f0;
+    --text-muted: #7b8ba8;
+    
+    --shadow-purple-glow: 0 0 20px rgba(159, 179, 232, 0.22);
+    --shadow-cyan-glow: 0 0 20px rgba(124, 145, 204, 0.22);
+    --shadow-card-glow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 1px rgba(255, 255, 255, 0.1) inset;
+    
+    --font-heading: 'Syne', 'Outfit', sans-serif;
+}
+
+/* Glistening glass title override & glowing icy drop shadow for Glacial Glass */
+.theme-glacial-glass .logo-text {
+    font-family: 'Syncopate', 'Outfit', sans-serif !important;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    filter: drop-shadow(0 0 15px rgba(159, 179, 232, 0.45));
+    padding-right: 0.4rem; /* prevent letter-spacing cutoff */
+}
+
+.theme-glacial-glass .logo-subtitle {
+    font-family: 'Outfit', sans-serif;
+    color: var(--text-secondary);
+    letter-spacing: 0.25em; /* extra spacious tracking */
+    text-shadow: 0 0 8px rgba(181, 196, 245, 0.2);
+}
+
+.theme-opt-card[data-theme-class="theme-glacial-glass"].active::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(135deg, #b5c4f5 0%, #9fb3e8 50%, #7c91cc 100%);
+    border-radius: 18px;
+    z-index: -1;
+}
+
+
 /* Settings Modal UI Styling overrides */
 .theme-modal-window {
     box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9), 0 0 30px rgba(168, 85, 247, 0.15);
@@ -1419,9 +1576,14 @@ body {
     align-items: center;
     gap: 0.75rem;
     cursor: pointer;
-    transition: var(--transition-normal);
     position: relative;
     overflow: hidden;
+    
+    /* Hardware acceleration overrides to bypass browser reflows and repaints! */
+    will-change: transform, background-color, border-color, box-shadow;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    transition: background-color 0.12s ease-out, border-color 0.12s ease-out, transform 0.12s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.12s ease-out;
 }
 
 .theme-opt-card::before {
@@ -1430,15 +1592,15 @@ body {
     top: 0; left: 0; right: 0; bottom: 0;
     border-radius: 16px;
     border: 1.5px solid transparent;
-    transition: var(--transition-normal);
+    transition: border-color 0.12s ease-out, box-shadow 0.12s ease-out, background 0.12s ease-out;
     pointer-events: none;
     z-index: 2;
 }
 
 .theme-opt-card:hover {
     background: rgba(255, 255, 255, 0.06);
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-md);
+    transform: translate3d(0, -3px, 0); /* GPU-accelerated subpixel translation */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
 }
 
 .theme-opt-card.active {
@@ -1467,6 +1629,12 @@ body {
     border-color: #f59e0b;
     box-shadow: 0 0 15px rgba(245, 158, 11, 0.25);
     background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(239, 68, 68, 0.15)) border-box;
+}
+
+.theme-opt-card[data-theme-class="theme-midnight-blaze"].active::before {
+    border-color: #ff8b72;
+    box-shadow: 0 0 15px rgba(255, 139, 114, 0.25);
+    background: linear-gradient(135deg, rgba(255, 139, 114, 0.15), rgba(217, 65, 101, 0.15)) border-box;
 }
 
 .theme-opt-preview {
@@ -1540,32 +1708,6 @@ body {
 /* ==========================================================================
    RETRO NES 8-BIT THEME DEFINITION
    ========================================================================== */
-.theme-retro {
-    --bg-primary: #080810;      /* Vintage arcade black-blue */
-    --bg-secondary: #101020;    /* Consoles dark base grey */
-    --bg-glass: #101020;
-    --bg-glass-hover: #15152a;  /* Themed card hover background */
-    --bg-card-info: #101020;
-    --border-glass: #ffffff;
-    --border-glass-active: #ef3a0f;
-    
-    --accent-purple: #ef3a0f;   /* Classic NES Red */
-    --accent-cyan: #00f0f0;     /* Retro NES Cyan */
-    --accent-pink: #f8b800;     /* Retro NES Gold */
-    --accent-gradient: linear-gradient(135deg, #ef3a0f 0%, #00f0f0 100%);
-    --accent-gradient-hover: linear-gradient(135deg, #ff603a 0%, #55ffff 100%);
-    
-    --text-primary: #ffffff;
-    --text-secondary: #f8b800;  /* Arcade gold for labels */
-    --text-muted: #a8a8a8;      
-    
-    --font-heading: 'Press Start 2P', monospace;
-    --font-body: 'Share Tech Mono', monospace;
-    
-    --shadow-purple-glow: 0 0 0px rgba(0,0,0,0);
-    --shadow-cyan-glow: 0 0 0px rgba(0,0,0,0);
-    --shadow-card-glow: 6px 6px 0px rgba(0, 0, 0, 0.85);
-}
 
 .theme-retro-dusk {
     --bg-primary: #0c141c;      /* Sky black / dark night bg */
@@ -1622,7 +1764,6 @@ body {
 }
 
 /* CRT Scanline Shader Overlay */
-.theme-retro::before,
 .theme-retro-dusk::before,
 .theme-retro-emerald::before {
     content: " ";
@@ -1637,28 +1778,26 @@ body {
 }
 
 /* Hide glowing abstract gradient blobs for clean retro look */
-.theme-retro .bg-glow-blob,
 .theme-retro-dusk .bg-glow-blob,
 .theme-retro-emerald .bg-glow-blob {
     display: none !important;
 }
 
 /* Retro typography adjustments and limits */
-.theme-retro h1, .theme-retro-dusk h1, .theme-retro-emerald h1,
-.theme-retro h2, .theme-retro-dusk h2, .theme-retro-emerald h2,
-.theme-retro h3, .theme-retro-dusk h3, .theme-retro-emerald h3,
-.theme-retro .logo-text, .theme-retro-dusk .logo-text, .theme-retro-emerald .logo-text,
-.theme-retro .modal-title, .theme-retro-dusk .modal-title, .theme-retro-emerald .modal-title,
-.theme-retro .model-name, .theme-retro-dusk .model-name, .theme-retro-emerald .model-name {
+.theme-retro-dusk h1, .theme-retro-emerald h1,
+.theme-retro-dusk h2, .theme-retro-emerald h2,
+.theme-retro-dusk h3, .theme-retro-emerald h3,
+.theme-retro-dusk .logo-text, .theme-retro-emerald .logo-text,
+.theme-retro-dusk .modal-title, .theme-retro-emerald .modal-title,
+.theme-retro-dusk .model-name, .theme-retro-emerald .model-name {
     font-family: 'Press Start 2P', monospace !important;
     text-transform: uppercase !important;
     letter-spacing: -0.04em !important;
 }
 
-.theme-retro .logo-text,
 .theme-retro-dusk .logo-text,
 .theme-retro-emerald .logo-text {
-    font-size: 2.1rem !important;
+    font-size: clamp(1rem, 3.8vw, 2.1rem) !important;
     letter-spacing: -0.06em !important;
     background: none !important;
     -webkit-background-clip: unset !important;
@@ -1667,7 +1806,6 @@ body {
     text-shadow: 4px 4px 0px #000000 !important;
 }
 
-.theme-retro .logo-subtitle,
 .theme-retro-dusk .logo-subtitle,
 .theme-retro-emerald .logo-subtitle {
     font-family: 'Share Tech Mono', monospace !important;
@@ -1676,24 +1814,20 @@ body {
     color: var(--accent-cyan) !important;
 }
 
-.theme-retro .model-name,
 .theme-retro-dusk .model-name,
 .theme-retro-emerald .model-name {
     font-size: 0.72rem !important;
     line-height: 1.4 !important;
 }
 
-.theme-retro .portal-card h2,
 .theme-retro-dusk .portal-card h2,
 .theme-retro-emerald .portal-card h2 {
     font-size: 1.2rem !important;
     line-height: 1.5 !important;
 }
 
-.theme-retro p,
 .theme-retro-dusk p,
 .theme-retro-emerald p,
-.theme-retro .portal-card p,
 .theme-retro-dusk .portal-card p,
 .theme-retro-emerald .portal-card p {
     font-family: 'Share Tech Mono', monospace !important;
@@ -1702,27 +1836,26 @@ body {
 }
 
 /* Compact pixel spacing for micro UI texts */
-.theme-retro .filter-pill, .theme-retro-dusk .filter-pill, .theme-retro-emerald .filter-pill,
-.theme-retro .badge, .theme-retro-dusk .badge, .theme-retro-emerald .badge,
-.theme-retro .stats-badge, .theme-retro-dusk .stats-badge, .theme-retro-emerald .stats-badge,
-.theme-retro .btn-primary, .theme-retro-dusk .btn-primary, .theme-retro-emerald .btn-primary,
-.theme-retro .btn-secondary, .theme-retro-dusk .btn-secondary, .theme-retro-emerald .btn-secondary,
-.theme-retro .btn-portal, .theme-retro-dusk .btn-portal, .theme-retro-emerald .btn-portal,
-.theme-retro .indicator, .theme-retro-dusk .indicator, .theme-retro-emerald .indicator,
-.theme-retro .modal-creator-tag, .theme-retro-dusk .modal-creator-tag, .theme-retro-emerald .modal-creator-tag,
-.theme-retro .modal-meta-badge, .theme-retro-dusk .modal-meta-badge, .theme-retro-emerald .modal-meta-badge,
-.theme-retro .modal-actions-heading, .theme-retro-dusk .modal-actions-heading, .theme-retro-emerald .modal-actions-heading,
-.theme-retro .download-link-btn, .theme-retro-dusk .download-link-btn, .theme-retro-emerald .download-link-btn,
-.theme-retro .filter-label, .theme-retro-dusk .filter-label, .theme-retro-emerald .filter-label,
-.theme-retro .modal-close-btn, .theme-retro-dusk .modal-close-btn, .theme-retro-emerald .modal-close-btn,
-.theme-retro #back-to-top, .theme-retro-dusk #back-to-top, .theme-retro-emerald #back-to-top {
+.theme-retro-dusk .filter-pill, .theme-retro-emerald .filter-pill,
+.theme-retro-dusk .badge, .theme-retro-emerald .badge,
+.theme-retro-dusk .stats-badge, .theme-retro-emerald .stats-badge,
+.theme-retro-dusk .btn-primary, .theme-retro-emerald .btn-primary,
+.theme-retro-dusk .btn-secondary, .theme-retro-emerald .btn-secondary,
+.theme-retro-dusk .btn-portal, .theme-retro-emerald .btn-portal,
+.theme-retro-dusk .indicator, .theme-retro-emerald .indicator,
+.theme-retro-dusk .modal-creator-tag, .theme-retro-emerald .modal-creator-tag,
+.theme-retro-dusk .modal-meta-badge, .theme-retro-emerald .modal-meta-badge,
+.theme-retro-dusk .modal-actions-heading, .theme-retro-emerald .modal-actions-heading,
+.theme-retro-dusk .download-link-btn, .theme-retro-emerald .download-link-btn,
+.theme-retro-dusk .filter-label, .theme-retro-emerald .filter-label,
+.theme-retro-dusk .modal-close-btn, .theme-retro-emerald .modal-close-btn,
+.theme-retro-dusk #back-to-top, .theme-retro-emerald #back-to-top {
     font-family: 'Press Start 2P', monospace !important;
     font-size: 0.55rem !important;
     letter-spacing: 0px !important;
 }
 
 /* Share Tech Mono overrides for input text */
-.theme-retro .search-input,
 .theme-retro-dusk .search-input,
 .theme-retro-emerald .search-input {
     font-family: 'Share Tech Mono', monospace !important;
@@ -1732,11 +1865,11 @@ body {
 }
 
 /* Chunky retro pixel boxes instead of rounded glassmorphism */
-.theme-retro .portal-card, .theme-retro-dusk .portal-card, .theme-retro-emerald .portal-card,
-.theme-retro .model-card, .theme-retro-dusk .model-card, .theme-retro-emerald .model-card,
-.theme-retro .filter-dashboard, .theme-retro-dusk .filter-dashboard, .theme-retro-emerald .filter-dashboard,
-.theme-retro .modal-card-window, .theme-retro-dusk .modal-card-window, .theme-retro-emerald .modal-card-window,
-.theme-retro .theme-modal-window, .theme-retro-dusk .theme-modal-window, .theme-retro-emerald .theme-modal-window {
+.theme-retro-dusk .portal-card, .theme-retro-emerald .portal-card,
+.theme-retro-dusk .model-card, .theme-retro-emerald .model-card,
+.theme-retro-dusk .filter-dashboard, .theme-retro-emerald .filter-dashboard,
+.theme-retro-dusk .modal-card-window, .theme-retro-emerald .modal-card-window,
+.theme-retro-dusk .theme-modal-window, .theme-retro-emerald .theme-modal-window {
     border: 3px solid var(--text-primary) !important;
     border-radius: 0px !important;
     box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.85) !important;
@@ -1745,10 +1878,8 @@ body {
     -webkit-backdrop-filter: none !important;
 }
 
-.theme-retro .portal-card:hover,
 .theme-retro-dusk .portal-card:hover,
 .theme-retro-emerald .portal-card:hover,
-.theme-retro .model-card:hover,
 .theme-retro-dusk .model-card:hover,
 .theme-retro-emerald .model-card:hover {
     transform: translate(-3px, -3px) !important;
@@ -1756,15 +1887,15 @@ body {
 }
 
 /* Blocky offset buttons */
-.theme-retro .btn-primary, .theme-retro-dusk .btn-primary, .theme-retro-emerald .btn-primary,
-.theme-retro .btn-secondary, .theme-retro-dusk .btn-secondary, .theme-retro-emerald .btn-secondary,
-.theme-retro .btn-portal, .theme-retro-dusk .btn-portal, .theme-retro-emerald .btn-portal,
-.theme-retro .filter-pill, .theme-retro-dusk .filter-pill, .theme-retro-emerald .filter-pill,
-.theme-retro .stats-badge, .theme-retro-dusk .stats-badge, .theme-retro-emerald .stats-badge,
-.theme-retro .modal-meta-badge, .theme-retro-dusk .modal-meta-badge, .theme-retro-emerald .modal-meta-badge,
-.theme-retro .download-link-btn, .theme-retro-dusk .download-link-btn, .theme-retro-emerald .download-link-btn,
-.theme-retro .modal-close-btn, .theme-retro-dusk .modal-close-btn, .theme-retro-emerald .modal-close-btn,
-.theme-retro #back-to-top, .theme-retro-dusk #back-to-top, .theme-retro-emerald #back-to-top {
+.theme-retro-dusk .btn-primary, .theme-retro-emerald .btn-primary,
+.theme-retro-dusk .btn-secondary, .theme-retro-emerald .btn-secondary,
+.theme-retro-dusk .btn-portal, .theme-retro-emerald .btn-portal,
+.theme-retro-dusk .filter-pill, .theme-retro-emerald .filter-pill,
+.theme-retro-dusk .stats-badge, .theme-retro-emerald .stats-badge,
+.theme-retro-dusk .modal-meta-badge, .theme-retro-emerald .modal-meta-badge,
+.theme-retro-dusk .download-link-btn, .theme-retro-emerald .download-link-btn,
+.theme-retro-dusk .modal-close-btn, .theme-retro-emerald .modal-close-btn,
+.theme-retro-dusk #back-to-top, .theme-retro-emerald #back-to-top {
     border-radius: 0px !important;
     border: 2px solid var(--text-primary) !important;
     box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.85) !important;
@@ -1773,14 +1904,14 @@ body {
     transition: transform 0.1s ease, box-shadow 0.1s ease !important;
 }
 
-.theme-retro .filter-pill.active, .theme-retro-dusk .filter-pill.active, .theme-retro-emerald .filter-pill.active,
-.theme-retro .btn-primary:hover, .theme-retro-dusk .btn-primary:hover, .theme-retro-emerald .btn-primary:hover,
-.theme-retro .btn-secondary:hover, .theme-retro-dusk .btn-secondary:hover, .theme-retro-emerald .btn-secondary:hover,
-.theme-retro .btn-portal:hover, .theme-retro-dusk .btn-portal:hover, .theme-retro-emerald .btn-portal:hover,
-.theme-retro .filter-pill:hover, .theme-retro-dusk .filter-pill:hover, .theme-retro-emerald .filter-pill:hover,
-.theme-retro .download-link-btn:hover, .theme-retro-dusk .download-link-btn:hover, .theme-retro-emerald .download-link-btn:hover,
-.theme-retro .modal-close-btn:hover, .theme-retro-dusk .modal-close-btn:hover, .theme-retro-emerald .modal-close-btn:hover,
-.theme-retro #back-to-top:hover, .theme-retro-dusk #back-to-top:hover, .theme-retro-emerald #back-to-top:hover {
+.theme-retro-dusk .filter-pill.active, .theme-retro-emerald .filter-pill.active,
+.theme-retro-dusk .btn-primary:hover, .theme-retro-emerald .btn-primary:hover,
+.theme-retro-dusk .btn-secondary:hover, .theme-retro-emerald .btn-secondary:hover,
+.theme-retro-dusk .btn-portal:hover, .theme-retro-emerald .btn-portal:hover,
+.theme-retro-dusk .filter-pill:hover, .theme-retro-emerald .filter-pill:hover,
+.theme-retro-dusk .download-link-btn:hover, .theme-retro-emerald .download-link-btn:hover,
+.theme-retro-dusk .modal-close-btn:hover, .theme-retro-emerald .modal-close-btn:hover,
+.theme-retro-dusk #back-to-top:hover, .theme-retro-emerald #back-to-top:hover {
     transform: translate(-2px, -2px) !important;
     box-shadow: 5px 5px 0px var(--accent-cyan) !important;
     background: var(--accent-purple) !important;
@@ -1813,30 +1944,16 @@ body {
 }
 
 /* Retro variant indicators */
-.theme-retro .indicator,
 .theme-retro-dusk .indicator,
 .theme-retro-emerald .indicator {
     border-radius: 0px !important;
     border: 1px solid var(--text-muted) !important;
 }
 
-.theme-retro .indicator.active,
 .theme-retro-dusk .indicator.active,
 .theme-retro-emerald .indicator.active {
     background: rgba(255, 255, 255, 0.15) !important;
     border-color: var(--text-primary) !important;
-}
-
-.theme-retro .indicator-spicy.active {
-    color: #ff0055 !important;
-    background: rgba(255, 0, 85, 0.15) !important;
-    border-color: #ff0055 !important;
-}
-
-.theme-retro .indicator-bust.active {
-    color: #00f0f0 !important;
-    background: rgba(0, 240, 240, 0.15) !important;
-    border-color: #00f0f0 !important;
 }
 
 /* Dusk Mountain specific overrides for spicy/bust indicators */
@@ -1866,12 +1983,6 @@ body {
 }
 
 /* Theme Option Cards in Selection Settings Modal */
-.theme-opt-card[data-theme-class="theme-retro"].active::before {
-    border-color: #ef3a0f;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.85);
-    background: linear-gradient(135deg, rgba(239, 58, 15, 0.15), rgba(0, 240, 240, 0.15)) border-box;
-}
-
 .theme-opt-card[data-theme-class="theme-retro-dusk"].active::before {
     border-color: #c8b195;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.85);
@@ -1884,7 +1995,6 @@ body {
     background: linear-gradient(135deg, rgba(22, 110, 122, 0.15), rgba(82, 195, 63, 0.15)) border-box;
 }
 
-.theme-retro .theme-opt-card,
 .theme-retro-dusk .theme-opt-card,
 .theme-retro-emerald .theme-opt-card {
     font-family: 'Press Start 2P', monospace !important;
@@ -1896,7 +2006,6 @@ body {
     transition: transform 0.15s ease, box-shadow 0.15s ease !important;
 }
 
-.theme-retro .theme-opt-card:hover,
 .theme-retro-dusk .theme-opt-card:hover,
 .theme-retro-emerald .theme-opt-card:hover {
     transform: translate(-2px, -2px) !important;
@@ -1904,7 +2013,6 @@ body {
     background: var(--bg-secondary) !important;
 }
 
-.theme-retro .theme-opt-card.active::before,
 .theme-retro-dusk .theme-opt-card.active::before,
 .theme-retro-emerald .theme-opt-card.active::before {
     border-radius: 0px !important;
@@ -1912,7 +2020,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    .theme-retro .portal-card h2,
     .theme-retro-dusk .portal-card h2,
     .theme-retro-emerald .portal-card h2 {
         font-size: 0.95rem !important;
@@ -1920,20 +2027,17 @@ body {
 }
 
 /* Crisp pixel-art vector styling and retro aliased index page icons */
-.theme-retro svg,
 .theme-retro-dusk svg,
 .theme-retro-emerald svg {
     shape-rendering: crispEdges !important;
 }
 
-.theme-retro .portal-card-icon svg,
 .theme-retro-dusk .portal-card-icon svg,
 .theme-retro-emerald .portal-card-icon svg {
     stroke-width: 3px !important;
 }
 
 /* Boxy retro icon frames */
-.theme-retro .portal-card-icon,
 .theme-retro-dusk .portal-card-icon,
 .theme-retro-emerald .portal-card-icon {
     border-radius: 0px !important;
@@ -1943,14 +2047,12 @@ body {
 }
 
 /* Interactive solid pixel arcade highlight overlays for portal card links */
-.theme-retro .card-catalog:hover .icon-catalog,
 .theme-retro-dusk .card-catalog:hover .icon-catalog,
 .theme-retro-emerald .card-catalog:hover .icon-catalog {
     background: var(--accent-purple) !important;
     border-color: var(--text-primary) !important;
 }
 
-.theme-retro .card-catalog:hover .icon-catalog svg,
 .theme-retro-dusk .card-catalog:hover .icon-catalog svg,
 .theme-retro-emerald .card-catalog:hover .icon-catalog svg {
     color: #ffffff !important;
@@ -1965,22 +2067,31 @@ body {
     color: var(--bg-primary) !important; /* Obsidian `#201533` */
 }
 
-.theme-retro .card-etsy:hover .icon-etsy,
 .theme-retro-dusk .card-etsy:hover .icon-etsy,
 .theme-retro-emerald .card-etsy:hover .icon-etsy {
     background: var(--accent-cyan) !important;
     border-color: var(--text-primary) !important;
 }
 
-.theme-retro .card-etsy:hover .icon-etsy svg,
 .theme-retro-dusk .card-etsy:hover .icon-etsy svg,
 .theme-retro-emerald .card-etsy:hover .icon-etsy svg {
     color: var(--bg-primary) !important;
     filter: none !important;
 }
 
+.theme-retro-dusk .card-rezin8:hover .icon-rezin8,
+.theme-retro-emerald .card-rezin8:hover .icon-rezin8 {
+    background: var(--accent-pink) !important;
+    border-color: var(--text-primary) !important;
+}
+
+.theme-retro-dusk .card-rezin8:hover .icon-rezin8 svg,
+.theme-retro-emerald .card-rezin8:hover .icon-rezin8 svg {
+    color: var(--bg-primary) !important;
+    filter: none !important;
+}
+
 /* Flat thematic portal hovers (removes gradient neon leaks on index titles & actions) */
-.theme-retro .card-catalog:hover h2,
 .theme-retro-dusk .card-catalog:hover h2,
 .theme-retro-emerald .card-catalog:hover h2 {
     background: none !important;
@@ -1989,7 +2100,6 @@ body {
     color: var(--accent-cyan) !important;
 }
 
-.theme-retro .card-etsy:hover h2,
 .theme-retro-dusk .card-etsy:hover h2,
 .theme-retro-emerald .card-etsy:hover h2 {
     background: none !important;
@@ -1998,7 +2108,14 @@ body {
     color: var(--accent-pink) !important;
 }
 
-.theme-retro .card-catalog:hover .btn-catalog-action,
+.theme-retro-dusk .card-rezin8:hover h2,
+.theme-retro-emerald .card-rezin8:hover h2 {
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: var(--accent-purple) !important;
+    color: var(--accent-purple) !important;
+}
+
 .theme-retro-dusk .card-catalog:hover .btn-catalog-action,
 .theme-retro-emerald .card-catalog:hover .btn-catalog-action {
     background: var(--accent-purple) !important;
@@ -2016,7 +2133,6 @@ body {
     color: var(--text-primary) !important; /* Pure white `#ffffff` */
 }
 
-.theme-retro .card-etsy:hover .btn-etsy-action,
 .theme-retro-dusk .card-etsy:hover .btn-etsy-action,
 .theme-retro-emerald .card-etsy:hover .btn-etsy-action {
     background: var(--accent-cyan) !important;
@@ -2026,8 +2142,23 @@ body {
     transform: none !important;
 }
 
-/* Chunky retro custom scrollbar thumb styling */
-.theme-retro ::-webkit-scrollbar-thumb,
+.theme-retro-dusk .card-rezin8:hover .btn-rezin8-action,
+.theme-retro-emerald .card-rezin8:hover .btn-rezin8-action {
+    background: var(--accent-pink) !important;
+    color: var(--bg-primary) !important;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.85) !important;
+    border-color: var(--text-primary) !important;
+    transform: none !important;
+}
+
+.theme-retro-dusk .card-rezin8:hover .btn-rezin8-action {
+    color: var(--text-primary) !important; /* light peach text on sand gold/tan button */
+}
+
+.theme-retro-emerald .card-rezin8:hover .btn-rezin8-action {
+    color: var(--bg-primary) !important; /* obsidian text on bright yellow button */
+}
+
 .theme-retro-dusk ::-webkit-scrollbar-thumb,
 .theme-retro-emerald ::-webkit-scrollbar-thumb {
     border-radius: 0px !important;
@@ -2035,28 +2166,23 @@ body {
     border: 1px solid var(--text-primary) !important;
 }
 
-.theme-retro ::-webkit-scrollbar-thumb:hover,
 .theme-retro-dusk ::-webkit-scrollbar-thumb:hover,
 .theme-retro-emerald ::-webkit-scrollbar-thumb:hover {
     background: var(--accent-cyan) !important;
 }
 
-/* Beautiful retro details modal overrides */
-.theme-retro .modal-title,
 .theme-retro-dusk .modal-title,
 .theme-retro-emerald .modal-title {
-    font-size: 1.2rem !important;
-    line-height: 1.5 !important;
-    color: var(--accent-cyan) !important;
-    text-shadow: 2px 2px 0px #0c141c !important; /* Themed offset */
-    margin-bottom: 1.25rem !important;
+    font-family: 'Press Start 2P', monospace !important;
+    text-transform: uppercase !important;
+    font-size: 0.65rem !important;
+    letter-spacing: -0.01em !important;
 }
 
 .theme-retro-emerald .modal-title {
-    text-shadow: 2px 2px 0px #201533 !important; /* Themed offset */
+    color: var(--accent-pink) !important;
 }
 
-.theme-retro .modal-close-btn,
 .theme-retro-dusk .modal-close-btn,
 .theme-retro-emerald .modal-close-btn {
     border-radius: 0px !important;
@@ -2065,12 +2191,10 @@ body {
 }
 
 /* Themed creator tag colors on modal */
-.theme-retro .tag-ca3d,
 .theme-retro-emerald .tag-ca3d {
     color: var(--accent-purple) !important; /* Classic NES Red / Teal `#166e7a` */
 }
 
-.theme-retro .tag-tanuki,
 .theme-retro-emerald .tag-tanuki {
     color: var(--accent-cyan) !important; /* Classic NES Cyan / Leaf green `#52c33f` */
 }
@@ -2084,31 +2208,12 @@ body {
 }
 
 /* Flat boxy creator and category badges on catalog cards */
-.theme-retro .badge,
 .theme-retro-dusk .badge,
 .theme-retro-emerald .badge {
     border-radius: 0px !important;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.85) !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
-}
-
-.theme-retro .badge-creator-ca3d {
-    background: var(--accent-purple) !important; /* Classic NES Red */
-    border: 1px solid var(--text-primary) !important;
-    color: #ffffff !important;
-}
-
-.theme-retro .badge-creator-tanuki {
-    background: var(--accent-cyan) !important; /* Classic NES Cyan */
-    border: 1px solid var(--text-primary) !important;
-    color: var(--bg-primary) !important;
-}
-
-.theme-retro .badge-category {
-    background: var(--bg-secondary) !important;
-    border: 1px solid var(--text-muted) !important;
-    color: var(--text-secondary) !important; /* NES Gold */
 }
 
 .theme-retro-dusk .badge-creator-ca3d {
@@ -2148,7 +2253,6 @@ body {
 }
 
 /* Retro specific details modal download links */
-.theme-retro .download-link-btn.btn-variant-spicy,
 .theme-retro-dusk .download-link-btn.btn-variant-spicy,
 .theme-retro-emerald .download-link-btn.btn-variant-spicy {
     border-color: var(--accent-purple) !important;
@@ -2165,7 +2269,6 @@ body {
     background: rgba(252, 246, 96, 0.08) !important;
 }
 
-.theme-retro .download-link-btn.btn-variant-spicy:hover,
 .theme-retro-dusk .download-link-btn.btn-variant-spicy:hover,
 .theme-retro-emerald .download-link-btn.btn-variant-spicy:hover {
     background: var(--accent-purple) !important;
@@ -2182,7 +2285,6 @@ body {
     color: var(--bg-primary) !important; /* Obsidian `#201533` */
 }
 
-.theme-retro .download-link-btn.btn-variant-bust,
 .theme-retro-dusk .download-link-btn.btn-variant-bust,
 .theme-retro-emerald .download-link-btn.btn-variant-bust {
     border-color: var(--accent-cyan) !important;
@@ -2199,7 +2301,6 @@ body {
     background: rgba(82, 195, 63, 0.08) !important;
 }
 
-.theme-retro .download-link-btn.btn-variant-bust:hover,
 .theme-retro-dusk .download-link-btn.btn-variant-bust:hover,
 .theme-retro-emerald .download-link-btn.btn-variant-bust:hover {
     background: var(--accent-cyan) !important;
@@ -2217,7 +2318,6 @@ body {
 }
 
 /* Blocky flat NSFW toggle switch styling */
-.theme-retro .switch,
 .theme-retro-dusk .switch,
 .theme-retro-emerald .switch {
     border-radius: 0px !important;
@@ -2228,7 +2328,6 @@ body {
     height: 1.4rem !important;
 }
 
-.theme-retro .switch::before,
 .theme-retro-dusk .switch::before,
 .theme-retro-emerald .switch::before {
     border-radius: 0px !important;
@@ -2236,7 +2335,6 @@ body {
     background: transparent !important;
 }
 
-.theme-retro .switch::after,
 .theme-retro-dusk .switch::after,
 .theme-retro-emerald .switch::after {
     border-radius: 0px !important;
@@ -2248,13 +2346,11 @@ body {
     transition: transform var(--transition-fast) !important;
 }
 
-.theme-retro #nsfw-toggle:checked + .switch::before,
 .theme-retro-dusk #nsfw-toggle:checked + .switch::before,
 .theme-retro-emerald #nsfw-toggle:checked + .switch::before {
     background: var(--accent-purple) !important;
 }
 
-.theme-retro #nsfw-toggle:checked + .switch::after,
 .theme-retro-dusk #nsfw-toggle:checked + .switch::after,
 .theme-retro-emerald #nsfw-toggle:checked + .switch::after {
     background: var(--text-primary) !important;
@@ -2262,7 +2358,6 @@ body {
 }
 
 /* Crisp search focus blocks */
-.theme-retro .search-input:focus,
 .theme-retro-dusk .search-input:focus,
 .theme-retro-emerald .search-input:focus {
     background-color: var(--bg-primary) !important;
@@ -2283,20 +2378,12 @@ body {
 }
 
 /* Retro theme overrides for generic dynamic creator tags and badges */
-.theme-retro [class*="tag-"]:not(.tag-ca3d):not(.tag-tanuki),
 .theme-retro-emerald [class*="tag-"]:not(.tag-ca3d):not(.tag-tanuki) {
     color: var(--accent-pink) !important;
 }
 
 .theme-retro-dusk [class*="tag-"]:not(.tag-ca3d):not(.tag-tanuki) {
     color: var(--accent-cyan) !important;
-}
-
-.theme-retro [class*="badge-creator-"]:not(.badge-creator-ca3d):not(.badge-creator-tanuki),
-.theme-retro-generic {
-    background: var(--accent-pink) !important;
-    border: 1px solid var(--text-primary) !important;
-    color: #ffffff !important;
 }
 
 .theme-retro-dusk [class*="badge-creator-"]:not(.badge-creator-ca3d):not(.badge-creator-tanuki) {
