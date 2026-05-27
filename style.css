@@ -2397,3 +2397,37 @@ body {
     border: 1px solid var(--text-primary) !important;
     color: var(--bg-primary) !important; /* Obsidian `#201533` */
 }
+
+/* ==========================================================================
+   Glacial Glass Premium Beveled Glassmorphism & Top Highlight Refinements
+   ========================================================================= */
+
+/* Realistic asymmetrical frosted glass styling and high-reflectivity top catch-lights */
+.theme-glacial-glass .portal-card,
+.theme-glacial-glass .model-card,
+.theme-glacial-glass .filter-dashboard,
+.theme-glacial-glass .modal-card-window,
+.theme-glacial-glass .theme-modal-window {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%) !important;
+    backdrop-filter: blur(25px) !important;
+    -webkit-backdrop-filter: blur(25px) !important;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.38) !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+    transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.25s ease !important;
+}
+
+/* Beautiful dynamic hover responses catching extra specular highlight */
+.theme-glacial-glass .portal-card:hover,
+.theme-glacial-glass .model-card:hover {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.13) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+    border-top: 1.5px solid rgba(255, 255, 255, 0.48) !important;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.65), 0 0 20px rgba(159, 179, 232, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Ensure model cards border overlay inherits a clean icy glacial gradient outline on hover */
+.theme-glacial-glass .model-card::after {
+    background: linear-gradient(135deg, rgba(181, 196, 245, 0.5), rgba(124, 145, 204, 0.5)) border-box !important;
+}

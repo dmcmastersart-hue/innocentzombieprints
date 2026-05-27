@@ -775,7 +775,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const isSolaris = currentTheme.includes("theme-solaris");
             const isMidnightBlaze = currentTheme.includes("theme-midnight-blaze");
             const isGlacialGlass = currentTheme.includes("theme-glacial-glass");
-            const targetCount = (isMidnightBlaze || isGlacialGlass) ? 260 : (isSolaris ? 135 : 65);
+            const targetCount = isGlacialGlass ? 0 : (isMidnightBlaze ? 260 : (isSolaris ? 135 : 65));
             
             if (particles.length < targetCount) {
                 while (particles.length < targetCount) {
@@ -1010,9 +1010,21 @@ document.addEventListener("DOMContentLoaded", () => {
         // Initial setup
         window.updateEmberColors();
         
+        let wasGlacialGlass = false;
         let fireTime = 0;
         
         function animate() {
+            const isGlacialGlass = document.documentElement.className.includes("theme-glacial-glass");
+            if (isGlacialGlass) {
+                if (!wasGlacialGlass) {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    wasGlacialGlass = true;
+                }
+                requestAnimationFrame(animate);
+                return;
+            }
+            wasGlacialGlass = false;
+            
             fireTime += 1;
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             
