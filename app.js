@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
         creator: "all",
         type: "all",
         category: "all",
-        nsfw: false // NSFW toggle default off
+        nsfw: true // NSFW toggle default on
     };
     
     let currentPage = 1;
@@ -136,6 +136,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const initDatabase = () => {
         if (window.catalogData && Array.isArray(window.catalogData)) {
             allModels = window.catalogData;
+            // Sort all models alphabetically by name globally across all creators
+            allModels.sort((a, b) => (a.name || "").localeCompare(b.name || "", undefined, { sensitivity: 'base', numeric: true }));
             filteredModels = [...allModels];
             buildCategoriesFilter();
             buildCreatorFilter();
@@ -151,8 +153,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 })
                 .then(data => {
                     allModels = data;
+                    // Sort all models alphabetically by name globally across all creators
+                    allModels.sort((a, b) => (a.name || "").localeCompare(b.name || "", undefined, { sensitivity: 'base', numeric: true }));
                     filteredModels = [...allModels];
                     buildCategoriesFilter();
+                    buildCreatorFilter();
                     applyFiltersAndRender();
                 })
                 .catch(err => {
@@ -241,6 +246,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // NSFW toggle event listener
     const nsfwToggle = document.getElementById("nsfw-toggle");
     if (nsfwToggle) {
+        nsfwToggle.checked = activeFilters.nsfw; // Set default DOM state from activeFilters
         nsfwToggle.addEventListener("change", (e) => {
             activeFilters.nsfw = e.target.checked;
             applyFiltersAndRender();

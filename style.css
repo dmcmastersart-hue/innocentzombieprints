@@ -22,7 +22,7 @@
     --text-muted: #64748b;
 
     /* Layout & Shadow Tokens */
-    --font-heading: 'Syne', 'Outfit', sans-serif;
+    --font-heading: 'Outfit', sans-serif;
     --font-body: 'Plus Jakarta Sans', sans-serif;
     --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
@@ -1429,7 +1429,7 @@ body {
     --shadow-cyan-glow: 0 0 20px rgba(217, 65, 101, 0.25);
     --shadow-card-glow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 1px rgba(255, 255, 255, 0.1) inset;
     
-    --font-heading: 'Syne', 'Outfit', sans-serif;
+    --font-heading: 'Outfit', sans-serif;
 }
 
 /* Special branding font override & glowing drop shadow for Midnight Blaze */
@@ -1471,7 +1471,7 @@ body {
     --shadow-cyan-glow: 0 0 20px rgba(124, 145, 204, 0.22);
     --shadow-card-glow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 1px rgba(255, 255, 255, 0.1) inset;
     
-    --font-heading: 'Syne', 'Outfit', sans-serif;
+    --font-heading: 'Outfit', sans-serif;
 }
 
 /* Glistening glass title override & glowing icy drop shadow for Glacial Glass */

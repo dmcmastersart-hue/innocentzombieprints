@@ -266,6 +266,9 @@ def download_local_images(models, base_images_dir):
     
     # Tracks the assigned file counts per partition for this run
     partition_file_counts = {}
+    
+    # Tracks seen model slugs globally across all creators to prevent duplicate naming conflicts
+    seen_slugs = {}
 
     for idx, model in enumerate(models):
         img_url = model.get("img_url")
@@ -282,8 +285,16 @@ def download_local_images(models, base_images_dir):
         creator_slug = slugify(creator_name)
         model_slug = slugify(model.get("name", "model"))
         
+        # Track seen slugs globally to avoid naming conflicts on duplicates (cross-creator and cross-page)
+        if model_slug not in seen_slugs:
+            seen_slugs[model_slug] = 0
+            unique_model_slug = model_slug
+        else:
+            seen_slugs[model_slug] += 1
+            unique_model_slug = f"{model_slug}_{seen_slugs[model_slug]}"
+        
         # Force all compiled extensions to be standard web-optimized .jpg
-        filename = f"{model_slug}.jpg"
+        filename = f"{unique_model_slug}.jpg"
         
         # 1. Determine the designated partition name (max 98 files per folder)
         part_idx = 0
@@ -321,7 +332,7 @@ def download_local_images(models, base_images_dir):
             
             # Check all possible extensions in this other directory
             for check_ext in extensions_to_check:
-                other_filename = f"{model_slug}{check_ext}"
+                other_filename = f"{unique_model_slug}{check_ext}"
                 other_path = os.path.join(other_part_dir, other_filename)
                 if os.path.exists(other_path):
                     # Found the file on disk! Let's compress and save it as a .jpg in the allocated partition
@@ -405,6 +416,30 @@ def download_local_images(models, base_images_dir):
                 print(f"  [CLEANUP] Removed empty directory: '{part_name}'")
             except Exception:
                 pass
+
+    # Clean up orphaned/unused files in the images directory to keep the repository pristine
+    active_paths = set(model["img_url"] for model in models if model.get("img_url") and not model["img_url"].startswith("http"))
+    
+    print("\n--------------------------------------------------------------")
+    print("Performing workspace housecleaning: removing orphaned images...")
+    print("--------------------------------------------------------------")
+    
+    removed_count = 0
+    for root, dirs, files in os.walk(base_images_dir):
+        for file in files:
+            file_path = os.path.join(root, file)
+            # Calculate the relative path from the root of the workspace (one level above base_images_dir)
+            rel_file_path = os.path.relpath(file_path, os.path.dirname(base_images_dir)).replace("\\", "/")
+            if rel_file_path not in active_paths:
+                try:
+                    os.remove(file_path)
+                    print(f"  [CLEANUP] Deleted orphaned image: '{rel_file_path}'")
+                    removed_count += 1
+                except Exception:
+                    pass
+                    
+    print(f"Housecleaning complete: {removed_count} orphaned files deleted.")
+    print("--------------------------------------------------------------\n")
 
     print("--------------------------------------------------------------")
     print(f"Local Image sync complete: {downloaded} downloaded, {skipped} skipped, {failed} failed.")
