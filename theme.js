@@ -5,8 +5,8 @@
         theme = localStorage.getItem("theme");
     } catch (e) {}
 
-    // Ultimate default fallback
-    if (!theme || theme === "theme-retro") {
+    // Ultimate default fallback (safely migrates obsolete themes to glacial glass)
+    if (!theme || theme === "theme-retro" || theme === "theme-autumn-mint" || theme === "theme-cyberpunk" || theme === "theme-retro-dusk" || theme === "theme-cloudscape" || theme === "theme-retro-emerald") {
         theme = "theme-glacial-glass";
     }
 
@@ -19,7 +19,9 @@
     document.documentElement.classList.add("js-ready");
 })();
 
+
 document.addEventListener("DOMContentLoaded", () => {
+
     // 1. Page transition initialization
     document.body.classList.add("page-loaded");
 
@@ -81,42 +83,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 2rem; text-align: center;">Personalize the catalog interface aesthetic.</p>
                     
                     <div class="theme-options-grid">
-                        <div class="theme-opt-card" data-theme-class="theme-aetheria">
-                            <div class="theme-opt-preview aetheria-prev">
-                                <span style="background-color: #07090e;"></span>
-                                <span style="background-color: #a855f7;"></span>
-                                <span style="background-color: #06b6d4;"></span>
+                        <div class="theme-opt-card" data-theme-class="theme-glacial-glass">
+                            <div class="theme-opt-preview glacial-glass-prev" style="display: flex; width: 100%; height: 48px; border-radius: 10px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
+                                <span style="flex: 1; background-color: #04060c;"></span>
+                                <span style="flex: 1; background-color: #9fb3e8;"></span>
+                                <span style="flex: 1; background-color: #eaf0ff;"></span>
                             </div>
-                            <span class="theme-opt-name">Aetheria (Original)</span>
+                            <span class="theme-opt-name">Glacial Glass</span>
                         </div>
-                        
-                        <div class="theme-opt-card" data-theme-class="theme-autumn-mint">
-                            <div class="theme-opt-preview autumn-mint-prev">
-                                <span style="background-color: #11091c;"></span>
-                                <span style="background-color: #df7f58;"></span>
-                                <span style="background-color: #b5e2b9;"></span>
-                            </div>
-                            <span class="theme-opt-name">Autumn Mint</span>
-                        </div>
-                        
-                        <div class="theme-opt-card" data-theme-class="theme-cyberpunk">
-                            <div class="theme-opt-preview cyberpunk-prev">
-                                <span style="background-color: #030712;"></span>
-                                <span style="background-color: #f43f5e;"></span>
-                                <span style="background-color: #10b981;"></span>
-                            </div>
-                            <span class="theme-opt-name">Cyberpunk Neon</span>
-                        </div>
-                        
-                        <div class="theme-opt-card" data-theme-class="theme-solaris">
-                            <div class="theme-opt-preview solaris-prev">
-                                <span style="background-color: #0a0a0a;"></span>
-                                <span style="background-color: #f59e0b;"></span>
-                                <span style="background-color: #ef4444;"></span>
-                            </div>
-                            <span class="theme-opt-name">Solaris Gold</span>
-                        </div>
-                        
+
                         <div class="theme-opt-card" data-theme-class="theme-midnight-blaze">
                             <div class="theme-opt-preview midnight-blaze-prev" style="display: flex; width: 100%; height: 48px; border-radius: 10px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
                                 <span style="flex: 1; background-color: #060204;"></span>
@@ -126,31 +101,22 @@ document.addEventListener("DOMContentLoaded", () => {
                             <span class="theme-opt-name">Midnight Blaze</span>
                         </div>
                         
-                        <div class="theme-opt-card" data-theme-class="theme-glacial-glass">
-                            <div class="theme-opt-preview glacial-glass-prev" style="display: flex; width: 100%; height: 48px; border-radius: 10px; overflow: hidden; border: 1px solid rgba(255,255,255,0.05);">
-                                <span style="flex: 1; background-color: #04060c;"></span>
-                                <span style="flex: 1; background-color: #9fb3e8;"></span>
-                                <span style="flex: 1; background-color: #eaf0ff;"></span>
+                        <div class="theme-opt-card" data-theme-class="theme-aetheria">
+                            <div class="theme-opt-preview aetheria-prev">
+                                <span style="background-color: #07090e;"></span>
+                                <span style="background-color: #a855f7;"></span>
+                                <span style="background-color: #06b6d4;"></span>
                             </div>
-                            <span class="theme-opt-name">Glacial Glass</span>
+                            <span class="theme-opt-name">Aetheria (Original)</span>
                         </div>
                         
-                        <div class="theme-opt-card" data-theme-class="theme-retro-dusk">
-                            <div class="theme-opt-preview retro-dusk-prev">
-                                <span style="background-color: #0c141c;"></span>
-                                <span style="background-color: #fbe6d4;"></span>
-                                <span style="background-color: #745a6c;"></span>
+                        <div class="theme-opt-card" data-theme-class="theme-solaris">
+                            <div class="theme-opt-preview solaris-prev">
+                                <span style="background-color: #0a0a0a;"></span>
+                                <span style="background-color: #f59e0b;"></span>
+                                <span style="background-color: #ef4444;"></span>
                             </div>
-                            <span class="theme-opt-name">8-Bit Starry Dusk</span>
-                        </div>
-                        
-                        <div class="theme-opt-card" data-theme-class="theme-retro-emerald">
-                            <div class="theme-opt-preview retro-emerald-prev">
-                                <span style="background-color: #201533;"></span>
-                                <span style="background-color: #ffffff;"></span>
-                                <span style="background-color: #52c33f;"></span>
-                            </div>
-                            <span class="theme-opt-name">8-Bit Emerald Nebula</span>
+                            <span class="theme-opt-name">Solaris Gold</span>
                         </div>
                     </div>
                 </div>
@@ -200,6 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Set document class
             document.documentElement.className = selectedTheme;
             document.documentElement.classList.add("js-ready");
+
             
             // Save to localStorage
             localStorage.setItem("theme", selectedTheme);
@@ -260,8 +227,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 const isGlacialGlass = document.documentElement.className.includes("theme-glacial-glass");
                 
-                if (isMidnightBlaze || isGlacialGlass) {
-                    // --- MIDNIGHT BLAZE & GLACIAL GLASS HORIZONTAL FLOW PHYSICS ---
+                if (isMidnightBlaze) {
+                    // --- MIDNIGHT BLAZE HORIZONTAL FLOW PHYSICS ---
                     this.x = -60 - Math.random() * 240;
                     this.type = "spark"; // Always sparks under horizontal flow themes
                     
@@ -384,7 +351,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const isMidnightBlaze = document.documentElement.className.includes("theme-midnight-blaze");
                 const isGlacialGlass = document.documentElement.className.includes("theme-glacial-glass");
                 
-                if (isMidnightBlaze || isGlacialGlass) {
+                if (isMidnightBlaze) {
                     // Flow horizontally right
                     this.x += this.vx;
                     this.wobble += this.wobbleSpeed;
@@ -420,8 +387,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 // Offscreen cleanups: sparks resetting
                 if (this.alpha <= 0 || 
-                    ((isMidnightBlaze || isGlacialGlass) && (this.x > canvas.width + 80 || this.y < -80 || this.y > canvas.height + 80)) || 
-                    (!(isMidnightBlaze || isGlacialGlass) && (this.y < -60 || this.x < -60 || this.x > canvas.width + 60))) {
+                    (isMidnightBlaze && (this.x > canvas.width + 80 || this.y < -80 || this.y > canvas.height + 80)) || 
+                    (!isMidnightBlaze && (this.y < -60 || this.x < -60 || this.x > canvas.width + 60))) {
                     this.reset(false);
                 }
             }
@@ -510,90 +477,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     return;
                 }
                 
-                const isGlacialGlass = document.documentElement.className.includes("theme-glacial-glass");
-                
-                // --- GLACIAL GLASS CRYSTAL RENDERING (Glistening Glass Shards) ---
-                if (isGlacialGlass && this.type === "spark") {
-                    const life = Math.max(0, Math.min(this.alpha / this.initialAlpha, 1));
-                    const alpha12 = this.alpha * 0.12;
-                    const alpha22 = this.alpha * 0.22;
-                    const alpha35 = this.alpha * 0.35;
-                    
-                    let sparkColor, coreColor;
-                    let glow12, glow22, glow35;
-                    
-                    if (life > 0.6) {
-                        sparkColor = `rgba(159, 179, 232, ${this.alpha})`; // Lavender/Periwinkle
-                        coreColor = `rgba(234, 240, 255, ${this.alpha})`; // Icy White Core
-                        glow12 = `rgba(159, 179, 232, ${alpha12})`;
-                        glow22 = `rgba(159, 179, 232, ${alpha22})`;
-                        glow35 = `rgba(159, 179, 232, ${alpha35})`;
-                    } else if (life > 0.25) {
-                        sparkColor = `rgba(124, 145, 204, ${this.alpha})`; // Cool Blue
-                        coreColor = `rgba(200, 215, 255, ${this.alpha})`; // Light Blue Core
-                        glow12 = `rgba(124, 145, 204, ${alpha12})`;
-                        glow22 = `rgba(124, 145, 204, ${alpha22})`;
-                        glow35 = `rgba(124, 145, 204, ${alpha35})`;
-                    } else {
-                        sparkColor = `rgba(61, 76, 114, ${this.alpha})`; // Deep Slate Blue
-                        coreColor = `rgba(124, 145, 204, ${this.alpha})`; // Cool Blue Core
-                        glow12 = `rgba(61, 76, 114, ${alpha12})`;
-                        glow22 = `rgba(61, 76, 114, ${alpha22})`;
-                        glow35 = `rgba(61, 76, 114, ${alpha35})`;
-                    }
-                    
-                    const flicker = Math.sin(this.wobble * 4.0) * 0.2 + 0.8;
-                    
-                    // Elongated horizontal diamond crystal path
-                    const blurLength = this.vx * 7.0; 
-                    const frontX = this.x;
-                    const frontY = this.y;
-                    const backX = this.x - blurLength;
-                    const backY = this.y;
-                    const midX = this.x - blurLength * 0.3; // vertex peak shifted towards head
-                    
-                    ctx.save();
-                    ctx.globalCompositeOperation = "screen";
-                    
-                    // 1. Draw Outer Glass Glow (Soft atmospheric aura)
-                    const rGlow = this.size * 3.0;
-                    
-                    const gradGlow = ctx.createLinearGradient(backX, backY, frontX, frontY);
-                    gradGlow.addColorStop(0, "rgba(0,0,0,0)");
-                    gradGlow.addColorStop(0.5, glow12);
-                    gradGlow.addColorStop(0.85, glow22);
-                    gradGlow.addColorStop(1, "rgba(0,0,0,0)");
-                    
-                    ctx.fillStyle = gradGlow;
-                    ctx.beginPath();
-                    ctx.moveTo(frontX, frontY);
-                    ctx.lineTo(midX, frontY - rGlow);
-                    ctx.lineTo(backX, backY);
-                    ctx.lineTo(midX, frontY + rGlow);
-                    ctx.closePath();
-                    ctx.fill();
-                    
-                    // 2. Draw Inner Crisp Crystal Shard (Glistening glass core)
-                    const rCore = this.size;
-                    
-                    const gradCore = ctx.createLinearGradient(backX, backY, frontX, frontY);
-                    gradCore.addColorStop(0, "rgba(0,0,0,0)");
-                    gradCore.addColorStop(0.4, glow35);
-                    gradCore.addColorStop(0.85, sparkColor);
-                    gradCore.addColorStop(1, coreColor);
-                    
-                    ctx.fillStyle = gradCore;
-                    ctx.beginPath();
-                    ctx.moveTo(frontX, frontY);
-                    ctx.lineTo(midX, frontY - rCore);
-                    ctx.lineTo(backX, backY);
-                    ctx.lineTo(midX, frontY + rCore);
-                    ctx.closePath();
-                    ctx.fill();
-                    
-                    ctx.restore();
-                    return;
-                }
+
                 
                 // --- MIDNIGHT BLAZE SPARK RENDERING (Tapered Embers with Motion Blur) ---
                 if (isMidnightBlaze && this.type === "spark") {
@@ -736,12 +620,8 @@ document.addEventListener("DOMContentLoaded", () => {
             // Bulletproof hardcoded color registry to prevent CSS race conditions during navigation
             if (theme.includes("theme-retro-emerald")) {
                 return ['#166e7a', '#52c33f', '#fcf660']; // Teal, Leaf Green, Bright Yellow
-            } else if (theme.includes("theme-retro-dusk")) {
-                return ['#745a6c', '#c8b195', '#fbe6d4']; // Muted purple, sandy tan, peach/cream (twinkling stars)
-            } else if (theme.includes("theme-autumn-mint")) {
-                return ['#df7f58', '#b5e2b9', '#5f3e53'];
-            } else if (theme.includes("theme-cyberpunk")) {
-                return ['#f43f5e', '#10b981', '#d946ef'];
+            } else if (theme.includes("theme-cloudscape")) {
+                return ['#f7e8db', '#f5c5b2', '#e29f84']; // Cream, Soft Peach, Apricot Peach
             } else if (theme.includes("theme-solaris")) {
                 return ['#f59e0b', '#ef4444', '#f97316'];
             } else if (theme.includes("theme-midnight-blaze")) {
@@ -775,7 +655,8 @@ document.addEventListener("DOMContentLoaded", () => {
             const isSolaris = currentTheme.includes("theme-solaris");
             const isMidnightBlaze = currentTheme.includes("theme-midnight-blaze");
             const isGlacialGlass = currentTheme.includes("theme-glacial-glass");
-            const targetCount = isGlacialGlass ? 0 : (isMidnightBlaze ? 260 : (isSolaris ? 135 : 65));
+            const isCloudscape = currentTheme.includes("theme-cloudscape");
+            const targetCount = isCloudscape ? 0 : (isGlacialGlass ? 65 : (isMidnightBlaze ? 260 : (isSolaris ? 135 : 65)));
             
             if (particles.length < targetCount) {
                 while (particles.length < targetCount) {
@@ -799,9 +680,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Otherwise, just update colors of existing active particles
                 particles.forEach(p => {
                     p.color = themeColors[Math.floor(Math.random() * themeColors.length)] || '#a855f7';
-                    if ((isSolaris || isMidnightBlaze || isGlacialGlass) && p.type !== "plume" && p.type !== "spark") {
+                    if ((isSolaris || isMidnightBlaze) && p.type !== "plume" && p.type !== "spark") {
                         p.reset(false);
-                    } else if (!isSolaris && !isMidnightBlaze && !isGlacialGlass) {
+                    } else if (!isSolaris && !isMidnightBlaze) {
                         p.type = "spark";
                     }
                 });
@@ -1014,8 +895,9 @@ document.addEventListener("DOMContentLoaded", () => {
         let fireTime = 0;
         
         function animate() {
-            const isGlacialGlass = document.documentElement.className.includes("theme-glacial-glass");
-            if (isGlacialGlass) {
+            const currentTheme = document.documentElement.className;
+            const isStaticTheme = currentTheme.includes("theme-cloudscape");
+            if (isStaticTheme) {
                 if (!wasGlacialGlass) {
                     ctx.clearRect(0, 0, canvas.width, canvas.height);
                     wasGlacialGlass = true;
@@ -1168,9 +1050,6 @@ document.addEventListener("DOMContentLoaded", () => {
             
             // Draw floating Midnight Blaze ribbon waves in the middle of the screen
             drawMidnightBlazeRibbon(ctx, canvas.width, canvas.height, fireTime);
-            
-            // Draw floating Glacial Glass ribbon waves in the middle of the screen
-            drawGlacialGlassRibbon(ctx, canvas.width, canvas.height, fireTime);
             
             for (let i = 0; i < particles.length; i++) {
                 particles[i].update();

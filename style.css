@@ -22,7 +22,7 @@
     --text-muted: #64748b;
 
     /* Layout & Shadow Tokens */
-    --font-heading: 'Zen Dots', 'Outfit', sans-serif;
+    --font-heading: 'Syne', 'Outfit', sans-serif;
     --font-body: 'Plus Jakarta Sans', sans-serif;
     --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
@@ -205,17 +205,18 @@ body {
 }
 
 .logo-text {
-    font-family: var(--font-heading);
-    font-size: clamp(2.25rem, 6.5vw, 3rem);
-    font-weight: 800;
-    letter-spacing: -0.05em;
+    font-family: 'Syncopate', 'Outfit', sans-serif !important;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
     background: var(--accent-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
     line-height: 1.2;
-    padding-right: 0.3rem;
-    /* Prevent cutoff */
+    padding-right: 0.4rem; /* Prevent cutoff */
+    filter: drop-shadow(0 0 15px rgba(168, 85, 247, 0.35)); /* Default Aetheria Purple glow shadow */
 }
 
 .logo-subtitle {
@@ -1317,12 +1318,7 @@ body {
         backface-visibility: hidden;
         transition: opacity 0.15s ease-out, visibility 0.15s ease-out, transform 0.15s ease-out;
     }
-    
-    /* Support retro hover translate shifts on mobile while keeping centered position locked! */
-    .theme-retro-dusk #back-to-top:hover,
-    .theme-retro-emerald #back-to-top:hover {
-        transform: translate3d(-50%, -2px, 0) !important;
-    }
+
 
     /* Portal adjustments for 768px */
     .portal-container {
@@ -1382,57 +1378,6 @@ body {
     }
 }
 
-/* Theme Engine Custom Variations */
-.theme-autumn-mint {
-    --bg-primary: #11091c;
-    --bg-secondary: #1b1227;
-    --bg-glass: rgba(27, 18, 39, 0.55);
-    --bg-card-info: rgba(27, 18, 39, 0.25);
-    --border-glass: rgba(95, 62, 83, 0.25);
-    --border-glass-active: rgba(223, 127, 88, 0.4);
-    
-    --accent-purple: #df7f58; /* Terracotta Coral */
-    --accent-cyan: #b5e2b9; /* Sage Mint */
-    --accent-pink: #5f3e53; /* Muted Plum */
-    --accent-gradient: linear-gradient(135deg, #df7f58 0%, #b5e2b9 100%);
-    --accent-gradient-hover: linear-gradient(135deg, #e59372 0%, #c4ebd0 100%);
-    
-    --text-primary: #f8fafc;
-    --text-secondary: #cbd5e1;
-    --text-muted: #8b7fa4;
-    
-    --shadow-purple-glow: 0 0 20px rgba(223, 127, 88, 0.25);
-    --shadow-cyan-glow: 0 0 20px rgba(181, 226, 185, 0.25);
-    --shadow-card-glow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 1px rgba(95, 62, 83, 0.3) inset;
-}
-
-/* Adjust scrollbar thumb for Autumn Mint */
-.theme-autumn-mint ::-webkit-scrollbar-thumb:hover {
-    background: var(--accent-purple);
-}
-
-.theme-cyberpunk {
-    --bg-primary: #030712;
-    --bg-secondary: #111827;
-    --bg-glass: rgba(17, 24, 39, 0.55);
-    --bg-card-info: rgba(17, 24, 39, 0.25);
-    --border-glass: rgba(255, 255, 255, 0.05);
-    --border-glass-active: rgba(244, 63, 94, 0.4);
-    
-    --accent-purple: #f43f5e; /* Hot Pink */
-    --accent-cyan: #10b981; /* Emerald Green */
-    --accent-pink: #d946ef; /* Purple highlight */
-    --accent-gradient: linear-gradient(135deg, #f43f5e 0%, #10b981 100%);
-    --accent-gradient-hover: linear-gradient(135deg, #f6657e 0%, #34d399 100%);
-    
-    --text-primary: #f9fafb;
-    --text-secondary: #e5e7eb;
-    --text-muted: #9ca3af;
-    
-    --shadow-purple-glow: 0 0 20px rgba(244, 63, 94, 0.25);
-    --shadow-cyan-glow: 0 0 20px rgba(16, 185, 129, 0.25);
-    --shadow-card-glow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 1px rgba(255, 255, 255, 0.1) inset;
-}
 
 .theme-solaris {
     --bg-primary: #0a0a0a;
@@ -1455,6 +1400,11 @@ body {
     --shadow-purple-glow: 0 0 20px rgba(245, 158, 11, 0.25);
     --shadow-cyan-glow: 0 0 20px rgba(239, 68, 68, 0.25);
     --shadow-card-glow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 1px rgba(255, 255, 255, 0.1) inset;
+}
+
+/* Glistening golden title glow override for Solaris Gold */
+.theme-solaris .logo-text {
+    filter: drop-shadow(0 0 15px rgba(245, 158, 11, 0.45)) !important;
 }
 
 .theme-midnight-blaze {
@@ -1559,6 +1509,23 @@ body {
     box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9), 0 0 30px rgba(168, 85, 247, 0.15);
 }
 
+.theme-modal-window .modal-title {
+    font-family: 'Syncopate', 'Outfit', sans-serif !important;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-size: 1.5rem !important;
+    text-align: center;
+}
+
+.theme-modal-window .theme-opt-name {
+    font-family: 'Syncopate', 'Outfit', sans-serif !important;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.72rem !important;
+}
+
 .theme-options-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1613,16 +1580,10 @@ body {
     background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(6, 182, 212, 0.15)) border-box;
 }
 
-.theme-opt-card[data-theme-class="theme-autumn-mint"].active::before {
-    border-color: #df7f58;
-    box-shadow: 0 0 15px rgba(223, 127, 88, 0.25);
-    background: linear-gradient(135deg, rgba(223, 127, 88, 0.15), rgba(181, 226, 185, 0.15)) border-box;
-}
-
-.theme-opt-card[data-theme-class="theme-cyberpunk"].active::before {
-    border-color: #f43f5e;
-    box-shadow: 0 0 15px rgba(244, 63, 94, 0.25);
-    background: linear-gradient(135deg, rgba(244, 63, 94, 0.15), rgba(16, 185, 129, 0.15)) border-box;
+.theme-opt-card[data-theme-class="theme-cloudscape"].active::before {
+    border-color: #f5c5b2;
+    box-shadow: 0 0 15px rgba(245, 197, 178, 0.25);
+    background: linear-gradient(135deg, rgba(245, 197, 178, 0.15), rgba(226, 159, 132, 0.15)) border-box;
 }
 
 .theme-opt-card[data-theme-class="theme-solaris"].active::before {
@@ -1705,698 +1666,6 @@ body {
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ==========================================================================
-   RETRO NES 8-BIT THEME DEFINITION
-   ========================================================================== */
-
-.theme-retro-dusk {
-    --bg-primary: #0c141c;      /* Sky black / dark night bg */
-    --bg-secondary: #1b2a38;    /* Deep shade / dark mountain shade */
-    --bg-glass: #1b2a38;
-    --bg-glass-hover: #223446;  /* Themed card hover background */
-    --bg-card-info: #1b2a38;
-    --border-glass: #fbe6d4;
-    --border-glass-active: #c8b195;
-    
-    --accent-purple: #745a6c;   /* Muted purple-grey */
-    --accent-cyan: #c8b195;     /* Sandy tan */
-    --accent-pink: #fbe6d4;     /* Light peach/cream */
-    --accent-gradient: linear-gradient(135deg, #745a6c 0%, #c8b195 100%);
-    --accent-gradient-hover: linear-gradient(135deg, #987b7a 0%, #fbe6d4 100%);
-    
-    --text-primary: #fbe6d4;    /* Light peach/cream */
-    --text-secondary: #c8b195;  /* Sandy tan */
-    --text-muted: #987b7a;      /* Dusty rose */
-    
-    --font-heading: 'Press Start 2P', monospace;
-    --font-body: 'Share Tech Mono', monospace;
-    
-    --shadow-purple-glow: 0 0 0px rgba(0,0,0,0);
-    --shadow-cyan-glow: 0 0 0px rgba(0,0,0,0);
-    --shadow-card-glow: 6px 6px 0px rgba(0, 0, 0, 0.85);
-}
-
-.theme-retro-emerald {
-    --bg-primary: #201533;      /* Deep Obsidian Purple */
-    --bg-secondary: #252446;    /* Midnight Navy */
-    --bg-glass: #252446;
-    --bg-glass-hover: #254d70;  /* Slate Blue */
-    --bg-card-info: #252446;
-    --border-glass: #ffffff;
-    --border-glass-active: #52c33f;
-    
-    --accent-purple: #166e7a;   /* Teal/Dark Cyan */
-    --accent-cyan: #52c33f;     /* Leaf Green */
-    --accent-pink: #fcf660;     /* Bright Yellow */
-    --accent-gradient: linear-gradient(135deg, #166e7a 0%, #52c33f 100%);
-    --accent-gradient-hover: linear-gradient(135deg, #254d70 0%, #b2d942 100%);
-    
-    --text-primary: #ffffff;    /* Pure White */
-    --text-secondary: #fcf660;  /* Bright Yellow */
-    --text-muted: #b2d942;      /* Yellow-Green */
-    
-    --font-heading: 'Press Start 2P', monospace;
-    --font-body: 'Share Tech Mono', monospace;
-    
-    --shadow-purple-glow: 0 0 0px rgba(0,0,0,0);
-    --shadow-cyan-glow: 0 0 0px rgba(0,0,0,0);
-    --shadow-card-glow: 6px 6px 0px rgba(0, 0, 0, 0.85);
-}
-
-/* CRT Scanline Shader Overlay */
-.theme-retro-dusk::before,
-.theme-retro-emerald::before {
-    content: " ";
-    display: block;
-    position: fixed;
-    top: 0; left: 0; bottom: 0; right: 0;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.22) 50%);
-    background-size: 100% 4px;
-    z-index: 99999;
-    pointer-events: none;
-    opacity: 0.18;
-}
-
-/* Hide glowing abstract gradient blobs for clean retro look */
-.theme-retro-dusk .bg-glow-blob,
-.theme-retro-emerald .bg-glow-blob {
-    display: none !important;
-}
-
-/* Retro typography adjustments and limits */
-.theme-retro-dusk h1, .theme-retro-emerald h1,
-.theme-retro-dusk h2, .theme-retro-emerald h2,
-.theme-retro-dusk h3, .theme-retro-emerald h3,
-.theme-retro-dusk .logo-text, .theme-retro-emerald .logo-text,
-.theme-retro-dusk .modal-title, .theme-retro-emerald .modal-title,
-.theme-retro-dusk .model-name, .theme-retro-emerald .model-name {
-    font-family: 'Press Start 2P', monospace !important;
-    text-transform: uppercase !important;
-    letter-spacing: -0.04em !important;
-}
-
-.theme-retro-dusk .logo-text,
-.theme-retro-emerald .logo-text {
-    font-size: clamp(1rem, 3.8vw, 2.1rem) !important;
-    letter-spacing: -0.06em !important;
-    background: none !important;
-    -webkit-background-clip: unset !important;
-    -webkit-text-fill-color: var(--text-secondary) !important;
-    color: var(--text-secondary) !important;
-    text-shadow: 4px 4px 0px #000000 !important;
-}
-
-.theme-retro-dusk .logo-subtitle,
-.theme-retro-emerald .logo-subtitle {
-    font-family: 'Share Tech Mono', monospace !important;
-    font-size: 1rem !important;
-    letter-spacing: 0.15em !important;
-    color: var(--accent-cyan) !important;
-}
-
-.theme-retro-dusk .model-name,
-.theme-retro-emerald .model-name {
-    font-size: 0.72rem !important;
-    line-height: 1.4 !important;
-}
-
-.theme-retro-dusk .portal-card h2,
-.theme-retro-emerald .portal-card h2 {
-    font-size: 1.2rem !important;
-    line-height: 1.5 !important;
-}
-
-.theme-retro-dusk p,
-.theme-retro-emerald p,
-.theme-retro-dusk .portal-card p,
-.theme-retro-emerald .portal-card p {
-    font-family: 'Share Tech Mono', monospace !important;
-    font-size: 0.95rem !important;
-    color: #e0e0e0 !important;
-}
-
-/* Compact pixel spacing for micro UI texts */
-.theme-retro-dusk .filter-pill, .theme-retro-emerald .filter-pill,
-.theme-retro-dusk .badge, .theme-retro-emerald .badge,
-.theme-retro-dusk .stats-badge, .theme-retro-emerald .stats-badge,
-.theme-retro-dusk .btn-primary, .theme-retro-emerald .btn-primary,
-.theme-retro-dusk .btn-secondary, .theme-retro-emerald .btn-secondary,
-.theme-retro-dusk .btn-portal, .theme-retro-emerald .btn-portal,
-.theme-retro-dusk .indicator, .theme-retro-emerald .indicator,
-.theme-retro-dusk .modal-creator-tag, .theme-retro-emerald .modal-creator-tag,
-.theme-retro-dusk .modal-meta-badge, .theme-retro-emerald .modal-meta-badge,
-.theme-retro-dusk .modal-actions-heading, .theme-retro-emerald .modal-actions-heading,
-.theme-retro-dusk .download-link-btn, .theme-retro-emerald .download-link-btn,
-.theme-retro-dusk .filter-label, .theme-retro-emerald .filter-label,
-.theme-retro-dusk .modal-close-btn, .theme-retro-emerald .modal-close-btn,
-.theme-retro-dusk #back-to-top, .theme-retro-emerald #back-to-top {
-    font-family: 'Press Start 2P', monospace !important;
-    font-size: 0.55rem !important;
-    letter-spacing: 0px !important;
-}
-
-/* Share Tech Mono overrides for input text */
-.theme-retro-dusk .search-input,
-.theme-retro-emerald .search-input {
-    font-family: 'Share Tech Mono', monospace !important;
-    font-size: 1.15rem !important;
-    border-radius: 0px !important;
-    border: 3px solid var(--text-primary) !important;
-}
-
-/* Chunky retro pixel boxes instead of rounded glassmorphism */
-.theme-retro-dusk .portal-card, .theme-retro-emerald .portal-card,
-.theme-retro-dusk .model-card, .theme-retro-emerald .model-card,
-.theme-retro-dusk .filter-dashboard, .theme-retro-emerald .filter-dashboard,
-.theme-retro-dusk .modal-card-window, .theme-retro-emerald .modal-card-window,
-.theme-retro-dusk .theme-modal-window, .theme-retro-emerald .theme-modal-window {
-    border: 3px solid var(--text-primary) !important;
-    border-radius: 0px !important;
-    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.85) !important;
-    background-color: var(--bg-secondary) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-}
-
-.theme-retro-dusk .portal-card:hover,
-.theme-retro-emerald .portal-card:hover,
-.theme-retro-dusk .model-card:hover,
-.theme-retro-emerald .model-card:hover {
-    transform: translate(-3px, -3px) !important;
-    box-shadow: 9px 9px 0px var(--accent-purple) !important;
-}
-
-/* Blocky offset buttons */
-.theme-retro-dusk .btn-primary, .theme-retro-emerald .btn-primary,
-.theme-retro-dusk .btn-secondary, .theme-retro-emerald .btn-secondary,
-.theme-retro-dusk .btn-portal, .theme-retro-emerald .btn-portal,
-.theme-retro-dusk .filter-pill, .theme-retro-emerald .filter-pill,
-.theme-retro-dusk .stats-badge, .theme-retro-emerald .stats-badge,
-.theme-retro-dusk .modal-meta-badge, .theme-retro-emerald .modal-meta-badge,
-.theme-retro-dusk .download-link-btn, .theme-retro-emerald .download-link-btn,
-.theme-retro-dusk .modal-close-btn, .theme-retro-emerald .modal-close-btn,
-.theme-retro-dusk #back-to-top, .theme-retro-emerald #back-to-top {
-    border-radius: 0px !important;
-    border: 2px solid var(--text-primary) !important;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.85) !important;
-    background: var(--bg-primary) !important;
-    color: var(--text-primary) !important;
-    transition: transform 0.1s ease, box-shadow 0.1s ease !important;
-}
-
-.theme-retro-dusk .filter-pill.active, .theme-retro-emerald .filter-pill.active,
-.theme-retro-dusk .btn-primary:hover, .theme-retro-emerald .btn-primary:hover,
-.theme-retro-dusk .btn-secondary:hover, .theme-retro-emerald .btn-secondary:hover,
-.theme-retro-dusk .btn-portal:hover, .theme-retro-emerald .btn-portal:hover,
-.theme-retro-dusk .filter-pill:hover, .theme-retro-emerald .filter-pill:hover,
-.theme-retro-dusk .download-link-btn:hover, .theme-retro-emerald .download-link-btn:hover,
-.theme-retro-dusk .modal-close-btn:hover, .theme-retro-emerald .modal-close-btn:hover,
-.theme-retro-dusk #back-to-top:hover, .theme-retro-emerald #back-to-top:hover {
-    transform: translate(-2px, -2px) !important;
-    box-shadow: 5px 5px 0px var(--accent-cyan) !important;
-    background: var(--accent-purple) !important;
-    color: #ffffff !important;
-    border-color: var(--text-primary) !important;
-}
-
-/* Starry Dusk color contrast restoration to completely eliminate non-palette color leaks */
-.theme-retro-dusk .filter-pill.active,
-.theme-retro-dusk .btn-primary:hover,
-.theme-retro-dusk .btn-secondary:hover,
-.theme-retro-dusk .btn-portal:hover,
-.theme-retro-dusk .filter-pill:hover,
-.theme-retro-dusk .download-link-btn:hover,
-.theme-retro-dusk .modal-close-btn:hover,
-.theme-retro-dusk #back-to-top:hover {
-    color: var(--bg-primary) !important; /* Sky black `#0c141c` for high readability */
-}
-
-/* Emerald Nebula color contrast restoration */
-.theme-retro-emerald .filter-pill.active,
-.theme-retro-emerald .btn-primary:hover,
-.theme-retro-emerald .btn-secondary:hover,
-.theme-retro-emerald .btn-portal:hover,
-.theme-retro-emerald .filter-pill:hover,
-.theme-retro-emerald .download-link-btn:hover,
-.theme-retro-emerald .modal-close-btn:hover,
-.theme-retro-emerald #back-to-top:hover {
-    color: var(--bg-primary) !important; /* Obsidian `#201533` for high contrast against green/teal */
-}
-
-/* Retro variant indicators */
-.theme-retro-dusk .indicator,
-.theme-retro-emerald .indicator {
-    border-radius: 0px !important;
-    border: 1px solid var(--text-muted) !important;
-}
-
-.theme-retro-dusk .indicator.active,
-.theme-retro-emerald .indicator.active {
-    background: rgba(255, 255, 255, 0.15) !important;
-    border-color: var(--text-primary) !important;
-}
-
-/* Dusk Mountain specific overrides for spicy/bust indicators */
-.theme-retro-dusk .indicator-spicy.active {
-    color: #fbe6d4 !important;
-    background: rgba(152, 123, 122, 0.25) !important;
-    border-color: #987b7a !important;
-}
-
-.theme-retro-dusk .indicator-bust.active {
-    color: #fbe6d4 !important;
-    background: rgba(116, 90, 108, 0.25) !important;
-    border-color: #745a6c !important;
-}
-
-/* Emerald Nebula specific overrides for spicy/bust indicators */
-.theme-retro-emerald .indicator-spicy.active {
-    color: #fcf660 !important; /* Bright Yellow */
-    background: rgba(252, 246, 96, 0.15) !important;
-    border-color: #fcf660 !important;
-}
-
-.theme-retro-emerald .indicator-bust.active {
-    color: #52c33f !important; /* Leaf Green */
-    background: rgba(82, 195, 63, 0.15) !important;
-    border-color: #52c33f !important;
-}
-
-/* Theme Option Cards in Selection Settings Modal */
-.theme-opt-card[data-theme-class="theme-retro-dusk"].active::before {
-    border-color: #c8b195;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.85);
-    background: linear-gradient(135deg, rgba(116, 90, 108, 0.15), rgba(200, 177, 149, 0.15)) border-box;
-}
-
-.theme-opt-card[data-theme-class="theme-retro-emerald"].active::before {
-    border-color: #52c33f;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.85);
-    background: linear-gradient(135deg, rgba(22, 110, 122, 0.15), rgba(82, 195, 63, 0.15)) border-box;
-}
-
-.theme-retro-dusk .theme-opt-card,
-.theme-retro-emerald .theme-opt-card {
-    font-family: 'Press Start 2P', monospace !important;
-    font-size: 0.55rem !important;
-    border-radius: 0px !important;
-    border: 2px solid var(--text-primary) !important;
-    background: var(--bg-primary) !important;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.85) !important;
-    transition: transform 0.15s ease, box-shadow 0.15s ease !important;
-}
-
-.theme-retro-dusk .theme-opt-card:hover,
-.theme-retro-emerald .theme-opt-card:hover {
-    transform: translate(-2px, -2px) !important;
-    box-shadow: 5px 5px 0px var(--accent-cyan) !important;
-    background: var(--bg-secondary) !important;
-}
-
-.theme-retro-dusk .theme-opt-card.active::before,
-.theme-retro-emerald .theme-opt-card.active::before {
-    border-radius: 0px !important;
-    border-width: 3px !important;
-}
-
-@media (max-width: 768px) {
-    .theme-retro-dusk .portal-card h2,
-    .theme-retro-emerald .portal-card h2 {
-        font-size: 0.95rem !important;
-    }
-}
-
-/* Crisp pixel-art vector styling and retro aliased index page icons */
-.theme-retro-dusk svg,
-.theme-retro-emerald svg {
-    shape-rendering: crispEdges !important;
-}
-
-.theme-retro-dusk .portal-card-icon svg,
-.theme-retro-emerald .portal-card-icon svg {
-    stroke-width: 3px !important;
-}
-
-/* Boxy retro icon frames */
-.theme-retro-dusk .portal-card-icon,
-.theme-retro-emerald .portal-card-icon {
-    border-radius: 0px !important;
-    border: 3px solid var(--text-primary) !important;
-    background: var(--bg-primary) !important;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.85) !important;
-}
-
-/* Interactive solid pixel arcade highlight overlays for portal card links */
-.theme-retro-dusk .card-catalog:hover .icon-catalog,
-.theme-retro-emerald .card-catalog:hover .icon-catalog {
-    background: var(--accent-purple) !important;
-    border-color: var(--text-primary) !important;
-}
-
-.theme-retro-dusk .card-catalog:hover .icon-catalog svg,
-.theme-retro-emerald .card-catalog:hover .icon-catalog svg {
-    color: #ffffff !important;
-    filter: none !important;
-}
-
-.theme-retro-dusk .card-catalog:hover .icon-catalog svg {
-    color: var(--bg-primary) !important; /* Sky black `#0c141c` for organic contrast */
-}
-
-.theme-retro-emerald .card-catalog:hover .icon-catalog svg {
-    color: var(--bg-primary) !important; /* Obsidian `#201533` */
-}
-
-.theme-retro-dusk .card-etsy:hover .icon-etsy,
-.theme-retro-emerald .card-etsy:hover .icon-etsy {
-    background: var(--accent-cyan) !important;
-    border-color: var(--text-primary) !important;
-}
-
-.theme-retro-dusk .card-etsy:hover .icon-etsy svg,
-.theme-retro-emerald .card-etsy:hover .icon-etsy svg {
-    color: var(--bg-primary) !important;
-    filter: none !important;
-}
-
-.theme-retro-dusk .card-rezin8:hover .icon-rezin8,
-.theme-retro-emerald .card-rezin8:hover .icon-rezin8 {
-    background: var(--accent-pink) !important;
-    border-color: var(--text-primary) !important;
-}
-
-.theme-retro-dusk .card-rezin8:hover .icon-rezin8 svg,
-.theme-retro-emerald .card-rezin8:hover .icon-rezin8 svg {
-    color: var(--bg-primary) !important;
-    filter: none !important;
-}
-
-/* Flat thematic portal hovers (removes gradient neon leaks on index titles & actions) */
-.theme-retro-dusk .card-catalog:hover h2,
-.theme-retro-emerald .card-catalog:hover h2 {
-    background: none !important;
-    -webkit-background-clip: unset !important;
-    -webkit-text-fill-color: var(--accent-cyan) !important;
-    color: var(--accent-cyan) !important;
-}
-
-.theme-retro-dusk .card-etsy:hover h2,
-.theme-retro-emerald .card-etsy:hover h2 {
-    background: none !important;
-    -webkit-background-clip: unset !important;
-    -webkit-text-fill-color: var(--accent-pink) !important;
-    color: var(--accent-pink) !important;
-}
-
-.theme-retro-dusk .card-rezin8:hover h2,
-.theme-retro-emerald .card-rezin8:hover h2 {
-    background: none !important;
-    -webkit-background-clip: unset !important;
-    -webkit-text-fill-color: var(--accent-purple) !important;
-    color: var(--accent-purple) !important;
-}
-
-.theme-retro-dusk .card-catalog:hover .btn-catalog-action,
-.theme-retro-emerald .card-catalog:hover .btn-catalog-action {
-    background: var(--accent-purple) !important;
-    color: var(--bg-primary) !important;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.85) !important;
-    border-color: var(--text-primary) !important;
-    transform: none !important;
-}
-
-.theme-retro-dusk .card-catalog:hover .btn-catalog-action {
-    color: var(--text-primary) !important; /* Peach/cream `#fbe6d4` text on purple-grey `#745a6c` button */
-}
-
-.theme-retro-emerald .card-catalog:hover .btn-catalog-action {
-    color: var(--text-primary) !important; /* Pure white `#ffffff` */
-}
-
-.theme-retro-dusk .card-etsy:hover .btn-etsy-action,
-.theme-retro-emerald .card-etsy:hover .btn-etsy-action {
-    background: var(--accent-cyan) !important;
-    color: var(--bg-primary) !important;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.85) !important;
-    border-color: var(--text-primary) !important;
-    transform: none !important;
-}
-
-.theme-retro-dusk .card-rezin8:hover .btn-rezin8-action,
-.theme-retro-emerald .card-rezin8:hover .btn-rezin8-action {
-    background: var(--accent-pink) !important;
-    color: var(--bg-primary) !important;
-    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.85) !important;
-    border-color: var(--text-primary) !important;
-    transform: none !important;
-}
-
-.theme-retro-dusk .card-rezin8:hover .btn-rezin8-action {
-    color: var(--text-primary) !important; /* light peach text on sand gold/tan button */
-}
-
-.theme-retro-emerald .card-rezin8:hover .btn-rezin8-action {
-    color: var(--bg-primary) !important; /* obsidian text on bright yellow button */
-}
-
-.theme-retro-dusk ::-webkit-scrollbar-thumb,
-.theme-retro-emerald ::-webkit-scrollbar-thumb {
-    border-radius: 0px !important;
-    background: var(--accent-purple) !important;
-    border: 1px solid var(--text-primary) !important;
-}
-
-.theme-retro-dusk ::-webkit-scrollbar-thumb:hover,
-.theme-retro-emerald ::-webkit-scrollbar-thumb:hover {
-    background: var(--accent-cyan) !important;
-}
-
-.theme-retro-dusk .modal-title,
-.theme-retro-emerald .modal-title {
-    font-family: 'Press Start 2P', monospace !important;
-    text-transform: uppercase !important;
-    font-size: 0.65rem !important;
-    letter-spacing: -0.01em !important;
-}
-
-.theme-retro-emerald .modal-title {
-    color: var(--accent-pink) !important;
-}
-
-.theme-retro-dusk .modal-close-btn,
-.theme-retro-emerald .modal-close-btn {
-    border-radius: 0px !important;
-    width: 36px !important;
-    height: 36px !important;
-}
-
-/* Themed creator tag colors on modal */
-.theme-retro-emerald .tag-ca3d {
-    color: var(--accent-purple) !important; /* Classic NES Red / Teal `#166e7a` */
-}
-
-.theme-retro-emerald .tag-tanuki {
-    color: var(--accent-cyan) !important; /* Classic NES Cyan / Leaf green `#52c33f` */
-}
-
-.theme-retro-dusk .tag-ca3d {
-    color: var(--text-muted) !important; /* Dusty rose `#987b7a` */
-}
-
-.theme-retro-dusk .tag-tanuki {
-    color: var(--text-secondary) !important; /* Sandy tan `#c8b195` */
-}
-
-/* Flat boxy creator and category badges on catalog cards */
-.theme-retro-dusk .badge,
-.theme-retro-emerald .badge {
-    border-radius: 0px !important;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.85) !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-}
-
-.theme-retro-dusk .badge-creator-ca3d {
-    background: var(--accent-purple) !important; /* Muted purple-grey `#745a6c` */
-    border: 1px solid var(--text-primary) !important;
-    color: var(--text-primary) !important; /* Light peach `#fbe6d4` */
-}
-
-.theme-retro-dusk .badge-creator-tanuki {
-    background: #2b3d4e !important; /* Mountain base blue */
-    border: 1px solid var(--text-primary) !important;
-    color: var(--text-primary) !important; /* Light peach `#fbe6d4` */
-}
-
-.theme-retro-dusk .badge-category {
-    background: var(--bg-secondary) !important; /* Deep shade `#1b2a38` */
-    border: 1px solid var(--text-muted) !important; /* Dusty rose `#987b7a` */
-    color: var(--text-secondary) !important; /* Sandy tan `#c8b195` */
-}
-
-.theme-retro-emerald .badge-creator-ca3d {
-    background: var(--accent-purple) !important; /* Teal `#166e7a` */
-    border: 1px solid var(--text-primary) !important;
-    color: #ffffff !important;
-}
-
-.theme-retro-emerald .badge-creator-tanuki {
-    background: var(--accent-cyan) !important; /* Leaf green `#52c33f` */
-    border: 1px solid var(--text-primary) !important;
-    color: var(--bg-primary) !important; /* Obsidian `#201533` */
-}
-
-.theme-retro-emerald .badge-category {
-    background: var(--bg-secondary) !important; /* Midnight Navy `#252446` */
-    border: 1px solid var(--text-muted) !important; /* Yellow-green `#b2d942` */
-    color: var(--text-secondary) !important; /* Bright Yellow `#fcf660` */
-}
-
-/* Retro specific details modal download links */
-.theme-retro-dusk .download-link-btn.btn-variant-spicy,
-.theme-retro-emerald .download-link-btn.btn-variant-spicy {
-    border-color: var(--accent-purple) !important;
-    background: rgba(239, 58, 15, 0.08) !important;
-}
-
-.theme-retro-dusk .download-link-btn.btn-variant-spicy {
-    border-color: var(--text-muted) !important; /* Dusty rose */
-    background: rgba(152, 123, 122, 0.08) !important;
-}
-
-.theme-retro-emerald .download-link-btn.btn-variant-spicy {
-    border-color: var(--text-secondary) !important; /* Bright Yellow `#fcf660` */
-    background: rgba(252, 246, 96, 0.08) !important;
-}
-
-.theme-retro-dusk .download-link-btn.btn-variant-spicy:hover,
-.theme-retro-emerald .download-link-btn.btn-variant-spicy:hover {
-    background: var(--accent-purple) !important;
-    color: #ffffff !important;
-}
-
-.theme-retro-dusk .download-link-btn.btn-variant-spicy:hover {
-    background: var(--text-muted) !important; /* Dusty rose */
-    color: var(--bg-primary) !important;
-}
-
-.theme-retro-emerald .download-link-btn.btn-variant-spicy:hover {
-    background: var(--text-secondary) !important; /* Bright Yellow `#fcf660` */
-    color: var(--bg-primary) !important; /* Obsidian `#201533` */
-}
-
-.theme-retro-dusk .download-link-btn.btn-variant-bust,
-.theme-retro-emerald .download-link-btn.btn-variant-bust {
-    border-color: var(--accent-cyan) !important;
-    background: rgba(0, 240, 240, 0.08) !important;
-}
-
-.theme-retro-dusk .download-link-btn.btn-variant-bust {
-    border-color: var(--accent-purple) !important; /* Muted purple-grey */
-    background: rgba(116, 90, 108, 0.08) !important;
-}
-
-.theme-retro-emerald .download-link-btn.btn-variant-bust {
-    border-color: var(--accent-cyan) !important; /* Leaf Green `#52c33f` */
-    background: rgba(82, 195, 63, 0.08) !important;
-}
-
-.theme-retro-dusk .download-link-btn.btn-variant-bust:hover,
-.theme-retro-emerald .download-link-btn.btn-variant-bust:hover {
-    background: var(--accent-cyan) !important;
-    color: var(--bg-primary) !important;
-}
-
-.theme-retro-dusk .download-link-btn.btn-variant-bust:hover {
-    background: var(--accent-purple) !important; /* Muted purple-grey */
-    color: var(--text-primary) !important;
-}
-
-.theme-retro-emerald .download-link-btn.btn-variant-bust:hover {
-    background: var(--accent-cyan) !important; /* Leaf Green `#52c33f` */
-    color: var(--bg-primary) !important; /* Obsidian `#201533` */
-}
-
-/* Blocky flat NSFW toggle switch styling */
-.theme-retro-dusk .switch,
-.theme-retro-emerald .switch {
-    border-radius: 0px !important;
-    border: 2px solid var(--text-primary) !important;
-    background: var(--bg-primary) !important;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.85) !important;
-    width: 2.5rem !important;
-    height: 1.4rem !important;
-}
-
-.theme-retro-dusk .switch::before,
-.theme-retro-emerald .switch::before {
-    border-radius: 0px !important;
-    border: none !important;
-    background: transparent !important;
-}
-
-.theme-retro-dusk .switch::after,
-.theme-retro-emerald .switch::after {
-    border-radius: 0px !important;
-    background: var(--text-muted) !important;
-    width: 0.8rem !important;
-    height: 0.8rem !important;
-    top: 0.15rem !important;
-    left: 0.15rem !important;
-    transition: transform var(--transition-fast) !important;
-}
-
-.theme-retro-dusk #nsfw-toggle:checked + .switch::before,
-.theme-retro-emerald #nsfw-toggle:checked + .switch::before {
-    background: var(--accent-purple) !important;
-}
-
-.theme-retro-dusk #nsfw-toggle:checked + .switch::after,
-.theme-retro-emerald #nsfw-toggle:checked + .switch::after {
-    background: var(--text-primary) !important;
-    transform: translateX(1.0rem) !important;
-}
-
-/* Crisp search focus blocks */
-.theme-retro-dusk .search-input:focus,
-.theme-retro-emerald .search-input:focus {
-    background-color: var(--bg-primary) !important;
-    border-color: var(--accent-cyan) !important;
-    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.85) !important;
-}
-
-/* Starry Dusk custom paragraph overrides (strict palette compliant) */
-.theme-retro-dusk p,
-.theme-retro-dusk .portal-card p {
-    color: var(--text-secondary) !important; /* Sandy tan `#c8b195` instead of grey */
-}
-
-/* Emerald Nebula custom paragraph overrides (strict palette compliant) */
-.theme-retro-emerald p,
-.theme-retro-emerald .portal-card p {
-    color: var(--text-primary) !important; /* White `#ffffff` */
-}
-
-/* Retro theme overrides for generic dynamic creator tags and badges */
-.theme-retro-emerald [class*="tag-"]:not(.tag-ca3d):not(.tag-tanuki) {
-    color: var(--accent-pink) !important;
-}
-
-.theme-retro-dusk [class*="tag-"]:not(.tag-ca3d):not(.tag-tanuki) {
-    color: var(--accent-cyan) !important;
-}
-
-.theme-retro-dusk [class*="badge-creator-"]:not(.badge-creator-ca3d):not(.badge-creator-tanuki) {
-    background: var(--accent-cyan) !important;
-    border: 1px solid var(--text-primary) !important;
-    color: var(--bg-primary) !important;
-}
-
-.theme-retro-emerald [class*="badge-creator-"]:not(.badge-creator-ca3d):not(.badge-creator-tanuki) {
-    background: var(--text-secondary) !important; /* Bright Yellow `#fcf660` */
-    border: 1px solid var(--text-primary) !important;
-    color: var(--bg-primary) !important; /* Obsidian `#201533` */
-}
 
 /* ==========================================================================
    Glacial Glass Premium Beveled Glassmorphism & Top Highlight Refinements
@@ -2431,3 +1700,41 @@ body {
 .theme-glacial-glass .model-card::after {
     background: linear-gradient(135deg, rgba(181, 196, 245, 0.5), rgba(124, 145, 204, 0.5)) border-box !important;
 }
+
+/* Premium slow-pulsing background light for Glacial Glass */
+.theme-glacial-glass .bg-glow-blob {
+    opacity: 0.05;
+    will-change: opacity, transform;
+}
+
+.theme-glacial-glass .blob-purple {
+    animation: glacial-pulse-purple 14s infinite ease-in-out;
+}
+
+.theme-glacial-glass .blob-cyan {
+    animation: glacial-pulse-cyan 18s infinite ease-in-out 3s;
+}
+
+@keyframes glacial-pulse-purple {
+    0%, 100% {
+        opacity: 0.05;
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+    50% {
+        opacity: 0.12;
+        transform: translate3d(50px, 30px, 0) scale(1.15);
+    }
+}
+
+@keyframes glacial-pulse-cyan {
+    0%, 100% {
+        opacity: 0.05;
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+    50% {
+        opacity: 0.11;
+        transform: translate3d(-60px, -40px, 0) scale(1.2);
+    }
+}
+
+

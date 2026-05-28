@@ -1,4 +1,102 @@
 // InnocentZombie Catalog Controller
+
+// Universal high-performance IndexedDB Image Caching Engine
+const ImageCache = (function () {
+    const DB_NAME = "ModelImageCache";
+    const DB_VERSION = 1;
+    const STORE_NAME = "images";
+    let db = null;
+
+    function initDB() {
+        return new Promise((resolve, reject) => {
+            if (db) return resolve(db);
+            const request = indexedDB.open(DB_NAME, DB_VERSION);
+            request.onerror = (e) => reject(e.target.error);
+            request.onsuccess = (e) => {
+                db = e.target.result;
+                resolve(db);
+            };
+            request.onupgradeneeded = (e) => {
+                const activeDb = e.target.result;
+                if (!activeDb.objectStoreNames.contains(STORE_NAME)) {
+                    activeDb.createObjectStore(STORE_NAME);
+                }
+            };
+        });
+    }
+
+    async function getCachedBlob(url) {
+        try {
+            const activeDb = await initDB();
+            return new Promise((resolve, reject) => {
+                const transaction = activeDb.transaction(STORE_NAME, "readonly");
+                const store = transaction.objectStore(STORE_NAME);
+                const request = store.get(url);
+                request.onsuccess = () => resolve(request.result || null);
+                request.onerror = (e) => reject(e.target.error);
+            });
+        } catch (err) {
+            return null;
+        }
+    }
+
+    async function storeBlob(url, blob) {
+        try {
+            const activeDb = await initDB();
+            return new Promise((resolve, reject) => {
+                const transaction = activeDb.transaction(STORE_NAME, "readwrite");
+                const store = transaction.objectStore(STORE_NAME);
+                const request = store.put(blob, url);
+                request.onsuccess = () => resolve(true);
+                request.onerror = (e) => reject(e.target.error);
+            });
+        } catch (err) {}
+    }
+
+    async function loadWithCache(imgElement, originalUrl) {
+        if (!originalUrl) return;
+        imgElement.classList.add("loading");
+
+        // Try reading from IndexedDB cache
+        const cachedBlob = await getCachedBlob(originalUrl);
+        if (cachedBlob) {
+            const blobUrl = URL.createObjectURL(cachedBlob);
+            imgElement.src = blobUrl;
+            
+            // Clean up Object URL to prevent memory leaks
+            imgElement.addEventListener("load", function revoke() {
+                imgElement.removeEventListener("load", revoke);
+                URL.revokeObjectURL(blobUrl);
+            });
+            imgElement.classList.remove("loading");
+            return;
+        }
+
+        // Cache Miss: Fetch & Cache
+        try {
+            const response = await fetch(originalUrl, { mode: 'cors' });
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            const blob = await response.blob();
+            await storeBlob(originalUrl, blob);
+
+            const blobUrl = URL.createObjectURL(blob);
+            imgElement.src = blobUrl;
+
+            imgElement.addEventListener("load", function revoke() {
+                imgElement.removeEventListener("load", revoke);
+                URL.revokeObjectURL(blobUrl);
+            });
+            imgElement.classList.remove("loading");
+        } catch (err) {
+            // Safe Fallback (offline or CORS blocked)
+            imgElement.src = originalUrl;
+            imgElement.classList.remove("loading");
+        }
+    }
+
+    return { loadWithCache };
+})();
+
 document.addEventListener("DOMContentLoaded", () => {
     // State management variables
     let allModels = [];
@@ -325,7 +423,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 ${
                     model.img_url 
-                     ? `<img src="${model.img_url}" alt="${model.name}" class="card-image loading" loading="lazy">`
+                     ? `<img data-src="${model.img_url}" alt="${model.name}" class="card-image loading" loading="lazy">`
                      : `<div class="image-placeholder">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
                         No Image Available
@@ -342,16 +440,11 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
         `;
 
-        // Manage dynamic image blur fade-in
+        // Manage dynamic image caching & blur fade-in
         const img = card.querySelector(".card-image");
         if (img) {
-            img.onload = () => {
-                img.classList.remove("loading");
-            };
-            // Fallback in case cached images load instantly
-            if (img.complete) {
-                img.classList.remove("loading");
-            }
+            const originalUrl = img.getAttribute("data-src");
+            
             img.onerror = () => {
                 const parent = img.parentNode;
                 parent.innerHTML = `
@@ -361,6 +454,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 `;
             };
+
+            ImageCache.loadWithCache(img, originalUrl);
         }
 
         // Open details on click
@@ -395,12 +490,11 @@ document.addEventListener("DOMContentLoaded", () => {
             modalRank.style.display = "none";
         }
 
-        // Preview Image using the already loaded/cached original image from the catalog card
+        // Preview Image using IndexedDB cache
         if (model.img_url) {
-            modalImage.src = model.img_url;
             modalImage.style.display = "block";
-            // Ensure no blur filter is applied since the cached original image loads instantly
             modalImage.classList.remove("modal-preview-blur");
+            ImageCache.loadWithCache(modalImage, model.img_url);
         } else {
             modalImage.src = "";
             modalImage.style.display = "none";

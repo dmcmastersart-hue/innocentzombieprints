@@ -3,7 +3,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "2B",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ddd3b7b4-8cc9-43c0-a42f-541fc16c317d/2b1.jpg",
+        "img_url": "images/ca3d_studios/2b.jpg",
         "url": "https://cults3d.com/en/3d-model/art/2b-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/2b-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/2b-nsfw-3d-print-carlose",
@@ -14,7 +14,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "2B - Nier Automata",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3b10bdc1-ea95-41a5-8c1f-080850d0f566/0.jpg",
+        "img_url": "images/ca3d_studios/2b_-_nier_automata.jpg",
         "url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/2b-nsfw-3d-print",
@@ -25,7 +25,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "A2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/dcb44da1-4648-405d-9bc7-b51ca2c726c4/R1.0.png",
+        "img_url": "images/ca3d_studios/a2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/a2-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/a2-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/a2-nsfw-3d-print",
@@ -36,7 +36,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ada Wong",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c1d6ddbe-124a-4440-85fd-2f6f7084fda6/front.jpg",
+        "img_url": "images/ca3d_studios/ada_wong.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ada-wong-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/ada-wong-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/ada-wong-extra-3d-print",
@@ -47,7 +47,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Afro Samurai",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/194565fb-51d3-4b01-9356-c35b82d4a248/R1afro.jpg",
+        "img_url": "images/ca3d_studios/afro_samurai.jpg",
         "url": "https://cults3d.com/en/3d-model/art/afro-samurai-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -58,7 +58,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ahsoka",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/746bd5a6-2df6-4720-8dea-642542d3cad8/7.547.png",
+        "img_url": "images/ca3d_studios/ahsoka.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/ahsoka-bust-3d-print",
         "spicy_url": null,
@@ -69,7 +69,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ahsoka Tano",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4a270a60-4a04-4692-9131-b16d6bb40e8e/R2.png",
+        "img_url": "images/ca3d_studios/ahsoka_tano.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ahsoka-tano-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/ahsoka-tano-bust-3d-print",
         "spicy_url": null,
@@ -80,7 +80,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ahsoka Vs Darth Maul",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3fd667c5-7403-462d-87ff-aca0a196bfe7/0.png",
+        "img_url": "images/ca3d_studios/ahsoka_vs_darth_maul.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ahsoka-tano-vs-darth-maul-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -91,7 +91,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Akali",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/abbde938-638d-4f24-a05e-2e146c958314/0.png",
+        "img_url": "images/ca3d_studios/akali.jpg",
         "url": "https://cults3d.com/en/3d-model/art/akali-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/akali-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/art/akali-nsfw-3d-print",
@@ -102,7 +102,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Akame",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1f9a7ef1-3222-4384-bc1e-835d69baa969/1.png",
+        "img_url": "images/ca3d_studios/akame.jpg",
         "url": "https://cults3d.com/en/3d-model/art/akame-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/akame-bust-3d-print",
         "spicy_url": null,
@@ -113,7 +113,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Akasha",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f9bf216c-2d77-47d4-93f0-6cf7718c271e/R0.png",
+        "img_url": "images/ca3d_studios/akasha.jpg",
         "url": "https://cults3d.com/en/3d-model/art/akasha-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/akasha-nsfw-3d-print",
@@ -124,7 +124,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Akuma",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4ed6bb69-8a65-4c3c-9f99-01d926a20c88/front.jpg",
+        "img_url": "images/ca3d_studios/akuma.jpg",
         "url": "https://cults3d.com/en/3d-model/art/akuma-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/akuma-bust-3d-print",
         "spicy_url": null,
@@ -135,7 +135,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Akuma 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7becd7e8-46cb-4133-9fe7-86b15a5d7cce/1.jpg",
+        "img_url": "images/ca3d_studios/akuma_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/akuma-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -146,7 +146,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Alice",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2f1882aa-6d9b-4aca-98a6-ba2facce80af/0.jpeg",
+        "img_url": "images/ca3d_studios/alice.jpg",
         "url": "https://cults3d.com/en/3d-model/art/alice-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/alice-bust-3d-print",
         "spicy_url": null,
@@ -157,7 +157,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Alien",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/927d0274-18f7-4256-8b18-acf355e877db/Captura-de-tela-2025-11-30-073634.png",
+        "img_url": "images/ca3d_studios/alien.jpg",
         "url": "https://cults3d.com/en/3d-model/art/alien-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/alien-bust-3d-print",
         "spicy_url": null,
@@ -168,7 +168,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Alita",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e1fe1fce-eded-4625-82ca-5abf90da9aa0/0.png",
+        "img_url": "images/ca3d_studios/alita.jpg",
         "url": "https://cults3d.com/en/3d-model/art/alita-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -179,7 +179,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Alita Battle Angel",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/abaad214-24c8-4d55-9000-ecc54dc563e9/R1.png",
+        "img_url": "images/ca3d_studios/alita_battle_angel.jpg",
         "url": "https://cults3d.com/en/3d-model/art/alita-battle-angel-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/alita-bust-3d-print",
         "spicy_url": null,
@@ -190,7 +190,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Aloy",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8f2b1830-2314-4ddc-b1ee-5a179e912d23/0.png",
+        "img_url": "images/ca3d_studios/aloy.jpg",
         "url": "https://cults3d.com/en/3d-model/art/alloy-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/aloy-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/aloy-nsfw-3d-print",
@@ -201,7 +201,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Alucard",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/fe422420-20e8-4479-91e9-7e5bf6d0ebba/alucarCA3D1-1-1.jpg",
+        "img_url": "images/ca3d_studios/alucard.jpg",
         "url": "https://cults3d.com/en/3d-model/art/alucard-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-alucard-3d-print",
         "spicy_url": null,
@@ -212,7 +212,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Alucard 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4695310f-fdfe-4e45-9ffc-ea20c4d30838/alucard1.jpg",
+        "img_url": "images/ca3d_studios/alucard_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/alucard-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/alucard-bust-3d-print",
         "spicy_url": null,
@@ -223,7 +223,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Amaterasu",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/91cbf96a-b118-4a89-b3e7-18fb5a2ab8cd/1.jpeg",
+        "img_url": "images/ca3d_studios/amaterasu.jpg",
         "url": "https://cults3d.com/en/3d-model/art/amaterasu-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/amaterasu-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/amaterasu-nsfw-3d-print-carlose",
@@ -234,7 +234,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Anakin",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/022818b5-1cb3-4eaa-8a1a-7323c5a38d50/2-1.jpeg",
+        "img_url": "images/ca3d_studios/anakin.jpg",
         "url": "https://cults3d.com/en/3d-model/art/anakin-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/anakin-bust-3d-print",
         "spicy_url": null,
@@ -245,7 +245,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Android 18",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/169f871e-1d37-4208-bb56-50669a8e5c07/1.jpg",
+        "img_url": "images/ca3d_studios/android_18.jpg",
         "url": "https://cults3d.com/en/3d-model/art/android-18-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/android-18-nsfw-3d-print",
@@ -256,7 +256,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Angelica Teach",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e5c80c58-5f81-4f1f-8e22-bd1f5deb9348/R0.png",
+        "img_url": "images/ca3d_studios/angelica_teach.jpg",
         "url": "https://cults3d.com/en/3d-model/art/angelica-teach-pirates-of-the-caribbean-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -267,7 +267,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Anna Valerious",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/71831be9-3e38-4486-b37c-80301648871d/R0.00.png",
+        "img_url": "images/ca3d_studios/anna_valerious.jpg",
         "url": "https://cults3d.com/en/3d-model/art/anna-valerious-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -278,7 +278,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Anubis",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e1159502-df5f-4c5e-85c2-1303ffc521eb/0-1.jpeg",
+        "img_url": "images/ca3d_studios/anubis.jpg",
         "url": "https://cults3d.com/en/3d-model/art/anubis-egyptian-god-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/anubis-bust-3d-print",
         "spicy_url": null,
@@ -289,7 +289,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Aphrodite",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7c083ad6-4421-4c00-a185-6ef47e65605a/1-1.jpg",
+        "img_url": "images/ca3d_studios/aphrodite.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/aphrodite-bust-3d-print-carlose",
         "spicy_url": "https://cults3d.com/en/3d-model/art/aphrodite-3d-print-carlose",
@@ -300,7 +300,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Aphrodite 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/54c6ba9e-b463-440c-b09c-6f0d1a600fdc/1-1.jpeg",
+        "img_url": "images/ca3d_studios/aphrodite_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/aphrodite-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/aphrodite-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/aphrodite-nsfw-3d-print",
@@ -311,7 +311,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Apollo",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/70b4b371-8090-476b-a7d4-c2a89b814cd6/close.jpg",
+        "img_url": "images/ca3d_studios/apollo.jpg",
         "url": "https://cults3d.com/en/3d-model/art/apolo-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/apolo-bust-3d-print",
         "spicy_url": null,
@@ -322,7 +322,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "April O'Neil",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/40f86497-6526-4fc1-8b04-e5b6b11fc5b1/0-1.png",
+        "img_url": "images/ca3d_studios/april_o_neil.jpg",
         "url": "https://cults3d.com/en/3d-model/art/april-o-neil-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/april-o-neil-nsfw-3d-print",
@@ -333,7 +333,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Aragorn",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/38d0a1b7-3f63-4c4c-87a0-7d824cd42697/R0.png",
+        "img_url": "images/ca3d_studios/aragorn.jpg",
         "url": "https://cults3d.com/en/3d-model/art/aragorn-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/aragorn-nsfw-3d-print",
@@ -344,7 +344,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Archangel Michael",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a922be18-6bdc-4a4c-8f2e-76ae1ac59a3d/Close2.png",
+        "img_url": "images/ca3d_studios/archangel_michael.jpg",
         "url": "https://cults3d.com/en/3d-model/art/archangel-michael-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-archangel-michael",
         "spicy_url": null,
@@ -355,7 +355,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ares",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7fbfb02a-8f19-4e6b-aceb-fcfad217fe3f/0.jpeg",
+        "img_url": "images/ca3d_studios/ares.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ares-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/ares-bust-3d-print",
         "spicy_url": null,
@@ -366,7 +366,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Artemis",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/d12f07cc-7891-49ef-a12f-fbbed77ab419/R1.png",
+        "img_url": "images/ca3d_studios/artemis.jpg",
         "url": "https://cults3d.com/en/3d-model/art/artemis-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/artemis-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/artemis-nsfw-3d-print",
@@ -377,7 +377,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Arwen",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/96a82a4c-6201-4a9b-931b-00f6e81a974a/R0.png",
+        "img_url": "images/ca3d_studios/arwen.jpg",
         "url": "https://cults3d.com/en/3d-model/art/arwen-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/arwen-nsfw-3d-print",
@@ -388,7 +388,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Arwen 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/594d64d4-db7e-4715-8986-739f4b5da153/R0.3.png",
+        "img_url": "images/ca3d_studios/arwen_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/arwen-3d-print-carlose",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/arwen-nsfw-3d-print-carlose",
@@ -399,7 +399,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Asuka + Eva",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/74ea837b-3f77-4233-b684-753c7829356a/0.jpeg",
+        "img_url": "images/ca3d_studios/asuka_eva.jpg",
         "url": "https://cults3d.com/en/3d-model/art/asuka-eva-diorama-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/asuka-bust-3d-print",
         "spicy_url": null,
@@ -410,7 +410,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Athena",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4ef3a264-d615-428b-a52c-85f6ee0fcb94/1.jpg",
+        "img_url": "images/ca3d_studios/athena.jpg",
         "url": "https://cults3d.com/en/3d-model/art/athena-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -421,7 +421,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Atom Eve",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/69714a26-e60f-4b4b-8cc3-690e7fe78822/1.jpg",
+        "img_url": "images/ca3d_studios/atom_eve.jpg",
         "url": "https://cults3d.com/en/3d-model/art/atom-eve-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-atom-eve-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/atom-eve-nsfw-3d-print",
@@ -432,7 +432,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Aztec Godess",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/02dfe39b-06de-4939-ba3f-9a123d46d007/1.jpg",
+        "img_url": "images/ca3d_studios/aztec_godess.jpg",
         "url": "https://cults3d.com/en/3d-model/art/aztec-godess-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/aztec-nsfw-3d-print",
@@ -443,7 +443,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Azula",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/71d26153-5bf4-4e60-ab78-b430208f0f81/Close.jpg",
+        "img_url": "images/ca3d_studios/azula.jpg",
         "url": "https://cults3d.com/en/3d-model/art/azula-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/azula-bust-3d-print",
         "spicy_url": null,
@@ -454,7 +454,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Baba Yaga",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/cf943b32-ee34-4ce2-b285-570d8a270428/1-1.jpg",
+        "img_url": "images/ca3d_studios/baba_yaga.jpg",
         "url": "https://cults3d.com/en/3d-model/art/baba-yaga-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/baba-yaga-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/baba-yaga-nsfw-3d-print",
@@ -465,7 +465,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Balrog Vs Gandalf",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/d8553e9a-f339-48d2-a62c-33dcc152bec8/1.jpg",
+        "img_url": "images/ca3d_studios/balrog_vs_gandalf.jpg",
         "url": "https://cults3d.com/en/3d-model/art/balrog-vs-gandalf-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -476,7 +476,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Barbarian Queen",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/40765e71-d8f3-4b85-9f83-503e776a4bdb/Close.jpg",
+        "img_url": "images/ca3d_studios/barbarian_queen.jpg",
         "url": "https://cults3d.com/en/3d-model/art/barbarian-queen-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/barbarian-queen-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/barbarian-queen-nsfw-3d-print",
@@ -487,7 +487,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Barbarian Thor",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6704b1f7-aa10-44f5-a418-e59300901c58/1.jpg",
+        "img_url": "images/ca3d_studios/barbarian_thor.jpg",
         "url": "https://cults3d.com/en/3d-model/art/barbarian-thor-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -498,7 +498,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Bastila",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2510ff81-5d63-4396-a1f3-00cb0c89037c/R1.2.png",
+        "img_url": "images/ca3d_studios/bastila.jpg",
         "url": "https://cults3d.com/en/3d-model/art/bastila-shan-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/bastila-shan-3d-print",
@@ -509,7 +509,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Batgirl",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/91536609-f4b6-4fb8-9f5f-c9a804b3eba0/R3.0-Copia.png",
+        "img_url": "images/ca3d_studios/batgirl.jpg",
         "url": "https://cults3d.com/en/3d-model/art/batgirl-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/batgirl-nsfw-3d-print",
@@ -520,7 +520,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Batgirl",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/40ea4535-ce88-4cd1-9e44-05527518d7b1/R1.png",
+        "img_url": "images/ca3d_studios/batgirl.jpg",
         "url": "https://cults3d.com/en/3d-model/art/batgirl-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-batgirl-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/batgirl-nsfw-3d-print-carlose",
@@ -531,7 +531,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Batman",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c84cc2ea-36d5-4bed-be64-9d32e90423c1/1.jpg",
+        "img_url": "images/ca3d_studios/batman.jpg",
         "url": "https://cults3d.com/en/3d-model/art/batman-3d-print-carlose",
         "bust_url": null,
         "spicy_url": null,
@@ -542,7 +542,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Batman 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/394dd4e4-0261-4fad-a756-439cdb41e9a2/1.jpg",
+        "img_url": "images/ca3d_studios/batman_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/batman-vampire-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/batman-bust-3d-print",
         "spicy_url": null,
@@ -553,7 +553,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Beast Samurai",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/dcd8a44c-63c3-4b67-9dc2-0fccf8eb3c8d/1.jpg",
+        "img_url": "images/ca3d_studios/beast_samurai.jpg",
         "url": "https://cults3d.com/en/3d-model/art/beast-samurai-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -564,7 +564,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Big Daddy and Little Sister",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8734e64d-3e3e-4707-b002-bb997b5cbf6b/Captura-de-tela-2026-03-31-080139.png",
+        "img_url": "images/ca3d_studios/big_daddy_and_little_sister.jpg",
         "url": "https://cults3d.com/en/3d-model/art/big-daddy-and-little-sister-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/big-daddy-and-little-sister-bust-3d-print",
         "spicy_url": null,
@@ -575,7 +575,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Black Cat",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8bfabc2b-227e-4214-86be-0c6dd2453342/1.jpg",
+        "img_url": "images/ca3d_studios/black_cat.jpg",
         "url": "https://cults3d.com/en/3d-model/art/black-cat-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/black-cat-nsfw-3d-print",
@@ -586,7 +586,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Black Cat 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1383f3eb-d62c-40ab-86d5-ec12ccf1bea1/0.jpg",
+        "img_url": "images/ca3d_studios/black_cat_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/black-cat-3d-print-carlose",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/black-cat-nsfw-3d-print-carlose",
@@ -597,7 +597,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Black Widow",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f5db86ad-aa2b-4820-b5bc-d30055858778/1.jpeg",
+        "img_url": "images/ca3d_studios/black_widow.jpg",
         "url": "https://cults3d.com/en/3d-model/art/black-widow-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -608,7 +608,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Blade",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/352ece47-0932-4bcc-8d59-4557388119ef/1.jpg",
+        "img_url": "images/ca3d_studios/blade.jpg",
         "url": "https://cults3d.com/en/3d-model/art/blade-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-blade-3d-print-carlose",
         "spicy_url": null,
@@ -619,7 +619,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Blaidd",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/902553e7-0f42-4655-87c0-55486d66df47/0.png",
+        "img_url": "images/ca3d_studios/blaidd.jpg",
         "url": "https://cults3d.com/en/3d-model/art/blaidd-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-blaidd-3d-print",
         "spicy_url": null,
@@ -630,7 +630,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Blonde Blazer",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c1072ec4-9a6d-4e19-9042-cdafa6dad3bd/Captura-de-tela-2026-03-31-080817.png",
+        "img_url": "images/ca3d_studios/blonde_blazer.jpg",
         "url": "https://cults3d.com/en/3d-model/art/blonde-blazer-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/blonde-blazer-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/art/blonde-blazer-nsfw-3d-print",
@@ -641,7 +641,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Blood Moon Diana",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/379295a8-4277-4da1-9f61-df3551f3b913/R1.png",
+        "img_url": "images/ca3d_studios/blood_moon_diana.jpg",
         "url": "https://cults3d.com/en/3d-model/art/blood-moon-diana-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/blood-moon-diana-bust-3d-print",
         "spicy_url": null,
@@ -652,7 +652,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Bloodrayne",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/efa1bb03-5c81-4316-9df8-eee2e523a9a3/R0.0.png",
+        "img_url": "images/ca3d_studios/bloodrayne.jpg",
         "url": "https://cults3d.com/en/3d-model/art/bloodrayne-3dprint",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/bloodrayne-nsfw-3dprint",
@@ -663,7 +663,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Bo Katan",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a4e6fd6b-7f2e-4026-bf39-ca91ca956063/R0.png",
+        "img_url": "images/ca3d_studios/bo_katan.jpg",
         "url": "https://cults3d.com/en/3d-model/art/bo-katan-3d-print-carlose",
         "bust_url": null,
         "spicy_url": null,
@@ -674,7 +674,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Bulma",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/16db65ac-4ab5-4234-85dd-bc7488d2549a/0-1.jpeg",
+        "img_url": "images/ca3d_studios/bulma.jpg",
         "url": "https://cults3d.com/en/3d-model/art/bulma-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/bulma-bust-3d-print",
         "spicy_url": null,
@@ -685,7 +685,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cable",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b9182994-0bb3-4cd0-97e7-164d5195cff3/C1.jpg",
+        "img_url": "images/ca3d_studios/cable.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cable-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/cable-bust-3d-print",
         "spicy_url": null,
@@ -696,7 +696,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cammy",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4cde6b39-d926-4016-9a55-7503bd22c142/1.jpeg",
+        "img_url": "images/ca3d_studios/cammy.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cammy-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/cammy-nsfw-3d-print",
@@ -707,7 +707,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cammy",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/de9a17fd-7d14-4897-9af5-8aa10010b914/Close-1.jpg",
+        "img_url": "images/ca3d_studios/cammy.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cammy-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/cammy-bust-3d-print",
         "spicy_url": null,
@@ -718,7 +718,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Carmilla",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1043261d-1151-4218-9e61-cc9f3325161f/0.0.png",
+        "img_url": "images/ca3d_studios/carmilla.jpg",
         "url": "https://cults3d.com/en/3d-model/art/carmilla-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/carmilla-nsfw-3d-print",
@@ -729,7 +729,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Carter Slade",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e945b541-5b06-47a2-b704-bd81f0e56cf2/0.png",
+        "img_url": "images/ca3d_studios/carter_slade.jpg",
         "url": "https://cults3d.com/en/3d-model/art/carter-slade-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/carter-slade-bust-3d-print",
         "spicy_url": null,
@@ -740,7 +740,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Casca",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3083aa30-eb8b-4496-aa70-aaf1c5f6e3f1/1-1.jpeg",
+        "img_url": "images/ca3d_studios/casca.jpg",
         "url": "https://cults3d.com/en/3d-model/art/casca-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/casca-bust-3d-print",
         "spicy_url": null,
@@ -751,7 +751,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Catwoman",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/11f4fe1f-fc8c-483a-ab2f-1d7b456a1845/0-1.jpeg",
+        "img_url": "images/ca3d_studios/catwoman.jpg",
         "url": "https://cults3d.com/en/3d-model/art/catwoman-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/catwoman-nsfw-3d-print",
@@ -762,7 +762,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Chani - Dune",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ab2f6c03-8d5c-498d-9e7f-cdf5b67af8d8/1.jpeg",
+        "img_url": "images/ca3d_studios/chani_-_dune.jpg",
         "url": "https://cults3d.com/en/3d-model/art/chani-dune-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/chani-dune-bust-3d-print",
         "spicy_url": null,
@@ -773,7 +773,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Chel",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e0e52ab3-0cc1-4e40-b115-b216d9c125a5/0.png",
+        "img_url": "images/ca3d_studios/chel.jpg",
         "url": "https://cults3d.com/en/3d-model/art/chel-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/chel-bust-3d-print",
         "spicy_url": null,
@@ -784,7 +784,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cherubim",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/edc5b556-69cf-4746-906c-2a8e984937b6/angel6.jpg",
+        "img_url": "images/ca3d_studios/cherubim.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cherubim-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/cherubim-bust-3d-print",
         "spicy_url": null,
@@ -795,7 +795,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Chun Li",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a18143e4-cdaf-4ce5-8e22-6a8473db5334/589950615_828776316736433_6697809975335704416_n.jpg",
+        "img_url": "images/ca3d_studios/chun_li.jpg",
         "url": "https://cults3d.com/en/3d-model/art/chun-li-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/chun-li-bust-3d-print",
         "spicy_url": null,
@@ -806,7 +806,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Chun-Li",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9c794144-1315-447f-8d0d-f131a9952ea4/WhatsApp-Image-2023-06-15-at-17.30.59.jpeg",
+        "img_url": "images/ca3d_studios/chun-li.jpg",
         "url": "https://cults3d.com/en/3d-model/art/chun-li-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/chun-li-nsfw-3d-print",
@@ -817,7 +817,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ciri",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/49b18573-1c3f-49e5-be49-7b9f3818224c/R0.0.png",
+        "img_url": "images/ca3d_studios/ciri.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ciri-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/ciri-nsfw-3d-print",
@@ -828,7 +828,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Clare",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3ee6cb7a-4183-4fa6-9601-87dcd7d53794/WhatsApp-Image-2023-03-16-at-15.52.37-1.jpeg",
+        "img_url": "images/ca3d_studios/clare.jpg",
         "url": "https://cults3d.com/en/3d-model/art/clare-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -839,7 +839,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cleopatra",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ea4e0a18-5123-4757-b448-9e00340a312b/R0.png",
+        "img_url": "images/ca3d_studios/cleopatra.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cleopatra-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/cleopatra-nsfw-3d-print",
@@ -850,7 +850,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cleopatra",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8898cda5-7a62-4dd1-ae2d-921772cf1bd8/Close.png",
+        "img_url": "images/ca3d_studios/cleopatra.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cleopatra-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/cleopatra-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/cleopatra-nsfw-3d-print-carlose",
@@ -861,7 +861,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cloak and Dagger",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5c30c2a3-3099-4436-aa95-a7bab4775366/0.png",
+        "img_url": "images/ca3d_studios/cloak_and_dagger.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cloak-and-dagger-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/cloak-and-dagger-bust-3d-print",
         "spicy_url": null,
@@ -872,7 +872,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Conan",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a328d374-1ba6-472b-afce-edd848f45b01/WhatsApp-Image-2022-08-09-at-18.12.51.jpeg",
+        "img_url": "images/ca3d_studios/conan.jpg",
         "url": "https://cults3d.com/en/3d-model/art/conan-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/conan-nsfw-3d-print",
@@ -883,7 +883,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Conan",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7cfa89dc-cb4f-4917-93a0-01c42522e79e/Close-1.png",
+        "img_url": "images/ca3d_studios/conan.jpg",
         "url": "https://cults3d.com/en/3d-model/art/conan-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/conan-bust-3d-print",
         "spicy_url": null,
@@ -894,7 +894,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Corrupted Nun",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b5d6dda9-9ede-4dc6-9ed3-1b46ba01d9fc/1-1.jpg",
+        "img_url": "images/ca3d_studios/corrupted_nun.jpg",
         "url": "https://cults3d.com/en/3d-model/art/corrupted-nun-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/corrupted-nun-bust-3d-print",
         "spicy_url": null,
@@ -905,7 +905,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cruella",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5241055a-3855-4da5-9f37-62708f516d1f/R1.png",
+        "img_url": "images/ca3d_studios/cruella.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cruella-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -916,7 +916,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cyber Samurai",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6b307b51-28f9-4b32-9f02-f5b485ac2f7a/Captura-de-tela-2026-03-31-082457.png",
+        "img_url": "images/ca3d_studios/cyber_samurai.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cyber-samurai-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/cyber-samurai-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/art/cyber-samurai-nsfw-3d-print",
@@ -927,7 +927,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cyberpunk Ciri",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2ac25a4b-3c69-4716-802b-87fb501f0132/0.jpeg",
+        "img_url": "images/ca3d_studios/cyberpunk_ciri.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cyberpunk-ciri-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -938,7 +938,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Cyclops",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/079c0f9f-a6b7-421c-95df-fdb70bf068f6/0.webp",
+        "img_url": "images/ca3d_studios/cyclops.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cyclops-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/cyclops-busts-3d-print",
         "spicy_url": null,
@@ -949,7 +949,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Dabi",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/0b9fe9da-2e44-4036-a53d-4ca5b51e36b8/0.png",
+        "img_url": "images/ca3d_studios/dabi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dabi-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/dabi-bust-3d-print",
         "spicy_url": null,
@@ -960,7 +960,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Daenerys Targaryen",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6846d43b-572f-4aff-af90-12ba0448a0a1/R0.0.png",
+        "img_url": "images/ca3d_studios/daenerys_targaryen.jpg",
         "url": "https://cults3d.com/en/3d-model/art/daenerys-targaryen-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/daenerys-targaryen-nsfw-3d-print",
@@ -971,7 +971,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Dante",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/46385afe-7e66-4c8e-92b0-d37213b64ac1/Dante_Reveal_01.png",
+        "img_url": "images/ca3d_studios/dante.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dante-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/dante-bust-3d-print",
         "spicy_url": null,
@@ -982,7 +982,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Dante's Inferno",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1fe5697b-4049-4545-9caa-36cf0ad98c9a/d1.jpg",
+        "img_url": "images/ca3d_studios/dante_s_inferno.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dante-inferno-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/dante-inferno-bust-3d-print",
         "spicy_url": null,
@@ -993,7 +993,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Dareios",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/48005b1f-b5d8-4a8d-aeeb-d05ecb3447e5/2.jpg",
+        "img_url": "images/ca3d_studios/dareios.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dareios-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/dareios-bust-3d-print",
         "spicy_url": null,
@@ -1004,7 +1004,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Darth Maul",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/099b8b70-f7a7-476e-81fd-ac9954008f5b/10.550.png",
+        "img_url": "images/ca3d_studios/darth_maul.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/darth-maul-bust-3d-print",
         "spicy_url": null,
@@ -1015,7 +1015,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Darth Talon",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9a9e8753-710b-4639-baa0-9bf99e6679cb/1-1.jpeg",
+        "img_url": "images/ca3d_studios/darth_talon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/darth-talon-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/darth-talon-3d-print-carlose",
@@ -1026,7 +1026,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Darth Vader",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/cb985288-12e0-4da6-8134-1904a853d28f/14.406.7.png",
+        "img_url": "images/ca3d_studios/darth_vader.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-vader-3d-print",
         "spicy_url": null,
@@ -1037,7 +1037,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Darth Yoda",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2f0de5de-e59a-4d28-9984-385b4da7936c/1-1.jpeg",
+        "img_url": "images/ca3d_studios/darth_yoda.jpg",
         "url": "https://cults3d.com/en/3d-model/art/darth-yoda-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/darth-yoda-bust-3d-print",
         "spicy_url": null,
@@ -1048,7 +1048,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "David Martinez",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/345b86c1-cf2e-49be-918a-0012c7f48969/0.jpg",
+        "img_url": "images/ca3d_studios/david_martinez.jpg",
         "url": "https://cults3d.com/en/3d-model/art/david-martinez-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/david-martinez-bust-3d-print",
         "spicy_url": null,
@@ -1059,7 +1059,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Davy Jones",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/568e8d82-1c65-48f3-b576-4ca170ee6c2a/1.jpg",
+        "img_url": "images/ca3d_studios/davy_jones.jpg",
         "url": "https://cults3d.com/en/3d-model/art/davy-jones-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/davy-jones-bust-3d-print",
         "spicy_url": null,
@@ -1070,7 +1070,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Death",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8f8848a1-a53d-4800-9e36-24bfa3ef75d0/post0.jpg",
+        "img_url": "images/ca3d_studios/death.jpg",
         "url": "https://cults3d.com/en/3d-model/art/death-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/death-bust-3d-print",
         "spicy_url": null,
@@ -1081,7 +1081,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Death 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/dda9bca3-ec40-474a-8348-625aa02d8e25/Death-ilustra-1.1.png",
+        "img_url": "images/ca3d_studios_1/death_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/death-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/death-bust-3d-print-carlose",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/death-nsfw-3d-print",
@@ -1092,7 +1092,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Dejah Thoris",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/79e50fb4-7e0f-40d6-90f8-6c2eb1ef2634/R1.00.png",
+        "img_url": "images/ca3d_studios_1/dejah_thoris.jpg",
         "url": "https://cults3d.com/en/3d-model/naughties/dejah-thoris-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/dejah-thoris-nsfw-3d-print",
@@ -1103,7 +1103,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Demon Queen",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2cf0e8d2-a16f-4386-8800-1ee99ab115bd/0-1.jpeg",
+        "img_url": "images/ca3d_studios_1/demon_queen.jpg",
         "url": "https://cults3d.com/en/3d-model/art/demon-queen-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/demon-queen-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/demon-queen-nsfw-3d-print",
@@ -1114,7 +1114,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Demona",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/452c95db-9b6e-471d-a67a-c9eb0b08261c/8.520.1.png",
+        "img_url": "images/ca3d_studios_1/demona.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/demona-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/demona-nsfw-3d-print",
@@ -1125,7 +1125,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Demona + Goliath Diorama",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/94597dbe-b2dc-458d-9647-24b43605b685/R1.png",
+        "img_url": "images/ca3d_studios_1/demona_goliath_diorama.jpg",
         "url": "https://cults3d.com/en/3d-model/art/demona-and-goliath-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1136,7 +1136,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Divine Fairy",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c6e0c0d4-306e-4a31-b205-fd8137e8809a/2-1.jpg",
+        "img_url": "images/ca3d_studios_1/divine_fairy.jpg",
         "url": "https://cults3d.com/en/3d-model/art/divine-fairy-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/divine-fairy-bust-3d-print",
         "spicy_url": null,
@@ -1147,7 +1147,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Doctor Strange",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6c6bcf95-8bf6-40a8-a9ed-4d91cf1a25a4/585567889_821647764115955_7205213812022512166_n.jpg",
+        "img_url": "images/ca3d_studios_1/doctor_strange.jpg",
         "url": "https://cults3d.com/en/3d-model/art/doctor-strange-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/doctor-strange-bust-3d-print",
         "spicy_url": null,
@@ -1158,7 +1158,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Domino",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/73e8b654-6502-4eb4-b323-08345047bfe3/1.jpg",
+        "img_url": "images/ca3d_studios_1/domino.jpg",
         "url": "https://cults3d.com/en/3d-model/art/domino-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/domino-nsfw-3d-print",
@@ -1169,7 +1169,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Donatello",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/83e8c798-75ff-49e4-824c-f3c7da0ac1f9/13.405.1.png",
+        "img_url": "images/ca3d_studios_1/donatello.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/donatello-bust-3d-print",
         "spicy_url": null,
@@ -1180,7 +1180,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Doomsday",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/51d9cab7-61c2-4928-91ab-90a4f7287abf/1.jpg",
+        "img_url": "images/ca3d_studios_1/doomsday.jpg",
         "url": "https://cults3d.com/en/3d-model/art/doomsday-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1191,7 +1191,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Dr Doom",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/28702973-7880-4ab6-953a-2a0ffb86ac6c/0.jpeg",
+        "img_url": "images/ca3d_studios_1/dr_doom.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dr-doom-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/dr-doom-bust-3d-print",
         "spicy_url": null,
@@ -1202,7 +1202,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Dracula",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/31a922ba-8372-44ea-a97a-f0a39acf3f42/R0.00.png",
+        "img_url": "images/ca3d_studios_1/dracula.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dracula-3d-print-carlose-2",
         "bust_url": "https://cults3d.com/en/3d-model/art/dracula-bust-3d-print-carlose",
         "spicy_url": null,
@@ -1213,7 +1213,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Dracula 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/49d126eb-76dd-42a5-b4c7-9ba60c1f41ed/1.jpg",
+        "img_url": "images/ca3d_studios_1/dracula_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dracula-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/dracula-bust-3d-print",
         "spicy_url": null,
@@ -1224,7 +1224,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Dragon Lady",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3fe7d605-6dea-446d-b190-c5c7df675509/1.jpg",
+        "img_url": "images/ca3d_studios_1/dragon_lady.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dragon-lady-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/dragon-lady-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/dragon-lady-extra-3d-print",
@@ -1235,7 +1235,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Elegy of the Wyrm",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/d72a2b80-6956-499c-b021-d138c2e9a448/frontW1.jpg",
+        "img_url": "images/ca3d_studios_1/elegy_of_the_wyrm.jpg",
         "url": "https://cults3d.com/en/3d-model/art/elegy-of-the-wyrm-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/elegy-of-the-wyrm-bust-3d-print",
         "spicy_url": null,
@@ -1246,7 +1246,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Elektra",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/87ea94e5-78e7-4582-ab42-472df2836f23/1.jpg",
+        "img_url": "images/ca3d_studios_1/elektra.jpg",
         "url": "https://cults3d.com/en/3d-model/art/elektra-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/elektra-nsfw-3d-print",
@@ -1257,7 +1257,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Elf Princess",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/cebbd906-21d7-483c-86f6-6e2d78a76961/1-1.jpeg",
+        "img_url": "images/ca3d_studios_1/elf_princess.jpg",
         "url": "https://cults3d.com/en/3d-model/art/elf-princess-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/elf-princess-bust-3d-print",
         "spicy_url": null,
@@ -1268,7 +1268,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Emma Frost",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/85442b26-de86-4801-9429-a85be4f7129a/1-8.jpeg",
+        "img_url": "images/ca3d_studios_1/emma_frost.jpg",
         "url": "https://cults3d.com/en/3d-model/art/emma-frost-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/emma-frost-nsfw-3d-print",
@@ -1279,7 +1279,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Emma Frost 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/29f72507-d884-46b9-9a37-ba9440220fb5/1.jpg",
+        "img_url": "images/ca3d_studios_1/emma_frost_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/emma-frost-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/emma-frost-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/emma-frost-nsfw-3d-print-carlose",
@@ -1290,7 +1290,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Emma Frost 3",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f82de13b-db3c-4666-a3f6-dfc0d1eba607/Close.jpg",
+        "img_url": "images/ca3d_studios_1/emma_frost_3.jpg",
         "url": "https://cults3d.com/en/3d-model/art/emma-frost-3d-print-carlose-2",
         "bust_url": "https://cults3d.com/en/3d-model/art/emma-frost-bust-3d-print-carlose",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/emma-frost-nsfw-3d-print-carlose-2",
@@ -1301,7 +1301,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Eowyn",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/930eb884-6b3e-4b27-831f-f05179c05bcf/0.0.png",
+        "img_url": "images/ca3d_studios_1/eowyn.jpg",
         "url": "https://cults3d.com/en/3d-model/art/eowyn-lotr-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1312,7 +1312,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Eve",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c10a30b3-b437-427a-a73c-bdb03770fe40/Brilho_Contraste-1.jpg",
+        "img_url": "images/ca3d_studios_1/eve.jpg",
         "url": "https://cults3d.com/en/3d-model/art/eve-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/eve-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/eve-extra-3d-print-carlose",
@@ -1323,7 +1323,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Evil Lyn",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b0a018b1-c383-458a-994f-d2b01d9f030e/1.jpg",
+        "img_url": "images/ca3d_studios_1/evil_lyn.jpg",
         "url": "https://cults3d.com/en/3d-model/art/evil-lyn-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/evil-lyn-nsfw-3d-print",
@@ -1334,7 +1334,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Evil Queen",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/0bb5e4db-82dd-426b-876c-a1700b964688/1.jpeg",
+        "img_url": "images/ca3d_studios_1/evil_queen.jpg",
         "url": "https://cults3d.com/en/3d-model/art/evil-queen-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/evil-queen-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/evil-queen-nsfw-3d-print",
@@ -1345,7 +1345,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ezio",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6dd21f92-ccd2-46e9-a3cd-8df7b03a7d0d/00.1_FULL.png",
+        "img_url": "images/ca3d_studios_1/ezio.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ezio-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/ezio-bust-3d-print",
         "spicy_url": null,
@@ -1356,7 +1356,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ezio Auditore",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/06d7fd24-f4d9-4355-b8ee-0bdbb7fbc469/R1.png",
+        "img_url": "images/ca3d_studios_1/ezio_auditore.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ezio-auditore-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/ezio-auditore-nsfw-3d-print",
@@ -1367,7 +1367,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Fairy Blossom",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b4b7011b-a9e2-4e3f-822a-bf4ef0ae869b/front2.jpg",
+        "img_url": "images/ca3d_studios_1/fairy_blossom.jpg",
         "url": "https://cults3d.com/en/3d-model/art/fairy-blossom-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/fairy-blossom-bust-3d-print",
         "spicy_url": null,
@@ -1378,7 +1378,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Faye Valentine",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/565e9fcf-2713-4104-b794-c8348a8c5753/589029061_825773857036679_1035098757337491601_n.jpg",
+        "img_url": "images/ca3d_studios_1/faye_valentine.jpg",
         "url": "https://cults3d.com/en/3d-model/art/faye-valentine-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/faye-valentine-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/faye-valentine-extra-3d-print",
@@ -1389,7 +1389,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Felicia",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/76349679-cec1-4865-b146-0eec617baa9d/front1.jpg",
+        "img_url": "images/ca3d_studios_1/felicia.jpg",
         "url": "https://cults3d.com/en/3d-model/art/felicia-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-felicia-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/felicia-nsfw-3d-print",
@@ -1400,7 +1400,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Female Conan",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/70f8f69d-5f60-48ff-b579-175a3dfa3719/R1.0.png",
+        "img_url": "images/ca3d_studios_1/female_conan.jpg",
         "url": "https://cults3d.com/en/3d-model/art/female-conan-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/female-conan-nsfw-3d-print",
@@ -1411,7 +1411,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Frank Dux",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e3faf787-a221-4e5a-a3b7-5245305f5ff4/0.jpg",
+        "img_url": "images/ca3d_studios_1/frank_dux.jpg",
         "url": "https://cults3d.com/en/3d-model/art/bloodsport-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/frank-dux-3d-print",
         "spicy_url": null,
@@ -1422,7 +1422,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Frankenstein",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/fcf314cd-24b5-4908-9bf0-9614bb461f63/front.jpg",
+        "img_url": "images/ca3d_studios_1/frankenstein.jpg",
         "url": "https://cults3d.com/en/3d-model/art/frankenstein-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/frankenstein-bust-3d-print",
         "spicy_url": null,
@@ -1433,7 +1433,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Freyja",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/56c25840-ea6f-46fc-9614-ab77aeb2fa8a/Close.png",
+        "img_url": "images/ca3d_studios_1/freyja.jpg",
         "url": "https://cults3d.com/en/3d-model/art/freyja-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/freyja-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/freyja-nsfw-3d-print",
@@ -1444,7 +1444,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Galadriel",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8a1faab8-696b-4afa-975e-88bd44420691/R0.0.png",
+        "img_url": "images/ca3d_studios_1/galadriel.jpg",
         "url": "https://cults3d.com/en/3d-model/art/galadriel-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/galadriel-nsfw-3d-print-carlose",
@@ -1455,7 +1455,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Galadriel 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e4cf8cff-4d62-46aa-9747-c6138236cc2c/R1.2.png",
+        "img_url": "images/ca3d_studios_1/galadriel_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/galadriel-3d-print-carlose",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/galadriel-nsfw-3d-print",
@@ -1466,7 +1466,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Gambit",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f1ae772c-dba6-4edd-b40a-6088474f1e31/1.jpg",
+        "img_url": "images/ca3d_studios_1/gambit.jpg",
         "url": "https://cults3d.com/en/3d-model/art/gambit-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1477,7 +1477,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Gemma",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ba577ed5-ef92-42a9-80b5-309e64b11ba0/1%2C1.jpg",
+        "img_url": "images/ca3d_studios_1/gemma.jpg",
         "url": "https://cults3d.com/en/3d-model/art/gemma-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/gemma-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/gemma-nsfw-3d-print",
@@ -1488,7 +1488,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Geralt",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/0746744b-471a-4722-a2a9-73bafbc669ed/1.jpg",
+        "img_url": "images/ca3d_studios_1/geralt.jpg",
         "url": "https://cults3d.com/en/3d-model/art/geralt-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/geralt-bust-3d-print",
         "spicy_url": null,
@@ -1499,7 +1499,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Geralt 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6e2a3db0-0690-480d-8c36-20806e5f4e90/R1.0.png",
+        "img_url": "images/ca3d_studios_1/geralt_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/geralt-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/geralt-nsfw-3d-print",
@@ -1510,7 +1510,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ghost Rider",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9beb9223-bf2f-49ed-acac-4920f1baf07e/r1.jpg",
+        "img_url": "images/ca3d_studios_1/ghost_rider.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ghost-rider-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1521,7 +1521,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Gladiator Hulk",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/89104be6-baa7-46f8-8169-6a622d608536/1.jpeg",
+        "img_url": "images/ca3d_studios_1/gladiator_hulk.jpg",
         "url": "https://cults3d.com/en/3d-model/art/gladiator-hulk-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/gladiator-hulk-bust-3d-print",
         "spicy_url": null,
@@ -1532,7 +1532,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Goku",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/157e9d01-8f59-4a5b-b737-3ad5f05169e2/gokup1.jpg",
+        "img_url": "images/ca3d_studios_1/goku.jpg",
         "url": "https://cults3d.com/en/3d-model/art/goku-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/goku-bust-3d-print",
         "spicy_url": null,
@@ -1543,7 +1543,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Goliath",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/41d04cee-26d5-4f9d-9819-410a524ff0d7/7.519.1.png",
+        "img_url": "images/ca3d_studios_1/goliath.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/goliath-bust-3d-print",
         "spicy_url": null,
@@ -1554,7 +1554,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Gollum",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4dcac383-b869-4d36-99e2-3a5dda126de5/0.jpeg",
+        "img_url": "images/ca3d_studios_1/gollum.jpg",
         "url": "https://cults3d.com/en/3d-model/art/gollum-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1565,7 +1565,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Green Arrow",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/fa1a933d-e84a-4266-aaeb-540044e3ade8/R1.png",
+        "img_url": "images/ca3d_studios_1/green_arrow.jpg",
         "url": "https://cults3d.com/en/3d-model/art/green-arrow-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1576,7 +1576,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Green Lantern",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/bd7d44c7-32c1-48e1-a98d-c0f821a6b21f/1.jpg",
+        "img_url": "images/ca3d_studios_1/green_lantern.jpg",
         "url": "https://cults3d.com/en/3d-model/art/green-lantern-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1587,7 +1587,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Griffith",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/06ac1e91-bc5e-4fef-9353-23fef5986dde/WhatsApp-Image-2024-06-28-at-12.58.58.jpeg",
+        "img_url": "images/ca3d_studios_1/griffith.jpg",
         "url": "https://cults3d.com/en/3d-model/art/griffith-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/griffith-bust-3d-print",
         "spicy_url": null,
@@ -1598,7 +1598,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Grim Reaper",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/66704560-70f7-4388-abf3-5126989e9a14/1.jpg",
+        "img_url": "images/ca3d_studios_1/grim_reaper.jpg",
         "url": "https://cults3d.com/en/3d-model/art/grim-reaper-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1609,7 +1609,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Guts",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/29854112-5d01-45e0-88a9-060a8329bdc1/1.jpg",
+        "img_url": "images/ca3d_studios_1/guts.jpg",
         "url": "https://cults3d.com/en/3d-model/art/guts-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1620,7 +1620,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Gwenom",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/0676ed9b-3868-424c-b617-28d9cfbdd8ae/close1.png",
+        "img_url": "images/ca3d_studios_1/gwenom.jpg",
         "url": "https://cults3d.com/en/3d-model/art/gwenom-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/gwenom-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/gwenom-nsfw-3d-print",
@@ -1631,7 +1631,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hades",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7127cbe3-cc45-46cb-9578-91eb39b10abe/7.486.1.png",
+        "img_url": "images/ca3d_studios_1/hades.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/hades-bust-3d-print",
         "spicy_url": null,
@@ -1642,7 +1642,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hades",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/337c3430-b44d-464f-9ba3-c230851e48b0/0.jpeg",
+        "img_url": "images/ca3d_studios_1/hades.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hades-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/hades-bust-3d-print-carlose",
         "spicy_url": null,
@@ -1653,7 +1653,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hades Diorama",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2d1ed373-dc21-4f4c-9fb9-a9077488b923/R1.png",
+        "img_url": "images/ca3d_studios_1/hades_diorama.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hades-diorama-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1664,7 +1664,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Harley Quinn",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/d8507ead-da7a-465e-abcb-9e105c48c207/R1.png",
+        "img_url": "images/ca3d_studios_1/harley_quinn.jpg",
         "url": "https://cults3d.com/en/3d-model/art/harley-quinn-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/harley-quinn-nsfw-3d-print",
@@ -1675,7 +1675,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "He-Man",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/50660f2f-936c-4d65-aa9f-87079160df02/0.jpg",
+        "img_url": "images/ca3d_studios_1/he-man.jpg",
         "url": "https://cults3d.com/en/3d-model/art/he-man-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/he-man-bust-3d-print",
         "spicy_url": null,
@@ -1686,7 +1686,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hellboy",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4cb7b12b-df5e-4778-a63f-f0dbebdfa019/1-2.jpeg",
+        "img_url": "images/ca3d_studios_1/hellboy.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hellboy-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1697,7 +1697,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hellboy 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e23ac97b-5a4b-4e3c-89aa-bf8d2293628d/0.jpg",
+        "img_url": "images/ca3d_studios_1/hellboy_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hellboy-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/hellboy-bust-3d-print",
         "spicy_url": null,
@@ -1708,7 +1708,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hellgirl",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/53d15832-904b-4848-bb33-d873ea8504a1/Render0.png",
+        "img_url": "images/ca3d_studios_1/hellgirl.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hellgirl-model1",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/hellgirl-model2-3d-print",
@@ -1719,7 +1719,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hera",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e7f30d46-8ee4-4188-915b-0dc3955af4ac/8500ee29-4cf7-4400-aa29-a8042f619d25.1.png",
+        "img_url": "images/ca3d_studios_1/hera.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hera-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/hera-bust-3d-print",
         "spicy_url": null,
@@ -1730,7 +1730,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hercules",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3939f783-221f-40b5-9502-661bca810d3c/1.jpg",
+        "img_url": "images/ca3d_studios_1/hercules.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hercules-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1741,7 +1741,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hinata",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/dd887538-ceac-497a-8845-7e44d90bdf25/Captura-de-tela-2026-02-28-072234.png",
+        "img_url": "images/ca3d_studios_1/hinata.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hinata-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/hinata-bust-3d-print",
         "spicy_url": null,
@@ -1752,7 +1752,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Homelander",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/dd1a0199-ed3b-484d-abac-fe2c822aab5b/1.jpg",
+        "img_url": "images/ca3d_studios_1/homelander.jpg",
         "url": "https://cults3d.com/en/3d-model/art/homelander-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1763,7 +1763,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hulk",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c2db37eb-ce83-4328-b9a4-80828869b427/WhatsApp-Image-2023-04-13-at-18.06.51.jpeg",
+        "img_url": "images/ca3d_studios_1/hulk.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hulk-3d-print-carlose",
         "bust_url": null,
         "spicy_url": null,
@@ -1774,7 +1774,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Illidan",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/276015ae-d9e2-4813-a2f6-248f77662a3b/1-1.jpeg",
+        "img_url": "images/ca3d_studios_1/illidan.jpg",
         "url": "https://cults3d.com/en/3d-model/art/illidan-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/illidan-bust-3d-print",
         "spicy_url": null,
@@ -1785,7 +1785,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Inspector Gadget",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/df10ad0f-c06a-4dd1-9715-82e1ed1f7d79/10.jpg",
+        "img_url": "images/ca3d_studios_1/inspector_gadget.jpg",
         "url": "https://cults3d.com/en/3d-model/art/inspector-gadget-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/inspector-gadget-bust-3d-print",
         "spicy_url": null,
@@ -1796,7 +1796,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Invisible Woman",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f7f12ee7-906b-4ca5-89b1-d6de14f8e62c/11-d.png",
+        "img_url": "images/ca3d_studios_1/invisible_woman.jpg",
         "url": "https://cults3d.com/en/3d-model/art/invisible-woman-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/invisible-woman-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/invisible-woman-nsfw-3d-print",
@@ -1807,7 +1807,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Iron Man",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7a98c87a-d19f-4950-b2a9-ee91dd7b545c/1.png",
+        "img_url": "images/ca3d_studios_1/iron_man.jpg",
         "url": "https://cults3d.com/en/3d-model/art/iron-man-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/iron-man-bust-3d-print",
         "spicy_url": null,
@@ -1818,7 +1818,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Isaac Clarke",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/629b23ea-c578-4b48-b5b4-2aec8b9afa74/Isaac-Clarke_01.png",
+        "img_url": "images/ca3d_studios_1/isaac_clarke.jpg",
         "url": "https://cults3d.com/en/3d-model/art/isaac-clarke-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/isaac-clarke-bust-3d-print",
         "spicy_url": null,
@@ -1829,7 +1829,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Itachi",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/bde80776-2771-44cc-abb1-14df62853085/Close.jpg",
+        "img_url": "images/ca3d_studios_1/itachi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/itachi-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/itachi-bust-3d-print",
         "spicy_url": null,
@@ -1840,7 +1840,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Jaina Proudmoore",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/d6e252c8-623e-4547-bdc9-de74ef83b277/1.jpeg",
+        "img_url": "images/ca3d_studios_1/jaina_proudmoore.jpg",
         "url": "https://cults3d.com/en/3d-model/art/jaina-proudmoore-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/jaina-proudmoore-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/jaina-proudmoore-nsfw-3d-print",
@@ -1851,7 +1851,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Jasmine",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/67edffce-11f2-4e7e-8f33-22a63d29d473/R1.000.png",
+        "img_url": "images/ca3d_studios_1/jasmine.jpg",
         "url": "https://cults3d.com/en/3d-model/art/jasmine-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/jasmine-bust-3d-print",
         "spicy_url": null,
@@ -1862,7 +1862,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Jean Grey Phoenix",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8b4389a7-0224-462d-beea-610dce4acc62/1.jpg",
+        "img_url": "images/ca3d_studios_1/jean_grey_phoenix.jpg",
         "url": "https://cults3d.com/en/3d-model/art/jean-grey-phoenix-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/jean-grey-phoenix-nsfw-3d-print",
@@ -1873,7 +1873,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Jessica Rabbit",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3f796202-e8c9-42d6-8ed1-6bfe8ecaee4e/0.0.png",
+        "img_url": "images/ca3d_studios_1/jessica_rabbit.jpg",
         "url": "https://cults3d.com/en/3d-model/art/jessica-rabbit-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/jessica-rabbit-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/jessica-rabbit-nsfw-3d-print",
@@ -1884,7 +1884,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Jester",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/791d0a5e-b861-425c-aa28-1bb4c1755b2b/Captura-de-tela-2025-09-30-110708.png",
+        "img_url": "images/ca3d_studios_1/jester.jpg",
         "url": "https://cults3d.com/en/3d-model/art/jester-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/jester-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/jester-extra-3d-print",
@@ -1895,7 +1895,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Jinx",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/790e4a1b-0928-4e91-bd17-3dac80519091/Render12.png",
+        "img_url": "images/ca3d_studios_1/jinx.jpg",
         "url": null,
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/jinx-nsfw-3d-print",
@@ -1906,7 +1906,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Joan of Arc",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/abf3d945-2100-41e7-9d5f-a0c5cb295287/WhatsApp-Image-2023-02-15-at-16.18.57.jpeg",
+        "img_url": "images/ca3d_studios_1/joan_of_arc.jpg",
         "url": "https://cults3d.com/en/3d-model/art/joan-of-arc-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1917,7 +1917,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "John Marston",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/84a17e04-0aaf-4f89-84ab-a938739cb4a7/R0.0.png",
+        "img_url": "images/ca3d_studios_1/john_marston.jpg",
         "url": "https://cults3d.com/en/3d-model/art/john-marston-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -1928,7 +1928,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Johnny Silverhand",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/794aae38-30bf-46ab-a733-de29eb65c884/Close.jpg",
+        "img_url": "images/ca3d_studios_1/johnny_silverhand.jpg",
         "url": "https://cults3d.com/en/3d-model/art/johnny-silverhand-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/johnny-silverhand-bust-3d-print",
         "spicy_url": null,
@@ -1939,7 +1939,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Jubilee",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4227097e-de14-436c-a077-887798e9ba9a/1.jpg",
+        "img_url": "images/ca3d_studios_1/jubilee.jpg",
         "url": "https://cults3d.com/en/3d-model/art/jubilee-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/jubilee-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/jubilee-nsfw-3d-print",
@@ -1950,7 +1950,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Judge Dredd",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6f1f2248-a4d5-4f3e-8ba3-4934247bb1d3/1.jpg",
+        "img_url": "images/ca3d_studios_1/judge_dredd.jpg",
         "url": "https://cults3d.com/en/3d-model/art/judge-dredd-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/judge-dredd-bust-3d-print",
         "spicy_url": null,
@@ -1961,7 +1961,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Juggernaut",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6c3422ea-f41e-482b-9030-3169f2ba3315/Close.png",
+        "img_url": "images/ca3d_studios_1/juggernaut.jpg",
         "url": "https://cults3d.com/en/3d-model/art/juggernaut-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/juggernaut-bust-3d-print",
         "spicy_url": null,
@@ -1972,7 +1972,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Juri",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/383f6f9e-2ec0-4a96-a74b-d76c1487214b/WhatsApp-Image-2023-10-26-at-19.03.21.jpeg",
+        "img_url": "images/ca3d_studios_1/juri.jpg",
         "url": "https://cults3d.com/en/3d-model/art/juri-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/juri-nsfw-3d-print",
@@ -1983,7 +1983,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Justice",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/0f4ad179-ab34-4d5d-bed5-d3dd4c9ddf4e/Captura-de-tela-2026-02-28-072657.png",
+        "img_url": "images/ca3d_studios_1/justice.jpg",
         "url": "https://cults3d.com/en/3d-model/art/justice-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/justice-bust-3d-print",
         "spicy_url": null,
@@ -1994,7 +1994,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Kai'sa",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2998a6e4-78f3-40a8-acc6-59c8ecefd640/kaisa1.jpg",
+        "img_url": "images/ca3d_studios_1/kai_sa.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kai-sa-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/kaisa-bust-3d-print",
         "spicy_url": null,
@@ -2005,7 +2005,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Kaneda",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/63cec9f1-ab5f-4d04-a594-cf2db3b1ba50/k0.jpg",
+        "img_url": "images/ca3d_studios_1/kaneda.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kaneda-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/kaneda-bust-3d-print",
         "spicy_url": null,
@@ -2016,7 +2016,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Karl",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6411e3fc-311a-46da-8d80-eec58e233284/Captura-de-tela-2025-12-31-081010.png",
+        "img_url": "images/ca3d_studios_1/karl.jpg",
         "url": "https://cults3d.com/en/3d-model/art/karl-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/karl-bust-3d-print",
         "spicy_url": null,
@@ -2027,7 +2027,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Karlach",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/382c4d0f-4cab-492a-8635-54e1631eba24/1-1.jpeg",
+        "img_url": "images/ca3d_studios_1/karlach.jpg",
         "url": "https://cults3d.com/en/3d-model/art/karlach-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/karlach-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/karlach-nsfw-3d-print",
@@ -2038,7 +2038,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ken",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a5e1d125-049b-4896-b279-012a1c86efef/1.1.png",
+        "img_url": "images/ca3d_studios_1/ken.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ken-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2049,7 +2049,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ken and Ryu",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7e80f876-0096-4a59-9cd1-ca42bdf9dd55/R0.0.png",
+        "img_url": "images/ca3d_studios_1/ken_and_ryu.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ken-and-ryu-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2060,7 +2060,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Kenshin Himura",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c6150433-0b4b-4edd-9c5b-77adc30ea5cd/Samurai_Main-Camera_FullQuality.jpg",
+        "img_url": "images/ca3d_studios_1/kenshin_himura.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kenshin-himura-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/kenshin-himura-bust-3d-print",
         "spicy_url": null,
@@ -2071,7 +2071,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Kida",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1ac85ae7-162f-49e5-9741-169a8288ab6c/0.jpg",
+        "img_url": "images/ca3d_studios_1/kida.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kida-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/kida-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/kida-nsfw-3d-print",
@@ -2082,7 +2082,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Kikoru Shinomiya",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4c792246-e258-43c2-9586-cb96479b842a/0-1.jpg",
+        "img_url": "images/ca3d_studios_1/kikoru_shinomiya.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kikoru-shinomiya-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/kikoru-shinomiya-bust-3d-print",
         "spicy_url": null,
@@ -2093,7 +2093,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "King Thor",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9b2f8018-87e7-486e-8c97-8e9ef6106b22/0.0.jpg",
+        "img_url": "images/ca3d_studios_1/king_thor.jpg",
         "url": "https://cults3d.com/en/3d-model/art/king-thor-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2104,7 +2104,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Kitty Pryde",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/24ce7ea8-6791-41cf-b56e-b83bf8b5934b/0.0.png",
+        "img_url": "images/ca3d_studios_1/kitty_pryde.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kitty-pryde-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/kitty-pryde-nsfw-3d-print",
@@ -2115,7 +2115,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Korra",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4e5a7ad5-7033-425f-8615-d4d8a63feaae/0.jpg",
+        "img_url": "images/ca3d_studios_1/korra.jpg",
         "url": "https://cults3d.com/en/3d-model/art/korra-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/korra-bust-3d-print",
         "spicy_url": null,
@@ -2126,7 +2126,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Kratos",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b6ec01dd-b039-4730-8f6f-428687354cf6/0.jpeg",
+        "img_url": "images/ca3d_studios_1/kratos.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kratos-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2137,7 +2137,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Kyla",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/764edfc3-75de-4bf6-94b1-c0a2801c0702/Captura-de-tela-2026-03-31-083910.png",
+        "img_url": "images/ca3d_studios_1/kyla.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kyla-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/kyla-bust-3d-print",
         "spicy_url": null,
@@ -2148,7 +2148,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lady Dimitrescu",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4e27e00f-14f9-43fc-aea2-653342fd0ae8/Captura-de-tela-2025-11-30-063704.png",
+        "img_url": "images/ca3d_studios_1/lady_dimitrescu.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lady-dimitrescu-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lady-dimitrescu-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lady-dimitrescu-extra-3d-print",
@@ -2159,7 +2159,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lady Lobo",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e71cb7f4-5676-4163-9fdd-0612b85c879a/0.0.png",
+        "img_url": "images/ca3d_studios_2/lady_lobo.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lady-lobo-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2170,7 +2170,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lady Loki",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/50fb1336-5d80-4e38-82ca-e3c7374646ca/1.png",
+        "img_url": "images/ca3d_studios_2/lady_loki.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lady-loki-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2181,7 +2181,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lady Loki 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/170f5093-e893-4c78-9072-3897b43b9c1f/0.0.png",
+        "img_url": "images/ca3d_studios_2/lady_loki_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lady-loki-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/lady-loki-bust-3d-print",
         "spicy_url": null,
@@ -2192,7 +2192,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lady Maria",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/efd88bac-5674-4918-b97a-dfc5c7b48deb/1.jpg",
+        "img_url": "images/ca3d_studios_2/lady_maria.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lady-maria-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lady-loki-bust-3d-print-carlose",
         "spicy_url": null,
@@ -2203,7 +2203,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lady Mechanika",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b307ce6c-7176-49a7-bd4c-a944f6ed10e4/R1.00.png",
+        "img_url": "images/ca3d_studios_2/lady_mechanika.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lady-mechanika-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lady-mechanika-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lady-mechanika-nsfw-3d-print",
@@ -2214,7 +2214,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lady of the Lake",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/31715bf2-8cee-4e4c-ac85-b9a501d45880/589934196_826600840287314_5406250579446494595_n.jpg",
+        "img_url": "images/ca3d_studios_2/lady_of_the_lake.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lady-of-the-lake-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lady-of-the-lake-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lady-of-the-lake-extra-3d-print",
@@ -2236,7 +2236,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lara Croft",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8b95efd9-b519-47fd-a076-ddbee0a74816/R0.0.png",
+        "img_url": "images/ca3d_studios_2/lara_croft.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lara-croft-3d-print-carlose",
         "bust_url": null,
         "spicy_url": null,
@@ -2247,7 +2247,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lara Croft",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3c54cda7-fc5c-4e6a-bea8-524bee2eaefa/l1.jpg",
+        "img_url": "images/ca3d_studios_2/lara_croft.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lara-croft-3d-print-carlose-2",
         "bust_url": "https://cults3d.com/en/3d-model/art/lara-croft-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lara-croft-nsfw-3d-print-carlose",
@@ -2258,7 +2258,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Leeloo",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/56a6a9ba-2e36-46ea-9f56-e6e5cb98a51a/618184924_873502548930476_1729146506198456839_n.jpg",
+        "img_url": "images/ca3d_studios_2/leeloo.jpg",
         "url": "https://cults3d.com/en/3d-model/art/leeloo-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/leeloo-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/leeloo-extra-3d-print",
@@ -2269,7 +2269,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Leia",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/fbd969a7-5f3d-4b68-a548-3568a078ae62/L1.png",
+        "img_url": "images/ca3d_studios_2/leia.jpg",
         "url": "https://cults3d.com/en/3d-model/naughties/leia-nsfw-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2280,7 +2280,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lenora Queen of Crows",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6ada59e5-9b74-4895-baa4-221275d38002/5.jpg",
+        "img_url": "images/ca3d_studios_2/lenora_queen_of_crows.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lenora-queen-of-crows-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lenora-queen-of-crows-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lenora-queen-of-crows-extra-3d-print",
@@ -2291,7 +2291,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lenore",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/89e69199-ad1d-4090-bea0-499fd4d8c127/R0.0.png",
+        "img_url": "images/ca3d_studios_2/lenore.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lenore-castlevania-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lenore-nsfw-castlevania-3d-print",
@@ -2302,7 +2302,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Leonardo",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/cbf1f8a5-509c-48ba-9c94-6f7bd5b53ec2/9.400.1.png",
+        "img_url": "images/ca3d_studios_2/leonardo.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/leonardo-bust-3d-print",
         "spicy_url": null,
@@ -2313,7 +2313,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Leonidas",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f15d8fd3-409f-4dcb-87d3-daf879b037ee/1.jpeg",
+        "img_url": "images/ca3d_studios_2/leonidas.jpg",
         "url": "https://cults3d.com/en/3d-model/art/leonidas-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2324,7 +2324,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Levi Ackerman",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7914fd66-b30a-4e32-ad89-fd9be80a7428/0.webp",
+        "img_url": "images/ca3d_studios_2/levi_ackerman.jpg",
         "url": "https://cults3d.com/en/3d-model/art/levi-ackerman-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/levi-ackerman-bust-3d-print",
         "spicy_url": null,
@@ -2335,7 +2335,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lich King",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1931c776-652e-4c07-a53e-4ae0ef8b6d0c/1.jpg",
+        "img_url": "images/ca3d_studios_2/lich_king.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lich-king-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2346,7 +2346,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Light Yagami",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/0bc5243e-2c38-4ec6-b434-897d2cf54fae/0.png",
+        "img_url": "images/ca3d_studios_2/light_yagami.jpg",
         "url": "https://cults3d.com/en/3d-model/art/light-yagami-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/light-yagami-bust-3d-print",
         "spicy_url": null,
@@ -2357,7 +2357,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lightning",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/fedacd2a-c1b5-49df-ba36-2a560205a73c/Lighthing-Final-1.png",
+        "img_url": "images/ca3d_studios_2/lightning.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lightning-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lightning-bust-3d-print",
         "spicy_url": null,
@@ -2379,7 +2379,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lilith",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7824df2a-9f06-4fcd-859c-bc05e4ddb17d/R1.png",
+        "img_url": "images/ca3d_studios_2/lilith.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lilith-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lilith-bust-3d-print",
         "spicy_url": null,
@@ -2390,7 +2390,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Logan",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/bd07d025-d09e-4edb-ac2a-bc668fa6a499/1-1.jpeg",
+        "img_url": "images/ca3d_studios_2/logan.jpg",
         "url": "https://cults3d.com/en/3d-model/art/logan-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/logan-bust-3d-print",
         "spicy_url": null,
@@ -2401,7 +2401,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lord Drakkon",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9433856d-f9a5-4553-94e1-687756261c6c/lord6.jpg",
+        "img_url": "images/ca3d_studios_2/lord_drakkon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lord-drakkon-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lord-drakkon-bust-3d-print",
         "spicy_url": null,
@@ -2412,7 +2412,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lucy Cyberpunk Edgerunners",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a7238e10-8c08-43df-af11-62ea06d2bb37/0.jpeg",
+        "img_url": "images/ca3d_studios_2/lucy_cyberpunk_edgerunners.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lucy-cyberpunk-edgerunners-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lucy-cyberpunk-edgerunners-nsfw-3d-print",
@@ -2423,7 +2423,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Luna Snow",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/545d3010-37d4-4b7e-9898-ba525bae4d73/1-1.jpeg",
+        "img_url": "images/ca3d_studios_2/luna_snow.jpg",
         "url": "https://cults3d.com/en/3d-model/art/luna-snow-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/luna-snow-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/luna-snow-nsfw-3d-print",
@@ -2434,7 +2434,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lune",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/d3e2398a-cf4e-4510-a281-5412bdb85fe9/R1.1.png",
+        "img_url": "images/ca3d_studios_2/lune.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lune-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lune-bust-3d-print",
         "spicy_url": null,
@@ -2445,7 +2445,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Lust",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/22febb2f-9ef7-4069-b82b-700dc81c7bfa/1.jpeg",
+        "img_url": "images/ca3d_studios_2/lust.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lust-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lust-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lust-nsfw-3d-print",
@@ -2456,7 +2456,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Madelyne Pryor",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9d9a8bec-b90f-47f6-a641-58d5950e1cd1/R1.jpg",
+        "img_url": "images/ca3d_studios_2/madelyne_pryor.jpg",
         "url": "https://cults3d.com/en/3d-model/art/madelyne-pryor-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/madelyne-pryor-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/madelyne-pryor-nsfw-3d-print",
@@ -2467,7 +2467,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Magdalena",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9337415f-40e4-4c50-847c-b003de14a6a8/r0.png",
+        "img_url": "images/ca3d_studios_2/magdalena.jpg",
         "url": "https://cults3d.com/en/3d-model/art/magdalena-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/magdalena-bust-3d-print",
         "spicy_url": null,
@@ -2478,7 +2478,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Magik",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3407af3e-179c-4535-a1c4-6d329b9e931c/magik1.jpg",
+        "img_url": "images/ca3d_studios_2/magik.jpg",
         "url": "https://cults3d.com/en/3d-model/art/magik-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/magik-nsfw-3d-print",
@@ -2489,7 +2489,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Magneto",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/80959dc2-15e4-4bdd-b099-bbe404512ae6/1.jpg",
+        "img_url": "images/ca3d_studios_2/magneto.jpg",
         "url": "https://cults3d.com/en/3d-model/art/magneto-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/magneto-bust-3d-print",
         "spicy_url": null,
@@ -2500,7 +2500,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Makima",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e073ca8f-ffaa-4712-a218-44422c183131/1.png",
+        "img_url": "images/ca3d_studios_2/makima.jpg",
         "url": "https://cults3d.com/en/3d-model/art/makima-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/makima-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/makima-extra-3d-print",
@@ -2511,7 +2511,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Makoto Kino",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/eb9426c3-17a5-4fd6-a906-c3949c1a8807/0.png",
+        "img_url": "images/ca3d_studios_2/makoto_kino.jpg",
         "url": "https://cults3d.com/en/3d-model/art/makoto-kino-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/makoto-kino-bust-3d-print",
         "spicy_url": null,
@@ -2522,7 +2522,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Maleficent",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/0a7831e8-49fa-48f5-9eb6-50312b6d967e/0.png",
+        "img_url": "images/ca3d_studios_2/maleficent.jpg",
         "url": "https://cults3d.com/en/3d-model/art/maleficent-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/maleficent-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/maleficent-nsfw-3d-print",
@@ -2533,7 +2533,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Malenia",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6ed7a2ad-18a5-4d0f-888f-dd47495b556b/0.0.jpg",
+        "img_url": "images/ca3d_studios_2/malenia.jpg",
         "url": "https://cults3d.com/en/3d-model/art/malenia-elden-ring-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/malenia-nsfw-3d-print",
@@ -2544,7 +2544,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Malenia 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/23b64f2b-4847-4f0f-a961-bc648348b9ea/Malenia_01.png",
+        "img_url": "images/ca3d_studios_2/malenia_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/malenia-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/malenia-bust-3d-print",
         "spicy_url": null,
@@ -2555,7 +2555,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Marika - Elden Ring",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b8aa3897-871c-4289-adda-f0179f04c669/1.jpg",
+        "img_url": "images/ca3d_studios_2/marika_-_elden_ring.jpg",
         "url": "https://cults3d.com/en/3d-model/art/marika-elden-ring-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/marika-nsfw-elden-ring-3d-print",
@@ -2566,7 +2566,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mary Jane",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ca07f4e7-ebc3-49bc-bd16-c37f9f82f2ed/1-1.jpg",
+        "img_url": "images/ca3d_studios_2/mary_jane.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mary-jane-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/mary-jane-bust-3d-print-carlose",
         "spicy_url": "https://cults3d.com/en/3d-model/art/mary-jane-nsfw-3d-print-carlose",
@@ -2577,7 +2577,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mary Jane 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7aa700d2-3272-4d06-a16a-dc4f4969a673/0.jpeg",
+        "img_url": "images/ca3d_studios_2/mary_jane_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mary-jane-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/mary-jane-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/mary-jane-nsfw-3d-print",
@@ -2588,7 +2588,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Matinta Pereira",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3b99de17-5329-449b-bdc1-2b3e80da5bd8/preview_Viewport_001.png",
+        "img_url": "images/ca3d_studios_2/matinta_pereira.jpg",
         "url": "https://cults3d.com/en/3d-model/art/matinta-pereira-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/matinta-pereira-bust-3d-print",
         "spicy_url": null,
@@ -2599,7 +2599,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Medusa",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e00f8197-2fc1-4944-acb7-c2c74b0b4027/R1.0.png",
+        "img_url": "images/ca3d_studios_2/medusa.jpg",
         "url": "https://cults3d.com/en/3d-model/art/medusa-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/medusa-nsfw-3d-print",
@@ -2610,7 +2610,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Medusa 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/eb86a191-1a56-4201-ab08-3aa53af91eec/0.png",
+        "img_url": "images/ca3d_studios_2/medusa_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/medusa-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/medusa-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/medusa-nsfw-3d-print-carlose",
@@ -2621,7 +2621,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Medusa 3",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2e6d3c6c-7f2c-4411-b865-5eca8c354575/0.png",
+        "img_url": "images/ca3d_studios_2/medusa_3.jpg",
         "url": "https://cults3d.com/en/3d-model/art/medusa-3d-print-carlose-2",
         "bust_url": "https://cults3d.com/en/3d-model/art/medusa-bust-3d-print-carlose",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/medusa-nsfw-3d-print-carlose-2",
@@ -2632,7 +2632,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Megara",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/52132d69-6f12-4aca-a043-9b3c139a3efc/8.487.1.png",
+        "img_url": "images/ca3d_studios_2/megara.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/megara-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/meg-nsfw-3d-print",
@@ -2643,7 +2643,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mercury",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/292c68df-aba4-4f72-b38a-07cac93981be/0.png",
+        "img_url": "images/ca3d_studios_2/mercury.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mercury-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/mercury-bust-3d-print",
         "spicy_url": null,
@@ -2654,7 +2654,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mermaid",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9c286e2c-23ae-45be-94fe-301d63e27fe1/590867674_827361030211295_7108407907281976983_n.jpg",
+        "img_url": "images/ca3d_studios_2/mermaid.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mermaid-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/mermaid-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/mermaid-extra-3d-print",
@@ -2665,7 +2665,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Michelangelo",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f1f466d4-ac82-4658-95e0-687553cc971d/7.398.1.png",
+        "img_url": "images/ca3d_studios_2/michelangelo.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/michelangelo-bust-3d-print",
         "spicy_url": null,
@@ -2676,7 +2676,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mikasa",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9625f715-cce3-4454-b4fe-5797e88fcbb6/0.jpeg",
+        "img_url": "images/ca3d_studios_2/mikasa.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mikasa-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-mikasa-3d-print",
         "spicy_url": null,
@@ -2687,7 +2687,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mikasa and Levi Diorama",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3184d967-7eab-4c37-a64d-34a4e80b358c/Captura-de-tela-2025-12-21-145922.png",
+        "img_url": "images/ca3d_studios_2/mikasa_and_levi_diorama.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mikasa-and-levi-diorama-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2698,7 +2698,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Minako Aino",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/206bb0c6-6290-4629-be62-1b9a9cd3d2fa/Captura-de-tela-2025-10-31-091840.png",
+        "img_url": "images/ca3d_studios_2/minako_aino.jpg",
         "url": "https://cults3d.com/en/3d-model/art/minako-aino-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/minako-aino-bust-3d-print",
         "spicy_url": null,
@@ -2709,7 +2709,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Misa Amane",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2962a8a1-b91d-4cee-8e28-78877e080f7d/0.jpg",
+        "img_url": "images/ca3d_studios_2/misa_amane.jpg",
         "url": "https://cults3d.com/en/3d-model/art/misa-amane-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/misa-amane-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/misa-amane-nsfw-3d-print",
@@ -2720,7 +2720,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Miss Fortune",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6a57c57b-69dd-4778-9ebb-c1d1705ee59f/R1.png",
+        "img_url": "images/ca3d_studios_2/miss_fortune.jpg",
         "url": "https://cults3d.com/en/3d-model/art/miss-fortune-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2731,7 +2731,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mizora",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6c66be4c-2214-44ee-94c3-8c4bb91c9172/1.jpg",
+        "img_url": "images/ca3d_studios_2/mizora.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mizora-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/mizora-nsfw-3d-print",
@@ -2742,7 +2742,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Momo Ayase",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/d6f638ac-3190-44da-b625-b112ecf7204a/1-1.jpg",
+        "img_url": "images/ca3d_studios_2/momo_ayase.jpg",
         "url": "https://cults3d.com/en/3d-model/art/momo-ayase-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/momo-ayase-bust-3d-print",
         "spicy_url": null,
@@ -2753,7 +2753,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Morgana",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/0b148c93-e429-40a0-b300-1d552d4bb75f/0.png",
+        "img_url": "images/ca3d_studios_2/morgana.jpg",
         "url": "https://cults3d.com/en/3d-model/art/morgana-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/morgana-bust-3d-print",
         "spicy_url": null,
@@ -2764,7 +2764,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Morrigan - Dragon Age",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b3e3209f-20e0-458d-bb51-78fe5b1253d2/R1.0.png",
+        "img_url": "images/ca3d_studios_2/morrigan_-_dragon_age.jpg",
         "url": "https://cults3d.com/en/3d-model/art/morrigan-dragon-age-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/morrigan-dragon-age-nsfw-3d-print",
@@ -2775,7 +2775,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Morrigan Aensland",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4ac6fb5f-cb27-46da-ad0e-0997465aa2c6/1.jpeg",
+        "img_url": "images/ca3d_studios_2/morrigan_aensland.jpg",
         "url": "https://cults3d.com/en/3d-model/art/morrigan-aensland-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/morrigan-aensland-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/morrigan-aensland-nsfw-3d-print",
@@ -2786,7 +2786,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mortica Addams",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/32e9d6ec-5755-44e9-8102-238db87c7641/5.png",
+        "img_url": "images/ca3d_studios_2/mortica_addams.jpg",
         "url": null,
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/morticia-addams-nsfw-3d-print",
@@ -2797,7 +2797,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Motoko",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/63e899b4-0dee-46fd-afe1-97ae455d061c/motoko4.jpg",
+        "img_url": "images/ca3d_studios_2/motoko.jpg",
         "url": "https://cults3d.com/en/3d-model/art/motoko-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/motoko-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/motoko-nsfw-3d-print",
@@ -2808,7 +2808,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mulan",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ae39f94d-0652-4105-8bb9-a36fb4f170f4/R0.png",
+        "img_url": "images/ca3d_studios_2/mulan.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mulan-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2819,7 +2819,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mulan",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8c6e99df-bb85-49e5-a406-71c6e2c44a06/1.jpg",
+        "img_url": "images/ca3d_studios_2/mulan.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mulan-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/mulan-bust-3d-print",
         "spicy_url": null,
@@ -2830,7 +2830,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Musashi Miyamoto",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/84836947-b574-49c0-9500-e0f3841b7910/front.jpg",
+        "img_url": "images/ca3d_studios_2/musashi_miyamoto.jpg",
         "url": "https://cults3d.com/en/3d-model/art/musashi-miyamoto-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/musashi-miyamoto-bust-3d-print",
         "spicy_url": null,
@@ -2841,7 +2841,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Muse",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/08b66d22-c571-4bed-b3f2-befd28fbea0a/1.jpg",
+        "img_url": "images/ca3d_studios_2/muse.jpg",
         "url": "https://cults3d.com/en/3d-model/art/muse-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/muse-bust-3d-print",
         "spicy_url": null,
@@ -2852,7 +2852,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mysterious Dragon",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/52b9c936-df30-4aef-90ac-c249a9c00e08/01.jpg",
+        "img_url": "images/ca3d_studios_2/mysterious_dragon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mysterious-dragon-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/mysterious-dragon-bust-3d-print",
         "spicy_url": null,
@@ -2863,7 +2863,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Mystique",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/041b8b0e-9284-47b6-8799-2cc1cc771438/Render1.0.png",
+        "img_url": "images/ca3d_studios_2/mystique.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mystique-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2874,7 +2874,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Nami",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/0ad3b7f0-c1a5-48c1-a2cf-5c15e22fa13a/Close-2.png",
+        "img_url": "images/ca3d_studios_2/nami.jpg",
         "url": "https://cults3d.com/en/3d-model/art/nami-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/nami-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/nami-nsfw-3d-print",
@@ -2885,7 +2885,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Nancy Callahan",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/618cd64d-f3c5-442d-9dc3-c90e88043455/R0.png",
+        "img_url": "images/ca3d_studios_2/nancy_callahan.jpg",
         "url": "https://cults3d.com/en/3d-model/art/nancy-callahan-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/nancy-callahan-nsfw-3d-print",
@@ -2896,7 +2896,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Nelliel",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b03ec878-6262-4d8f-8191-6e0dcd23a249/Camada-1.jpg",
+        "img_url": "images/ca3d_studios_2/nelliel.jpg",
         "url": "https://cults3d.com/en/3d-model/art/neliel-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/nelliel-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/nelliel-nsfw-3d-print",
@@ -2907,7 +2907,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Neytiri",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/fcd33e4b-2a30-4db0-8d29-4d55bbfacc07/R0.png",
+        "img_url": "images/ca3d_studios_2/neytiri.jpg",
         "url": "https://cults3d.com/en/3d-model/art/neytiri-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/neytiri-nsfw-3d-print",
@@ -2918,7 +2918,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Nico Robin",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/93cf6b97-6c83-48d5-8460-3ef996794ae5/R1.png",
+        "img_url": "images/ca3d_studios_2/nico_robin.jpg",
         "url": "https://cults3d.com/en/3d-model/art/nico-robin-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/nico-robin-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/nico-robin-nsfw-3d-print",
@@ -2929,7 +2929,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Night Crawler",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ccd5393c-e1ca-4ed3-afee-0715ad27a612/Camada-5.jpg",
+        "img_url": "images/ca3d_studios_2/night_crawler.jpg",
         "url": "https://cults3d.com/en/3d-model/art/nightcrawler-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/nightcrawler-bust-3d-print",
         "spicy_url": null,
@@ -2940,7 +2940,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Nova - Starcraft",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/91df2684-5879-4aaa-977a-f10d198a3773/R0.png",
+        "img_url": "images/ca3d_studios_2/nova_-_starcraft.jpg",
         "url": "https://cults3d.com/en/3d-model/art/nova-starcraft-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/nova-starcraft-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/nova-starcraft-nsfw-3d-print",
@@ -2951,7 +2951,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Nun with a Gun",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/214e76da-6bf5-4a62-92ef-b15a30e60d1e/0.0.png",
+        "img_url": "images/ca3d_studios_2/nun_with_a_gun.jpg",
         "url": "https://cults3d.com/en/3d-model/art/nun-with-gun-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/nun-with-gun-bust-3d-print",
         "spicy_url": null,
@@ -2962,7 +2962,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Nyx (Godess of the Night)",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2e4b48e2-5864-4220-8080-661663d6a8de/0.0.png",
+        "img_url": "images/ca3d_studios_2/nyx_godess_of_the_night.jpg",
         "url": "https://cults3d.com/en/3d-model/art/nyx-godess-of-the-night-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-nyx-godess-of-the-night-3d-print",
         "spicy_url": null,
@@ -2973,7 +2973,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Obi-Wan Kenobi",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c930ba6f-c6b1-46c1-807f-509d67d213fb/Render5.png",
+        "img_url": "images/ca3d_studios_2/obi-wan_kenobi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/obi-wan-kenobi-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -2984,7 +2984,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Oni",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4422461f-beb9-4770-8cf5-5221e95cebec/0.png",
+        "img_url": "images/ca3d_studios_2/oni.jpg",
         "url": "https://cults3d.com/en/3d-model/art/oni-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/oni-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/oni-nsfw-3d-print",
@@ -2995,7 +2995,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Orin the Red",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3c2475e9-fed3-491d-82e4-168766a9307b/R1.png",
+        "img_url": "images/ca3d_studios_2/orin_the_red.jpg",
         "url": "https://cults3d.com/en/3d-model/art/orin-the-red-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/orin-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/art/orin-nsfw-3d-print",
@@ -3006,7 +3006,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Persephone",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e7550ff3-ec16-41a0-adef-3b457774401e/1-1.jpeg",
+        "img_url": "images/ca3d_studios_2/persephone.jpg",
         "url": "https://cults3d.com/en/3d-model/art/persephone-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/persephone-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/persephone-nsfw-3d-print",
@@ -3017,7 +3017,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Pinup",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9c88cafe-21c4-4b4c-897a-1df6bca9d0dc/0.png",
+        "img_url": "images/ca3d_studios_2/pinup.jpg",
         "url": "https://cults3d.com/en/3d-model/art/pinup-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/pinup-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/pinup-nsfw-3d-print",
@@ -3028,7 +3028,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Pirate",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c6b33ed5-5fee-4391-a3ed-7e00a2374360/619293095_874506478830083_3417656953708155684_n.jpg",
+        "img_url": "images/ca3d_studios_2/pirate.jpg",
         "url": "https://cults3d.com/en/3d-model/art/pirate-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/pirate-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/pirate-extra-3d-print",
@@ -3039,7 +3039,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Pirotess",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f1f49f9f-944b-4e2e-a08e-2a31ee901160/R1.png",
+        "img_url": "images/ca3d_studios_2/pirotess.jpg",
         "url": "https://cults3d.com/en/3d-model/art/pirotess-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/pirotess-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/pirotess-nsfw-3d-print",
@@ -3050,7 +3050,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Plain Doll",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/24c0299e-1fe3-400b-a511-26abdb7a5764/CloseTeste.jpg",
+        "img_url": "images/ca3d_studios_2/plain_doll.jpg",
         "url": "https://cults3d.com/en/3d-model/art/plain-doll-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/plain-doll-bust-3d-print",
         "spicy_url": null,
@@ -3061,7 +3061,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Pocahontas",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4da791ad-ab28-4717-bafb-ce2dc1096196/R1.png",
+        "img_url": "images/ca3d_studios_2/pocahontas.jpg",
         "url": "https://cults3d.com/en/3d-model/art/pocahontas-3d-print-carlose",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/pocahontas-nsfw-3d-print",
@@ -3072,7 +3072,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Poison Ivy",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b2f80b0a-3239-48b4-acd6-ebf1398f962d/Render1.png",
+        "img_url": "images/ca3d_studios_2/poison_ivy.jpg",
         "url": "https://cults3d.com/en/3d-model/art/poison-ivy-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3083,7 +3083,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Poseidon",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/fba8bd6e-aa2c-43f4-a3f2-b96fb0c6f1a2/1.jpg",
+        "img_url": "images/ca3d_studios_2/poseidon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/poseidon-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/poseidon-bust-3d-print",
         "spicy_url": null,
@@ -3094,7 +3094,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Power - Chainsawman",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ca5e3a9b-6070-4de5-a9c4-d2111579721d/Camada-1Patreon.png",
+        "img_url": "images/ca3d_studios_2/power_-_chainsawman.jpg",
         "url": "https://cults3d.com/en/3d-model/art/power-chainsawman-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/power-chainsawman-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/power-chainsawman-nsfw-3d-print",
@@ -3105,7 +3105,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Predator King",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2fb7dc09-7958-4939-aacc-c31beb827bad/587245276_827986376815427_1203562783251698008_n-1.jpg",
+        "img_url": "images/ca3d_studios_2/predator_king.jpg",
         "url": "https://cults3d.com/en/3d-model/art/predator-king-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/predator-king-bust-3d-print",
         "spicy_url": null,
@@ -3116,7 +3116,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Princess Leia",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e5de0456-e9bb-4d16-81aa-13dc80802c65/0.png",
+        "img_url": "images/ca3d_studios_2/princess_leia.jpg",
         "url": "https://cults3d.com/en/3d-model/art/princess-leia-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/princess-leia-bust-3d-print",
         "spicy_url": null,
@@ -3127,7 +3127,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Princess Leia 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3cb26493-fcf9-4d7d-acaa-a2f2fe76357b/1.jpg",
+        "img_url": "images/ca3d_studios_2/princess_leia_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/princes-leia-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3138,7 +3138,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Princess Mononoke",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/da04369c-818c-409a-b204-6f3ecca3fe70/R0.png",
+        "img_url": "images/ca3d_studios_2/princess_mononoke.jpg",
         "url": "https://cults3d.com/en/3d-model/art/princess-mononoke-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3149,7 +3149,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Psylocke",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/98960e26-9941-4469-9de0-ac02b4edff65/r2.0.png",
+        "img_url": "images/ca3d_studios_2/psylocke.jpg",
         "url": "https://cults3d.com/en/3d-model/art/psylocke-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/psylocke-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/psylocke-extra-3d-print",
@@ -3160,7 +3160,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Psylocke 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3a765f44-5520-4589-abe3-50ae58e98582/1.jpg",
+        "img_url": "images/ca3d_studios_2/psylocke_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/psylocke-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/psylocke-nsfw-3d-print",
@@ -3171,7 +3171,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Pyrrha Nikos",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b05f7b81-57d9-47ec-9eb7-6f0a4893a9c1/Captura-de-tela-2025-12-31-081303.png",
+        "img_url": "images/ca3d_studios_2/pyrrha_nikos.jpg",
         "url": "https://cults3d.com/en/3d-model/art/pyrrha-nikos-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/pyrrha-nikos-bust-3d-print",
         "spicy_url": null,
@@ -3182,7 +3182,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Queen of Hearts",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/84b5e485-449b-4351-840a-c97ca9b456e2/Captura-de-tela-2026-02-28-073326.png",
+        "img_url": "images/ca3d_studios_2/queen_of_hearts.jpg",
         "url": "https://cults3d.com/en/3d-model/art/queen-of-hearts-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/queen-of-hearts-bust-3d-print",
         "spicy_url": null,
@@ -3193,7 +3193,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Queen Spider",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b3db1af7-a7ca-4c48-b6ae-d8ff96f90079/Captura-de-tela-2025-09-30-121901.png",
+        "img_url": "images/ca3d_studios_2/queen_spider.jpg",
         "url": "https://cults3d.com/en/3d-model/art/queen-spider-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/queen-spider-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/queen-spider-extra-3d-print",
@@ -3204,7 +3204,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Qui-Gon Jinn",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a4674d7c-3af6-41f4-a166-3c4f6b461591/REnder_final_close_FullQuality.jpg",
+        "img_url": "images/ca3d_studios_2/qui-gon_jinn.jpg",
         "url": "https://cults3d.com/en/3d-model/art/qui-gon-jinn-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/qui-gon-jinn-bust-3d-print",
         "spicy_url": null,
@@ -3215,7 +3215,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Quiet",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ef594b75-7029-494e-af01-a7ab28e25088/R1.png",
+        "img_url": "images/ca3d_studios_2/quiet.jpg",
         "url": "https://cults3d.com/en/3d-model/art/quiet-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/quiet-nsfw-3d-print",
@@ -3226,7 +3226,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Quorra",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ea8dde65-720c-46e5-8c5a-802a268cffd3/0.png",
+        "img_url": "images/ca3d_studios_2/quorra.jpg",
         "url": "https://cults3d.com/en/3d-model/art/quorra-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/quorra-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/quorra-extra-3d-print",
@@ -3237,7 +3237,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rambo",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5bfd53fd-7413-479c-9ff0-2debd856fa64/0.png",
+        "img_url": "images/ca3d_studios_2/rambo.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rambo-cobra-and-hawk-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rambo-cobra-and-hawk-bust-3d-print",
         "spicy_url": null,
@@ -3248,7 +3248,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ranni",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/682ec63a-1a0f-4229-99e1-b5a7b5985ddc/1.jpeg",
+        "img_url": "images/ca3d_studios_2/ranni.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ranni-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/ranni-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/ranni-nsfw-3d-print",
@@ -3259,7 +3259,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Raphael",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f9f60e0e-c0d5-4cca-b962-85bce7caf388/3.390.1.png",
+        "img_url": "images/ca3d_studios_3/raphael.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/raphael-bust-3d-print",
         "spicy_url": null,
@@ -3270,7 +3270,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rapunzel",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/122c0474-c165-4878-a811-a834c8efef90/R1.png",
+        "img_url": "images/ca3d_studios_3/rapunzel.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rapunzel-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rapunzel-bust-3d-print",
         "spicy_url": null,
@@ -3281,7 +3281,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Raven",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8cf1593a-8a5d-4bfd-9797-6bea2918d1d5/1.jpg",
+        "img_url": "images/ca3d_studios_3/raven.jpg",
         "url": "https://cults3d.com/en/3d-model/art/raven-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/raven-nsfw-3d-print",
@@ -3292,7 +3292,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rebecca",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c5e4dca0-936b-4501-9643-85fc592dfeb1/Close.jpg",
+        "img_url": "images/ca3d_studios_3/rebecca.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rebecca-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rebecca-bust-3d-print-carlose",
         "spicy_url": null,
@@ -3303,7 +3303,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rebecca Smasher",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7dcf5c87-4c80-43d0-a99d-7693e62ddc38/1.jpg",
+        "img_url": "images/ca3d_studios_3/rebecca_smasher.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rebecca-smasher-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rebecca-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/rebecca-nsfw-3d-print",
@@ -3314,7 +3314,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rebel",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5f08f4ec-1067-4c81-bc62-bff19eb92dd4/1_37.webp",
+        "img_url": "images/ca3d_studios_3/rebel.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rebel-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3325,7 +3325,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Red Monika",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a910b2fb-3c6f-4bb4-b1da-e26c8ddc8426/R1.png",
+        "img_url": "images/ca3d_studios_3/red_monika.jpg",
         "url": "https://cults3d.com/en/3d-model/naughties/red-monika-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/red-monika-nsfw-3d-print",
@@ -3336,7 +3336,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Red Riding Hood",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5bc5ae26-166f-4d1c-bdbd-f46d0c2b875d/1-1.jpeg",
+        "img_url": "images/ca3d_studios_3/red_riding_hood.jpg",
         "url": "https://cults3d.com/en/3d-model/art/red-riding-hood-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/red-riding-hood-bust-3d-print",
         "spicy_url": null,
@@ -3347,7 +3347,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Red Sonja",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/07034ef3-8690-41c3-8679-19b46027c265/R0.png",
+        "img_url": "images/ca3d_studios_3/red_sonja.jpg",
         "url": "https://cults3d.com/en/3d-model/art/red-sonja-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/red-sonja-nsfw-3d-print",
@@ -3358,7 +3358,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Red Sonja 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5240acb1-a2e6-49f7-9647-f1531577758c/R1.0.png",
+        "img_url": "images/ca3d_studios_3/red_sonja_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/red-sonja-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/red-sonja-bust-3d-print-carlose",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/red-sonja-nsfw-3d-print-carlose-2",
@@ -3369,7 +3369,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rei Ayanami",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8ac3a1cb-afec-400a-9069-3a998019d1a9/4.jpg",
+        "img_url": "images/ca3d_studios_3/rei_ayanami.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rei-ayanami-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rei-ayanami-bust-3d-print",
         "spicy_url": null,
@@ -3380,7 +3380,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rei Hino",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/167b7392-b0c7-46f2-874a-31fa47ec7212/0.png",
+        "img_url": "images/ca3d_studios_3/rei_hino.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rei-hino-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rei-hino-bust-3d-print",
         "spicy_url": null,
@@ -3391,7 +3391,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Retro Pinup Astronaut",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5cbfed06-cc3a-464d-8d63-3de5c0c736a6/R1.png",
+        "img_url": "images/ca3d_studios_3/retro_pinup_astronaut.jpg",
         "url": "https://cults3d.com/en/3d-model/art/retro-pinup-astronaut-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/retro-pinup-astronaut-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/retro-pinup-astronaut-nsfw-3d-print",
@@ -3402,7 +3402,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Reverse Flash",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/31e6c00a-f375-411f-893b-42d49e55277f/1.jpg",
+        "img_url": "images/ca3d_studios_3/reverse_flash.jpg",
         "url": "https://cults3d.com/en/3d-model/art/reverse-flash-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3413,7 +3413,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Riddick",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e16199cf-972c-4299-a425-b8ee29d3e8ec/RDK_03.png",
+        "img_url": "images/ca3d_studios_3/riddick.jpg",
         "url": "https://cults3d.com/en/3d-model/art/riddick-with-jackal-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/riddick-with-jackal-bust-3d-print",
         "spicy_url": null,
@@ -3424,7 +3424,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "River Tam",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/70ab0ffa-04b1-4c76-8180-6f861f3bc0f7/R1.png",
+        "img_url": "images/ca3d_studios_3/river_tam.jpg",
         "url": "https://cults3d.com/en/3d-model/art/river-tam-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3435,7 +3435,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rocket",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a52fdb91-bc7f-4b5a-bf81-d97a3be4bda8/0.png",
+        "img_url": "images/ca3d_studios_3/rocket.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rocket-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rocket-bust-3d-print",
         "spicy_url": null,
@@ -3446,7 +3446,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rocketeer",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/28eca2ec-5b22-4604-95bb-00eea2cffbfc/1.jpg",
+        "img_url": "images/ca3d_studios_3/rocketeer.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rocketeer-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rocketeer-bust-3d-print",
         "spicy_url": null,
@@ -3457,7 +3457,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rogue",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/06794904-f4c4-4bbc-b9fb-adacc4371c75/2.jpg",
+        "img_url": "images/ca3d_studios_3/rogue.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rogue-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/rogue-nsfw-3d-print",
@@ -3468,7 +3468,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rogue - XMen Evolution",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/eee69f4a-ef81-45b6-8fa8-60ce87f42bad/1.jpeg",
+        "img_url": "images/ca3d_studios_3/rogue_-_xmen_evolution.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rogue-xmen-evolution-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/rogue-xmen-evolution-nsfw-3d-print",
@@ -3479,7 +3479,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rogue 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e93b2e5c-72a3-4798-b737-f998055909d6/0.jpg",
+        "img_url": "images/ca3d_studios_3/rogue_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rogue-3d-print-carlose",
         "bust_url": null,
         "spicy_url": null,
@@ -3490,7 +3490,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rogue Savage",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c7ce1555-4730-4417-ad1f-5a32d2b6cc7f/capa-k.png",
+        "img_url": "images/ca3d_studios_3/rogue_savage.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rogue-savage-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rogue-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/rogue-nsfw-3d-print-carlose",
@@ -3501,7 +3501,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Rukia",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ae645fb3-e2eb-444b-a5ed-ac201f022d95/Close.png",
+        "img_url": "images/ca3d_studios_3/rukia.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rukia-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/bust-rukia-3d-print",
         "spicy_url": null,
@@ -3512,7 +3512,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ryu",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/017ef026-a224-4ae1-8066-8152a4e6a0d1/1.1.png",
+        "img_url": "images/ca3d_studios_3/ryu.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ryu-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3523,7 +3523,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Saber",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1e08d80b-550c-4ff2-aedc-8199107cfb6b/1-1.jpeg",
+        "img_url": "images/ca3d_studios_3/saber.jpg",
         "url": "https://cults3d.com/en/3d-model/art/saber-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/saber-bust-3d-print",
         "spicy_url": null,
@@ -3534,7 +3534,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sabrina",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6a8ad15b-7c32-42ca-a0f5-9c7ee5b42513/1.jpg",
+        "img_url": "images/ca3d_studios_3/sabrina.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sabrina-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/sabrina-bust-3d-print",
         "spicy_url": null,
@@ -3545,7 +3545,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sailor Moon",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/76818a01-6ad2-4b82-a888-d6bb41a4c07e/586522580_823412540606144_7320957602282512874_n.jpg",
+        "img_url": "images/ca3d_studios_3/sailor_moon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sailor-moon-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/sailor-moon-bust-3d-print",
         "spicy_url": null,
@@ -3556,7 +3556,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sally Whitemane",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2376c405-765d-4635-9533-512e13ccac07/Captura-de-tela-2025-12-31-083310.png",
+        "img_url": "images/ca3d_studios_3/sally_whitemane.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sally-whitemane-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/sally-whitemane-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sally-whitemane-extra-3d-print",
@@ -3567,7 +3567,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Samurai Jack",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5731d65a-94a6-4bdb-a610-26bdea86067d/1.jpg",
+        "img_url": "images/ca3d_studios_3/samurai_jack.jpg",
         "url": "https://cults3d.com/en/3d-model/art/samurai-jack-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3578,7 +3578,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Samurai Wonder Woman",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ef535e23-1b27-4b20-a247-7484d7b8c896/1.jpg",
+        "img_url": "images/ca3d_studios_3/samurai_wonder_woman.jpg",
         "url": "https://cults3d.com/en/3d-model/art/samurai-wonder-woman-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3589,7 +3589,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sara Pezzini - Witchblade",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2f41e5b9-219e-4bf7-af17-80a338d2f80c/1.jpg",
+        "img_url": "images/ca3d_studios_3/sara_pezzini_-_witchblade.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sara-pezzini-witchblade-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/sara-pezzini-bust-witchblade-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sara-pezzini-nsfw-witchblade-3d-print",
@@ -3600,7 +3600,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sarah Kerrigan",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/41aed645-61b6-4ce0-b4a7-2c26cb98ce45/front.jpg",
+        "img_url": "images/ca3d_studios_3/sarah_kerrigan.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sarah-kerrigan-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/sarah-kerrigan-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sarah-kerrigan-extra-3d-print",
@@ -3611,7 +3611,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sauron",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1d871663-e106-4f84-b889-d910e4efa26d/WhatsApp-Image-2022-12-29-at-16.47.07.jpeg",
+        "img_url": "images/ca3d_studios_3/sauron.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sauron-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3622,7 +3622,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Scarlet Spider",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7ab259b5-1abb-4dd7-841a-a9c022d657b7/617467903_870934955853902_7702372142233520058_n-1.jpg",
+        "img_url": "images/ca3d_studios_3/scarlet_spider.jpg",
         "url": "https://cults3d.com/en/3d-model/art/scarlet-spider-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/scarlet-spider-bust-3d-print",
         "spicy_url": null,
@@ -3633,7 +3633,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Scarlet Witch",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/67bbc5b6-d095-4a3e-bc49-24b70920db12/0.png",
+        "img_url": "images/ca3d_studios_3/scarlet_witch.jpg",
         "url": "https://cults3d.com/en/3d-model/art/scarlet-witch-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/scarlet-witch-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/scarlet-witch-extra-3d-print",
@@ -3644,7 +3644,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Selene",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/afc4fd60-1396-448e-9e69-537feaffc84f/SELENE_00-1.webp",
+        "img_url": "images/ca3d_studios_3/selene.jpg",
         "url": "https://cults3d.com/en/3d-model/art/selene-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/selene-bust-3d-print",
         "spicy_url": null,
@@ -3655,7 +3655,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Selene Underworld",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/90923454-2881-467e-b929-1816fee3ddb4/R0.1.png",
+        "img_url": "images/ca3d_studios_3/selene_underworld.jpg",
         "url": "https://cults3d.com/en/3d-model/art/selene-underworld-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3666,7 +3666,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sephiroth",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e8e404d1-864c-4ee1-9906-7b6b2f9f844d/1.jpg",
+        "img_url": "images/ca3d_studios_3/sephiroth.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sephiroth-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/sephiroth-bust-3d-print",
         "spicy_url": null,
@@ -3677,7 +3677,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Seraphim",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ab86feba-dee3-4e8f-86da-a80ed8f0f80e/Close.jpg",
+        "img_url": "images/ca3d_studios_3/seraphim.jpg",
         "url": "https://cults3d.com/en/3d-model/art/seraphim-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/seraphim-bust-3d-print",
         "spicy_url": null,
@@ -3688,7 +3688,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Seras Victoria",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2f523970-2556-4728-a858-f7fc66b8e060/1.jpg",
+        "img_url": "images/ca3d_studios_3/seras_victoria.jpg",
         "url": "https://cults3d.com/en/3d-model/art/seras-victoria-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/seras-victoria-nsfw-3d-print",
@@ -3699,7 +3699,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sexy Woman",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/d24186b2-f399-4fda-927a-ec4903633fb2/R1.png",
+        "img_url": "images/ca3d_studios_3/sexy_woman.jpg",
         "url": "https://cults3d.com/en/3d-model/naughties/sexy-woman-luis-royo-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sexy-woman-nsfw-luis-royo-3d-print",
@@ -3710,7 +3710,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Shadowheart",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9736415d-28fc-4a8c-a9d1-28729c7ccede/Captura-de-tela-2025-10-31-103340.png",
+        "img_url": "images/ca3d_studios_3/shadowheart.jpg",
         "url": "https://cults3d.com/en/3d-model/art/shadowheart-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/shadowheart-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/shadowheart-extra-3d-print",
@@ -3721,7 +3721,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Shae Vizla",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1142c89b-c4fb-466c-93ae-89b62f0bd864/31313.jpg",
+        "img_url": "images/ca3d_studios_3/shae_vizla.jpg",
         "url": "https://cults3d.com/en/3d-model/art/shae-vizla-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/shae-vizla-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/art/shae-vizla-nsfw-3d-print",
@@ -3732,7 +3732,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "She Hulk",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/993e2ca4-e393-4e77-9276-01838619398b/0.00.png",
+        "img_url": "images/ca3d_studios_3/she_hulk.jpg",
         "url": "https://cults3d.com/en/3d-model/art/she-hulk-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/she-hulk-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/she-hulk-extra-3d-print",
@@ -3743,7 +3743,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "She-Hulk",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ec4d7509-106d-4dec-b175-259b6681223e/Render1.0-Copia.png",
+        "img_url": "images/ca3d_studios_3/she-hulk.jpg",
         "url": "https://cults3d.com/en/3d-model/art/she-hulk-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/she-hulk-model-2-3d-print",
@@ -3754,7 +3754,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "She-hulk 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/87290d1b-9240-4c56-81e4-af9ebad112da/Render4.png",
+        "img_url": "images/ca3d_studios_3/she-hulk_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/she-hulk-model3-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3765,7 +3765,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Shego",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/bc7961b8-c725-48d4-ac46-95a939a6e632/WhatsApp-Image-2023-08-26-at-17.42.08-1.jpeg",
+        "img_url": "images/ca3d_studios_3/shego.jpg",
         "url": "https://cults3d.com/en/3d-model/art/shego-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/shego-nsfw-3d-print",
@@ -3776,7 +3776,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Silk",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/579fc3b6-86dd-4bf8-b929-7db38630c682/1.jpg",
+        "img_url": "images/ca3d_studios_3/silk.jpg",
         "url": "https://cults3d.com/en/3d-model/art/silk-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/silk-nsfw-3d-print",
@@ -3787,7 +3787,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sirena",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c33b4ea0-b41b-4c1f-8086-51edadf896c2/0.jpeg",
+        "img_url": "images/ca3d_studios_3/sirena.jpg",
         "url": "https://cults3d.com/en/3d-model/naughties/sirena-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/naughties/sirena-bust-3d-print",
         "spicy_url": null,
@@ -3798,7 +3798,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Smaug",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6e82e61a-30a5-4a14-916c-1c0a1fa0e05c/0.jpeg",
+        "img_url": "images/ca3d_studios_3/smaug.jpg",
         "url": "https://cults3d.com/en/3d-model/art/smaug-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3809,7 +3809,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Snow White",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c543f755-3666-4f27-9940-663f10851b04/1.jpg",
+        "img_url": "images/ca3d_studios_3/snow_white.jpg",
         "url": "https://cults3d.com/en/3d-model/art/snow-white-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3820,7 +3820,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Soi Fon",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/80bab285-88eb-4565-98a1-13f42fbdc444/Camada-1.jpg",
+        "img_url": "images/ca3d_studios_3/soi_fon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/soi-fon-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/soi-fon-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/soi-fon-nsfw-3d-print",
@@ -3831,7 +3831,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Spawn",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/58d62f6d-5e22-4348-82cb-a2c4349838b6/0.jpg",
+        "img_url": "images/ca3d_studios_3/spawn.jpg",
         "url": "https://cults3d.com/en/3d-model/art/spawn-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3842,7 +3842,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sphinx",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/576c2fa9-a121-4cd7-9a24-c96809986bf8/0.jpg",
+        "img_url": "images/ca3d_studios_3/sphinx.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sphinx-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/sphinx-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/art/sphinx-nsfw-3d-print",
@@ -3853,7 +3853,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Spider Gwen - Ghost Spider",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/46f3fbbb-a4ed-47c5-9292-4e9d1c7b939c/Captura-de-tela-2026-01-31-071231.png",
+        "img_url": "images/ca3d_studios_3/spider_gwen_-_ghost_spider.jpg",
         "url": "https://cults3d.com/en/3d-model/art/spider-gwen-ghost-spider-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/spider-gwen-ghost-spider-bust-3d-print",
         "spicy_url": null,
@@ -3864,7 +3864,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Spider Punk",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/19f96f8b-aa07-4b22-86f4-8f88d0f2016e/SpiderPunk_09.jpg",
+        "img_url": "images/ca3d_studios_3/spider_punk.jpg",
         "url": "https://cults3d.com/en/3d-model/art/spider-punk-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/spider-punk-bust-3d-print",
         "spicy_url": null,
@@ -3875,7 +3875,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Spider-Girl",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/e5790c31-078c-4472-80fd-14858184b407/Snapinsta.app_1080_313030911_509083921082411_3308228042529311629_n.jpg",
+        "img_url": "images/ca3d_studios_3/spider-girl.jpg",
         "url": "https://cults3d.com/en/3d-model/art/spider-girl-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3886,7 +3886,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Spider-Man",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/d4120a98-ec33-4104-a2c2-7ea345812c7c/0.jpg",
+        "img_url": "images/ca3d_studios_3/spider-man.jpg",
         "url": "https://cults3d.com/en/3d-model/art/spider-man-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -3897,7 +3897,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Spidergirl",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5d5711c1-c8da-41a6-ad0c-51d5b07c577a/0.jpeg",
+        "img_url": "images/ca3d_studios_3/spidergirl.jpg",
         "url": "https://cults3d.com/en/3d-model/art/spidergirl-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/spidergirl-bust-3d-print",
         "spicy_url": null,
@@ -3908,7 +3908,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Spinneret Mary Jane",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/350b58d1-f596-4de5-aabf-80dda173ee82/R1.png",
+        "img_url": "images/ca3d_studios_3/spinneret_mary_jane.jpg",
         "url": null,
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/spinneret-mary-jane-nsfw",
@@ -3919,7 +3919,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Star Killer",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/eb4484bf-7aef-4e5e-ae98-c52c88e6ce68/1.png",
+        "img_url": "images/ca3d_studios_3/star_killer.jpg",
         "url": "https://cults3d.com/en/3d-model/art/starkiller-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/starkiller-bust-3d-print",
         "spicy_url": null,
@@ -3930,7 +3930,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Starlord",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/60597998-a18b-4026-9d42-21c79231816e/1.jpg",
+        "img_url": "images/ca3d_studios_3/starlord.jpg",
         "url": "https://cults3d.com/en/3d-model/art/star-lord-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/star-lord-bust-3d-print",
         "spicy_url": null,
@@ -3941,7 +3941,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Starscourge Radahn",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/2955caa2-4a2f-424e-b974-e535aeffb2f6/0.jpg",
+        "img_url": "images/ca3d_studios_3/starscourge_radahn.jpg",
         "url": "https://cults3d.com/en/3d-model/art/starscourge-radahn-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/starscourge-radahn-bust-3d-print",
         "spicy_url": null,
@@ -3952,7 +3952,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Storm",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f2466259-2ba5-490a-a349-987ecaf5409b/0.jpg",
+        "img_url": "images/ca3d_studios_3/storm.jpg",
         "url": "https://cults3d.com/en/3d-model/art/storm-3d-print-carlose",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/storm-nsfw-3dprint",
@@ -3963,7 +3963,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Storm",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ef791ccf-bf11-4740-b73b-1f82be4df048/R0.png",
+        "img_url": "images/ca3d_studios_3/storm.jpg",
         "url": "https://cults3d.com/en/3d-model/art/storm-3d-print-carlose-2",
         "bust_url": "https://cults3d.com/en/3d-model/art/storm-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/storm-nsfw-3d-print-carlose",
@@ -3974,7 +3974,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Storm",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/37a6b92b-fb5e-4ac5-8a5e-7325d3b4c478/0.000.jpg",
+        "img_url": "images/ca3d_studios_3/storm.jpg",
         "url": "https://cults3d.com/en/3d-model/art/storm-3d-print-carlose-3",
         "bust_url": null,
         "spicy_url": null,
@@ -3985,7 +3985,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Succubus",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/377f5fc5-3b4a-47da-a646-ff0d6e89bbd3/1-1.jpeg",
+        "img_url": "images/ca3d_studios_3/succubus.jpg",
         "url": "https://cults3d.com/en/3d-model/art/succubus-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/succubus-nsfw-3d-print",
@@ -3996,7 +3996,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Supergirl",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/07def2bb-b094-4007-87a3-6dc1c786540a/Render1.png",
+        "img_url": "images/ca3d_studios_3/supergirl.jpg",
         "url": "https://cults3d.com/en/3d-model/art/supergirl-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4007,7 +4007,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Supergirl 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ffc073e0-eb7b-4679-99ec-ef383b4bfe57/1.jpg",
+        "img_url": "images/ca3d_studios_3/supergirl_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/supergirl-3d-print-carlose",
         "bust_url": null,
         "spicy_url": null,
@@ -4018,7 +4018,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Superman",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/15988f63-15b0-4c6c-8b20-b333a601091b/1.png",
+        "img_url": "images/ca3d_studios_3/superman.jpg",
         "url": "https://cults3d.com/en/3d-model/art/superman-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4029,7 +4029,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Surtur",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/feb4ea6f-e8ae-47d8-a2ea-1651ca922f85/0.jpeg",
+        "img_url": "images/ca3d_studios_3/surtur.jpg",
         "url": "https://cults3d.com/en/3d-model/art/surtur-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4040,7 +4040,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Sylvanas Windrunner",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/860c0510-3a78-4401-aa21-112bfdd3a3cc/1.jpeg",
+        "img_url": "images/ca3d_studios_3/sylvanas_windrunner.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sylvanas-windrunner-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/sylvanas-windrunner-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sylvanas-windrunner-nsfw-3d-print",
@@ -4051,7 +4051,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Taarna",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9ef91b5b-3b0a-47ae-bff2-987a28d9efd0/R0.png",
+        "img_url": "images/ca3d_studios_3/taarna.jpg",
         "url": "https://cults3d.com/en/3d-model/art/taarna-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/taarna-nsfw-3d-print",
@@ -4062,7 +4062,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Tai Lung",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a6157f0b-c3e2-4217-b87d-330dd49c8f19/Captura-de-tela-2026-02-28-065315.png",
+        "img_url": "images/ca3d_studios_3/tai_lung.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tai-lung-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/tai-lung-bust-3d-print",
         "spicy_url": null,
@@ -4073,7 +4073,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Tank Girl",
-        "img_url": "https://public-files.gumroad.com/19iy7ubsy4ajjs36d6pmd417hpvg",
+        "img_url": "images/ca3d_studios_3/tank_girl.jpg",
         "url": "https://carlosedu.gumroad.com/l/bczuvd/9llw11d",
         "bust_url": "https://cults3d.com/en/3d-model/art/thank-girl-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/war-girl-extra-3d-print",
@@ -4084,7 +4084,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Terminator",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/46563f03-8739-4b4e-942a-3617405d5869/6.1.jpg",
+        "img_url": "images/ca3d_studios_3/terminator.jpg",
         "url": "https://cults3d.com/en/3d-model/art/terminator-carlose",
         "bust_url": null,
         "spicy_url": null,
@@ -4095,7 +4095,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Terminator 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c8459b07-50b7-4baf-ba83-09c53ad7ec84/1.jpg",
+        "img_url": "images/ca3d_studios_3/terminator_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/terminator-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/terminator-bust-3d-print",
         "spicy_url": null,
@@ -4106,7 +4106,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "The Crow",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/20007004-2836-4b99-b1e5-7823c49dcf9f/32d82080-b42d-4fa4-a436-986187d8e54e.jpg",
+        "img_url": "images/ca3d_studios_3/the_crow.jpg",
         "url": "https://cults3d.com/en/3d-model/art/the-crow-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/the-crow-bust-3d-print",
         "spicy_url": null,
@@ -4117,7 +4117,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "The Death Knight",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/74d14abf-690a-4bac-aedc-c7d09966c4fa/1-4.jpg",
+        "img_url": "images/ca3d_studios_3/the_death_knight.jpg",
         "url": "https://cults3d.com/en/3d-model/art/the-death-knight-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/the-death-knight-bust-3d-print",
         "spicy_url": null,
@@ -4128,7 +4128,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "The Legendary Merlin",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/55abf937-8122-482f-a869-5d9d4f7cbfab/2.jpg",
+        "img_url": "images/ca3d_studios_3/the_legendary_merlin.jpg",
         "url": "https://cults3d.com/en/3d-model/art/the-legendary-merlin-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/the-legendary-merlin-bust-3d-print",
         "spicy_url": null,
@@ -4139,7 +4139,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "The Mask",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a81b3291-2fa3-42ef-a17d-0eac652c8e2e/mp1.jpg",
+        "img_url": "images/ca3d_studios_3/the_mask.jpg",
         "url": "https://cults3d.com/en/3d-model/art/the-mask-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/the-mask-bust-3d-print",
         "spicy_url": null,
@@ -4150,7 +4150,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "The Queen of the Ashen Vale",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/351102b7-1928-40a1-a00d-b1489976233f/1-1.jpg",
+        "img_url": "images/ca3d_studios_3/the_queen_of_the_ashen_vale.jpg",
         "url": "https://cults3d.com/en/3d-model/art/the-queen-of-the-ashen-vale-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/the-queen-of-the-ashen-vale-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/the-queen-of-the-ashen-vale-extra-3d-print",
@@ -4161,7 +4161,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "The Underworld's Grand Matriarch",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/098b3449-9877-4b26-9f7f-d25ef78e1725/1.jpg",
+        "img_url": "images/ca3d_studios_3/the_underworld_s_grand_matriarch.jpg",
         "url": "https://cults3d.com/en/3d-model/art/the-underworld-s-grand-matriarch-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/the-underworld-s-grand-matriarch-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/the-underworld-s-grand-matriarch-extra-3d-print",
@@ -4172,7 +4172,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Thranduil",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/dd6a6729-864a-4566-818a-1b18a04106d6/1-1.jpeg",
+        "img_url": "images/ca3d_studios_3/thranduil.jpg",
         "url": "https://cults3d.com/en/3d-model/art/thranduil-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4183,7 +4183,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Tifa Lockhart",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/da38e114-ac1e-4d7a-8a88-92bb42d592c5/r1.jpg",
+        "img_url": "images/ca3d_studios_3/tifa_lockhart.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tifa-lockhart-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/tifa-lockhart-nsfw-3d-print",
@@ -4194,7 +4194,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Tina Armstrong",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1199562e-ca59-49b9-8a03-75e7dbfde352/1-1.jpeg",
+        "img_url": "images/ca3d_studios_3/tina_armstrong.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tina-armstrong-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/tina-armstrong-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/tina-armstrong-nsfw-3d-print",
@@ -4205,7 +4205,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Tinkerbell",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5f8ed17c-240f-4e97-90cf-4047cbd891a0/1.jpg",
+        "img_url": "images/ca3d_studios_3/tinkerbell.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tinkerbell-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4216,7 +4216,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "TMNT Diorama",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3dcbc981-8b35-4f8e-9a88-12523a3aeba4/WhatsApp-Image-2024-04-02-at-15.02.56.jpeg",
+        "img_url": "images/ca3d_studios_3/tmnt_diorama.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tmnt-diorama-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4227,7 +4227,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Toothless/Hiccup",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/281cc5d6-4239-4830-9477-f423547e2d5b/R1.png",
+        "img_url": "images/ca3d_studios_3/toothless_hiccup.jpg",
         "url": "https://cults3d.com/en/3d-model/art/toothless-hiccup-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/toothless-hiccup-bust-3d-print",
         "spicy_url": null,
@@ -4238,7 +4238,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Toph",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/64479036-ed31-4d9b-8750-588a6fd1315b/toph1.jpg",
+        "img_url": "images/ca3d_studios_3/toph.jpg",
         "url": "https://cults3d.com/en/3d-model/art/toph-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/toph-bust-3d-print",
         "spicy_url": null,
@@ -4249,7 +4249,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Triss Merigold",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/53ac58b7-cee0-4e19-a37f-a1a32090a8e5/R0.png",
+        "img_url": "images/ca3d_studios_3/triss_merigold.jpg",
         "url": "https://cults3d.com/en/3d-model/art/triss-merigold-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/triss-merigold-nsfw-3d-print",
@@ -4260,7 +4260,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Tyrande Whisperwind",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ff472e90-b388-44e7-9e61-f0dc4a0f49ca/R0.png",
+        "img_url": "images/ca3d_studios_3/tyrande_whisperwind.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tyrande-whisperwind-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/tyrande-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/art/tyrande-whisperwind-nsfw-3d-print",
@@ -4271,7 +4271,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Undead Bride",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ba898dee-e7c6-431d-aa4e-87badd0ecf84/Captura-de-tela-2025-10-31-110353.png",
+        "img_url": "images/ca3d_studios_3/undead_bride.jpg",
         "url": "https://cults3d.com/en/3d-model/art/undead-bride-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/undead-bride-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/undead-bride-extra-3d-print",
@@ -4282,7 +4282,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Ursula",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/25383698-1b0a-4a7c-9004-4880b8edb24c/Captura-de-tela-2026-01-31-083221.png",
+        "img_url": "images/ca3d_studios_3/ursula.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ursula-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/ursula-bust-3d-print",
         "spicy_url": null,
@@ -4293,7 +4293,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Val-Zod",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7db064bc-2df2-424b-994e-6b2fc184ecf9/0.jpeg",
+        "img_url": "images/ca3d_studios_3/val-zod.jpg",
         "url": "https://cults3d.com/en/3d-model/art/val-zod-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4304,7 +4304,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Valkyrie",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/54145e12-d611-4478-a9be-fed1a18bea98/R4.0.png",
+        "img_url": "images/ca3d_studios_3/valkyrie.jpg",
         "url": "https://cults3d.com/en/3d-model/art/valkyrie-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/valkyrie-nsfw-3d-print",
@@ -4315,7 +4315,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Valkyrie 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/db7b027d-da69-40fb-b09b-8db36f4a1b78/0.jpg",
+        "img_url": "images/ca3d_studios_3/valkyrie_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/valkyrie-3d-print-carlose",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/valkyrie-nsfw-3d-print-carlose",
@@ -4326,7 +4326,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Vash",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b3c14116-e90f-4d47-b1cc-d9edcb314d1b/Camada-1.jpg",
+        "img_url": "images/ca3d_studios_3/vash.jpg",
         "url": "https://cults3d.com/en/3d-model/art/vash-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/vash-bust-3d-print",
         "spicy_url": null,
@@ -4337,7 +4337,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Vi",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/60421010-cccb-44dc-847b-4d24d3e4ff8f/Render21.png",
+        "img_url": "images/ca3d_studios_4/vi.jpg",
         "url": null,
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/vi-nsfw-3d-print",
@@ -4348,7 +4348,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Winry Rockbell",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c9fe074e-ecf0-4e99-8eed-21ff357916d4/Captura-de-tela-2025-09-30-133659.png",
+        "img_url": "images/ca3d_studios_4/winry_rockbell.jpg",
         "url": "https://cults3d.com/en/3d-model/art/winry-rockbell-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/winry-rockbell-bust-3d-print",
         "spicy_url": null,
@@ -4359,7 +4359,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Witch King",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/b5f25803-d12c-49d7-8bcc-3cb371133eb4/1.jpeg",
+        "img_url": "images/ca3d_studios_4/witch_king.jpg",
         "url": "https://cults3d.com/en/3d-model/art/witch-king-of-angmar-lotr-3d-print-3d-print-model",
         "bust_url": null,
         "spicy_url": null,
@@ -4370,7 +4370,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Wolverine",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/7dd2b355-91e7-4715-80fd-697a7a980a0e/Render1.png",
+        "img_url": "images/ca3d_studios_4/wolverine.jpg",
         "url": "https://cults3d.com/en/3d-model/art/wolverine-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4381,7 +4381,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Wolverine (Weapon X)",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/aa5e78f4-029d-4ef7-9573-759e85b7fcd7/1.jpg",
+        "img_url": "images/ca3d_studios_4/wolverine_weapon_x.jpg",
         "url": "https://cults3d.com/en/3d-model/art/wolverine-weapon-x-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4392,7 +4392,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Wonder Woman 1",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/df7c3e6b-74c1-4e60-845d-85b8ac124d37/Render0.png",
+        "img_url": "images/ca3d_studios_4/wonder_woman_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/wonder-woman-model-1-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4403,7 +4403,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Wonder Woman 2",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f9b4862d-91d4-4b88-9a36-0016d3d552d2/Render1.png",
+        "img_url": "images/ca3d_studios_4/wonder_woman_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/wonder-woman-model-2-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4414,7 +4414,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Wukong",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/3e623e84-cfaf-40c2-a178-289a98bc28a4/0.png",
+        "img_url": "images/ca3d_studios_4/wukong.jpg",
         "url": "https://cults3d.com/en/3d-model/art/wukong-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/wukong-bust-3d-print",
         "spicy_url": null,
@@ -4425,7 +4425,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "X-23",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/33ada731-0ea4-42af-801b-555b197a0e53/Rinsta.jpg",
+        "img_url": "images/ca3d_studios_4/x-23.jpg",
         "url": "https://cults3d.com/en/3d-model/art/x-23-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/x-23-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/x-23-nsfw-3d-print",
@@ -4436,7 +4436,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Xena",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/5a550442-7ee9-4b82-845a-b7ba49b20172/R1.png",
+        "img_url": "images/ca3d_studios_4/xena.jpg",
         "url": "https://cults3d.com/en/3d-model/art/xena-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/xena-nsfw-3d-print",
@@ -4447,7 +4447,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Yamato",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/ad8029c6-8b5b-4cb9-80fb-7dc3acb22ae6/1.jpg",
+        "img_url": "images/ca3d_studios_4/yamato.jpg",
         "url": "https://cults3d.com/en/3d-model/art/yamato-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/yamato-nsfw-3d-print",
@@ -4458,7 +4458,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Yennefer",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9e05296d-df95-424b-982c-55cb0c233e4b/R1.1.png",
+        "img_url": "images/ca3d_studios_4/yennefer.jpg",
         "url": "https://cults3d.com/en/3d-model/art/yennefer-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/yennefer-nsfw-3d-print",
@@ -4469,7 +4469,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Yoko Littner",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/21362b7a-c4e9-47e6-b506-2b431fded8d4/Captura-de-tela-2026-01-31-083444.png",
+        "img_url": "images/ca3d_studios_4/yoko_littner.jpg",
         "url": "https://cults3d.com/en/3d-model/art/yoko-littner-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/yoko-littner-bust-3d-print",
         "spicy_url": null,
@@ -4480,7 +4480,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Yor Forger",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/18aeed13-7b67-4131-9ad0-be8a38d37c06/yor1.jpg",
+        "img_url": "images/ca3d_studios_4/yor_forger.jpg",
         "url": "https://cults3d.com/en/3d-model/art/yor-forger-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/naughties/yor-forger-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/yor-forger-nsfw-3d-print",
@@ -4491,7 +4491,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Yoruichi",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/6951403a-6390-472d-b353-4a633f8a3cc8/Close.png",
+        "img_url": "images/ca3d_studios_4/yoruichi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/yoruichi-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/yoruichi-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/yoruichi-nsfw-3d-print",
@@ -4502,7 +4502,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Yugi",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/98254d86-9cfb-4be1-96c8-609061f153eb/1-Copia.jpg",
+        "img_url": "images/ca3d_studios_4/yugi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/yugi-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4513,7 +4513,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Zatanna",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/64992829-2ace-4e20-a15e-4c4463d45d63/R3.0.png",
+        "img_url": "images/ca3d_studios_4/zatanna.jpg",
         "url": "https://cults3d.com/en/3d-model/art/zatanna-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/zatanna-nsfw-3d-print",
@@ -4524,7 +4524,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Zeus",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/995c5c0d-9bbf-4caa-8de6-2e673bc0b1ac/1.jpg",
+        "img_url": "images/ca3d_studios_4/zeus.jpg",
         "url": "https://cults3d.com/en/3d-model/art/zeus-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/zeus-bust-3d-print",
         "spicy_url": null,
@@ -4535,7 +4535,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Azashara",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/f31521fb-2302-4c02-b983-683f3640574b/Captura-de-tela-2026-04-30-073153.png",
+        "img_url": "images/ca3d_studios_4/azashara.jpg",
         "url": "https://cults3d.com/en/3d-model/art/azashara-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4546,7 +4546,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Dani Moonstar Mirage",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/c46a4722-df31-4ca3-81dd-63f650b14c6d/Captura-de-tela-2026-04-30-074315.png",
+        "img_url": "images/ca3d_studios_4/dani_moonstar_mirage.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dani-moonstar-mirage-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4557,7 +4557,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Gladiator",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/bc695915-f128-4983-995d-c59165095deb/Untitled_FullQuality_009.jpg",
+        "img_url": "images/ca3d_studios_4/gladiator.jpg",
         "url": "https://cults3d.com/en/3d-model/art/gladiator-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4568,7 +4568,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Hela",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/1c60e601-f825-4931-8aea-e49397797eec/Captura-de-tela-2026-04-30-074948.png",
+        "img_url": "images/ca3d_studios_4/hela.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hela-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4579,7 +4579,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Kazuya",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/8df72235-ed29-4250-984a-cc74e60f9a87/Captura-de-tela-2026-04-30-075212.png",
+        "img_url": "images/ca3d_studios_4/kazuya.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kazuya-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4590,7 +4590,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Kratos",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/015b7023-78bc-4d5e-adeb-e12819d72061/1.jpg",
+        "img_url": "images/ca3d_studios_4/kratos.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kratos-3d-print-carlose",
         "bust_url": null,
         "spicy_url": null,
@@ -4601,7 +4601,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Motoko Kusanagi",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/d8b0c020-2852-42a5-9577-fee018c4be74/Captura-de-tela-2026-04-30-080215.png",
+        "img_url": "images/ca3d_studios_4/motoko_kusanagi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/motoko-kusanagi-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4612,7 +4612,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Nillai and BBlue",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/9a55473d-df1a-4e64-824f-11fc4a9284e9/Captura-de-tela-2026-04-30-075909.png",
+        "img_url": "images/ca3d_studios_4/nillai_and_bblue.jpg",
         "url": "https://cults3d.com/en/3d-model/art/nillai-and-bblue-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4623,7 +4623,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "Spider Man Noir",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/a21605d5-5f92-44fa-8bd1-2fab92b54b4f/0.png",
+        "img_url": "images/ca3d_studios_4/spider_man_noir.jpg",
         "url": "https://cults3d.com/en/3d-model/art/spider-man-noir-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4634,7 +4634,7 @@ window.catalogData = [
     {
         "creator": "CA3D Studios",
         "name": "The Hunter",
-        "img_url": "https://fbi.cults3d.com/uploaders/17111714/illustration-file/4f1576a1-49ea-4d64-8324-8ac9fd753730/Captura-de-tela-2026-04-30-081138.png",
+        "img_url": "images/ca3d_studios_4/the_hunter.jpg",
         "url": "https://cults3d.com/en/3d-model/art/the-hunter-3d-print",
         "bust_url": null,
         "spicy_url": null,
@@ -4645,7 +4645,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Zodd - Berserk",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/17e4cbe2-7bd3-4e52-ada9-e3ea253d8b17/Zodd_01.jpg",
+        "img_url": "images/tanuki_figures/zodd_-_berserk.jpg",
         "url": "https://cults3d.com/en/3d-model/art/zodd-berserk-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/zodd-berserk-bust",
         "spicy_url": null,
@@ -4656,7 +4656,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Zenitsu - Kimetsu no Yaiba (Demon Slayer)",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/9daaf6e9-45b0-451c-8f67-c49b3a4095ef/Zenitsu_Fullsize_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/zenitsu_-_kimetsu_no_yaiba_demon_slayer.jpg",
         "url": "https://cults3d.com/en/3d-model/art/zenitsu-kimetsu-no-yaiba-demon-slayer-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/zenitsu-kimetsu-no-yaiba-demon-slayer-bust",
         "spicy_url": null,
@@ -4667,7 +4667,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Zagreus - Hades",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/b43aa4b2-553f-4d49-86d4-bbc837f24702/Zagreus_Fullsize_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/zagreus_-_hades.jpg",
         "url": "https://cults3d.com/en/3d-model/art/zagreus-hades-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/zagreus-hades-bust",
         "spicy_url": null,
@@ -4678,7 +4678,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Yamato - One Piece",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/846a1cfc-ee04-43ac-be44-a32e03dd5890/Yamato_Fullsize_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/yamato_-_one_piece.jpg",
         "url": "https://cults3d.com/en/3d-model/art/yamato-one-piece-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/yamato-one-piece-bust-tanukifigures",
         "spicy_url": null,
@@ -4689,7 +4689,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "War - Darksiders",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/d50c0c05-a33c-4336-aaea-477fb55c4796/War1.jpg",
+        "img_url": "images/tanuki_figures/war_-_darksiders.jpg",
         "url": "https://cults3d.com/en/3d-model/art/war-darksiders-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/war-darksiders-bust",
         "spicy_url": null,
@@ -4700,7 +4700,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Sabo - One Piece",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/2a6e21cd-da40-4e5c-863d-66bc58225aa3/Sabo_01.jpg",
+        "img_url": "images/tanuki_figures/sabo_-_one_piece.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sabo-one-piece-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/sabo-one-piece-bust",
         "spicy_url": null,
@@ -4711,7 +4711,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Ryuk - Death Note - Chibi",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/ca4ecc7e-f17f-47a1-b8a8-e1a46785c40d/Ryuk_CHIBI1.png",
+        "img_url": "images/tanuki_figures/ryuk_-_death_note_-_chibi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ryuk-death-note-chibi",
         "bust_url": null,
         "spicy_url": null,
@@ -4722,7 +4722,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Richter Belmont - Castlevania",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/56e53cbf-a976-4a44-86f6-5251d9d371fd/2.png",
+        "img_url": "images/tanuki_figures/richter_belmont_-_castlevania.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/richter-belmont-castlevania-bust",
         "spicy_url": null,
@@ -4733,7 +4733,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Raziel - Soul Reaver",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/3fc61868-9fe4-4a38-90f2-699e8d200c7d/Raziel1.jpg",
+        "img_url": "images/tanuki_figures/raziel_-_soul_reaver.jpg",
         "url": "https://cults3d.com/en/3d-model/art/raziel-soul-reaver-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/raziel-soul-reaver-bust",
         "spicy_url": null,
@@ -4744,7 +4744,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Ori - Ori and the Blind Forest",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/704061b5-9ada-4d76-a38b-18691ff30822/Ori_Tanukifigures_01.jpg",
+        "img_url": "images/tanuki_figures/ori_-_ori_and_the_blind_forest.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ori-ori-and-the-blind-forest-extra",
         "bust_url": null,
         "spicy_url": null,
@@ -4755,7 +4755,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Joker - Persona 5",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/d614a6c5-6f19-4ef3-a4f9-e36d937ce1c4/Joker_Persona_Fullsize_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/joker_-_persona_5.jpg",
         "url": "https://cults3d.com/en/3d-model/art/joker-persona-5-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/joker-persona-5-bust",
         "spicy_url": null,
@@ -4766,7 +4766,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Itachi - Naruto - Chibi",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/47d781ce-2d4d-4566-812b-60567a19ae94/Itachi_1_Chibi.jpg",
+        "img_url": "images/tanuki_figures/itachi_-_naruto_-_chibi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/itachi-naruto-chibi",
         "bust_url": null,
         "spicy_url": null,
@@ -4777,7 +4777,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Heisenberg - Breaking Bad - Toon",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/d398a3fb-8ea3-417f-8e71-15088deff0c5/Heisenberg_Toon_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/heisenberg_-_breaking_bad_-_toon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/heisenberg-breaking-bad-toon",
         "bust_url": null,
         "spicy_url": null,
@@ -4788,7 +4788,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Cyclops - X-Men",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/4e665e28-f3ad-455f-b09b-cdc16c7716c5/Cyclops_Fullsize_TanukiFigures_10.jpg",
+        "img_url": "images/tanuki_figures/cyclops_-_x-men.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cyclops-x-men-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/cyclops-x-men-bust-tanukifigures",
         "spicy_url": null,
@@ -4799,7 +4799,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Behelit - Bersek",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/4b22caf5-25d8-4f82-a589-2aee09684988/Behelit-01.png",
+        "img_url": "images/tanuki_figures/behelit_-_bersek.jpg",
         "url": "https://cults3d.com/en/3d-model/art/behelit-bersek",
         "bust_url": null,
         "spicy_url": null,
@@ -4810,7 +4810,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Big Boss - Metal Gear",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/ebbf25f7-7a68-4a2e-8b47-a80172a693b3/Big_Boss_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/big_boss_-_metal_gear.jpg",
         "url": "https://cults3d.com/en/3d-model/art/big-boss-metal-gear-tanukifigures",
         "bust_url": "https://cults3d.com/en/3d-model/art/big-boss-metal-gear-bust",
         "spicy_url": null,
@@ -4821,7 +4821,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Chocobo - Final Fantasy - Chibi",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/308cbe82-94e9-4255-b7fd-9c81b861e839/Chocobo_Chibi_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/chocobo_-_final_fantasy_-_chibi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/chocobo-final-fantasy-chibi",
         "bust_url": null,
         "spicy_url": null,
@@ -4832,7 +4832,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Classic Superman – Toon",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/9dc38d4b-ff30-4961-9ee5-1ac79784fd68/Classic_Superman_Toon_TanukiFigures_02.jpg",
+        "img_url": "images/tanuki_figures/classic_superman_toon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/classic-superman-toon",
         "bust_url": null,
         "spicy_url": null,
@@ -4843,7 +4843,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Dovahkiin - Skyrim",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/25cf5284-991c-4452-b4df-54acbf31fd55/Dragonborn_TanukiFigures_02.jpg",
+        "img_url": "images/tanuki_figures/dovahkiin_-_skyrim.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dovahkiin-skyrim",
         "bust_url": "https://cults3d.com/en/3d-model/art/dovahkiin-skyrim-bust",
         "spicy_url": null,
@@ -4854,7 +4854,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Gohan SSJ2 - Dragon Ball",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/0f2b67cd-0634-4a67-ba27-47d29c64247c/Gohan_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/gohan_ssj2_-_dragon_ball.jpg",
         "url": "https://cults3d.com/en/3d-model/art/gohan-ssj2-dragon-ball-tanukifigures",
         "bust_url": "https://cults3d.com/en/3d-model/art/gohan-ssj2-dragon-ball-bust",
         "spicy_url": null,
@@ -4865,7 +4865,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Juggernaut - X-Men",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/d8073327-bd10-442f-b2ce-de64f6d70cfa/Jugernaut_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/juggernaut_-_x-men.jpg",
         "url": "https://cults3d.com/en/3d-model/art/juggernaut-x-men-tanukifigures",
         "bust_url": "https://cults3d.com/en/3d-model/art/juggernaut-x-men-bust",
         "spicy_url": null,
@@ -4876,7 +4876,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Kon - Bleach - Extra",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/35c1059a-0218-4697-82fd-78b262a4ec65/Kon_1_TanukiFigures.jpg",
+        "img_url": "images/tanuki_figures/kon_-_bleach_-_extra.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kon-bleach-extra",
         "bust_url": null,
         "spicy_url": null,
@@ -4887,7 +4887,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Maki - Jujutsu Kaisen",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/47546c07-ea19-4e76-bb0a-82be9e64a3b2/Maki_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/maki_-_jujutsu_kaisen.jpg",
         "url": "https://cults3d.com/en/3d-model/art/maki-jujutsu-kaisen-tanukifigures",
         "bust_url": "https://cults3d.com/en/3d-model/art/maki-jujutsu-kaisen-bust",
         "spicy_url": null,
@@ -4898,7 +4898,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Minato - Naruto",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/6dcc2969-9483-4d7e-82af-e62589e69ff9/Minato_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/minato_-_naruto.jpg",
         "url": "https://cults3d.com/en/3d-model/art/minato-naruto-tanukifigures",
         "bust_url": "https://cults3d.com/en/3d-model/art/minato-naruto-bust",
         "spicy_url": null,
@@ -4909,7 +4909,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "2B - NieR: Automata",
-        "img_url": "https://videos.cults3d.com/U1YjzvJRlrItU6TwJhmN4FS6AtE=/246x246/filters:no_upscale():format(mp4)/https://fbi.cults3d.com/uploaders/35436805/illustration-file/184ab52c-2374-42a8-98f0-cffbdd8c2b88/0804-2.mp4",
+        "img_url": "images/tanuki_figures/2b_-_nier_automata.jpg",
         "url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-bust-tanukifigures",
         "spicy_url": null,
@@ -4920,7 +4920,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Deadpool - Toon",
-        "img_url": "https://images.cults3d.com/_-DO33OmThNryX8WGAkgGES0vhw=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/35436805/illustration-file/85b0c9d1-9b93-4839-9efe-65fb57de327a/Deadpool_01.png",
+        "img_url": "images/tanuki_figures/deadpool_-_toon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/deadpool-toon",
         "bust_url": null,
         "spicy_url": null,
@@ -4931,7 +4931,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Goku SSJ4 - Dragon Ball",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/0e41d306-b8b0-4594-9e2f-9d4b451f6386/Goku_SJJ4_01.jpg",
+        "img_url": "images/tanuki_figures/goku_ssj4_-_dragon_ball.jpg",
         "url": "https://cults3d.com/en/3d-model/art/goku-ssj4-dragon-ball-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/goku-ssj4-dragon-ball-bust",
         "spicy_url": null,
@@ -4942,7 +4942,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Kratos - God of War",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/09e90a6b-2a9b-4133-a920-6f3026a49ca9/Kratos_TanukiFigures_02.jpg",
+        "img_url": "images/tanuki_figures/kratos_-_god_of_war.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kratos-god-of-war-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/kratos-god-of-war-bust-tanukifigures",
         "spicy_url": null,
@@ -4953,7 +4953,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Leonardo - TMNT - Toon",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/722141e2-61fb-42f5-8d50-1f42f461af3d/Leonardo_TMNT_04.png",
+        "img_url": "images/tanuki_figures/leonardo_-_tmnt_-_toon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/leonardo-tmnt-toon",
         "bust_url": null,
         "spicy_url": null,
@@ -4964,7 +4964,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Luffy - One Piece",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/7f7c2d16-0634-48b7-971e-a28e41b96614/Luffy2.png",
+        "img_url": "images/tanuki_figures/luffy_-_one_piece.jpg",
         "url": "https://cults3d.com/en/3d-model/art/luffy-one-piece-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/luffy-one-piece-bust",
         "spicy_url": null,
@@ -4975,7 +4975,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Naruto Classic",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/410ee3e8-54fa-48a9-a8a7-f704bfa458b7/Naruto_Fullsize_02.png",
+        "img_url": "images/tanuki_figures/naruto_classic.jpg",
         "url": "https://cults3d.com/en/3d-model/art/naruto-classic-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/naruto-classic-bust",
         "spicy_url": null,
@@ -4986,7 +4986,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Pennywise - It - Chibi",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/852feb26-c53e-41f8-876e-88251954ba74/Pennywise_Chibi_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/pennywise_-_it_-_chibi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/pennywise-it-chibi-tanukifigures",
         "bust_url": null,
         "spicy_url": null,
@@ -4997,7 +4997,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Spider-Man",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/9e9c5b82-08ae-4d03-b087-60beac9e899d/Spiderman_Render_01.jpg",
+        "img_url": "images/tanuki_figures/spider-man.jpg",
         "url": "https://cults3d.com/en/3d-model/art/spider-man-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/spider-man-bust-tanukifigures",
         "spicy_url": null,
@@ -5008,7 +5008,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Venom",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/9bdc4788-fbf3-4fbd-87c7-366d250062e7/Venom_Bust_01.jpg",
+        "img_url": "images/tanuki_figures/venom.jpg",
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/venom-bust-tanukifigures",
         "spicy_url": null,
@@ -5019,7 +5019,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Vivi - Final Fantasy IX - Extra",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/8d7a2352-b83c-44a0-b625-f627211fcbd8/Vivi_01.png",
+        "img_url": "images/tanuki_figures/vivi_-_final_fantasy_ix_-_extra.jpg",
         "url": "https://cults3d.com/en/3d-model/art/vivi-final-fantasy-ix-extra",
         "bust_url": null,
         "spicy_url": null,
@@ -5030,7 +5030,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Black Myth Wukong - Chibi",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/7aa6ec81-38c1-4741-9f46-b407ef0287d0/Wukong_Chibi_01.png",
+        "img_url": "images/tanuki_figures/black_myth_wukong_-_chibi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/black-myth-wukong-chibi",
         "bust_url": null,
         "spicy_url": null,
@@ -5041,7 +5041,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "May - It Takes Two",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/3578f994-2b4d-45a5-9e5c-cabc7d5b32d1/May_TanukiFigures_01.jpg",
+        "img_url": "images/tanuki_figures/may_-_it_takes_two.jpg",
         "url": "https://cults3d.com/en/3d-model/art/may-it-takes-two-tanukifigures",
         "bust_url": null,
         "spicy_url": null,
@@ -5052,7 +5052,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Wolverine - Toon - FREE",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/9d273a77-cdb8-4692-8862-159c8d70a20b/Wolverine_01.jpg",
+        "img_url": "images/tanuki_figures/wolverine_-_toon_-_free.jpg",
         "url": "https://cults3d.com/en/3d-model/art/wolverine-toon-free",
         "bust_url": null,
         "spicy_url": null,
@@ -5063,7 +5063,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Pyramid Head - Silent Hill",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/c65633e4-9bab-4da6-827a-62a1b1ad1688/Pyramid_Head_Main2.jpg",
+        "img_url": "images/tanuki_figures/pyramid_head_-_silent_hill.jpg",
         "url": "https://cults3d.com/en/3d-model/art/pyramid-head-silent-hill-fullsize",
         "bust_url": null,
         "spicy_url": null,
@@ -5074,7 +5074,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Omni-Man",
-        "img_url": "https://fbi.cults3d.com/uploaders/35436805/illustration-file/97fea0c4-08ee-4fc5-a541-dccfb032f12f/Omni-man_01.jpg",
+        "img_url": "images/tanuki_figures/omni-man.jpg",
         "url": "https://cults3d.com/en/3d-model/art/omni-man-fullsize",
         "bust_url": null,
         "spicy_url": null,
@@ -5085,7 +5085,7 @@ window.catalogData = [
     {
         "creator": "Tanuki Figures",
         "name": "Hollow Knight",
-        "img_url": "https://images.cults3d.com/2ZLNSuKgZMrJ88Hcg79yVP5RYxA=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/35436805/illustration-file/1b3d4664-b637-4084-8ae8-14d5a458d76c/Hollow_Knight_02.png",
+        "img_url": "images/tanuki_figures/hollow_knight.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hollow-knight-tanukifigures",
         "bust_url": null,
         "spicy_url": null,
@@ -5096,7 +5096,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Scamellia Unbreadable 231mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68c02c72252b53.50342832/images/720X720-Scamellia_color (1).jpg",
+        "img_url": "images/bulkamancer/scamellia_unbreadable_231mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-scamellia-unbreadable-231mm-659681",
         "bust_url": null,
         "spicy_url": null,
@@ -5107,7 +5107,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "2b Maid",
-        "img_url": "https://dl2.myminifactory.com/object-assets/6360972a07003/images/720X720-2b-maid-1-front.jpg",
+        "img_url": "images/bulkamancer/2b_maid.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-2b-maid-253511",
         "bust_url": null,
         "spicy_url": null,
@@ -5118,7 +5118,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Wednesday and Morticia Adams 280mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68fb7fe05138a5.75007776/images/720X720-gothic_duo_color (1).jpg",
+        "img_url": "images/bulkamancer/wednesday_and_morticia_adams_280mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-gothic-duo-280mm-693063",
         "bust_url": null,
         "spicy_url": null,
@@ -5129,7 +5129,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Silver Falcon 243mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68f792469dce38.89042853/images/720X720-silver_falcon_color (1).jpg",
+        "img_url": "images/bulkamancer/silver_falcon_243mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-silver-falcon-243mm-691759",
         "bust_url": null,
         "spicy_url": null,
@@ -5140,7 +5140,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Hunt In The Wilds 392mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68f239f7391aa7.85635915/images/720X720-hunt_in_the_wilds_color (1).jpg",
+        "img_url": "images/bulkamancer/hunt_in_the_wilds_392mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-hunt-in-the-wilds-392mm-689815",
         "bust_url": null,
         "spicy_url": null,
@@ -5151,7 +5151,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Hornet 299mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68ef9d992ccf78.04130845/images/720X720-hornyt_color (1).jpg",
+        "img_url": "images/bulkamancer/hornet_299mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-hornyt-299mm-687351",
         "bust_url": null,
         "spicy_url": null,
@@ -5162,7 +5162,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Not Dead Yet 216mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68e90c8f49f588.27653450/images/720X720-not_dead_yet_color (1).jpg",
+        "img_url": "images/bulkamancer/not_dead_yet_216mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-not-dead-yet-216mm-684655",
         "bust_url": null,
         "spicy_url": null,
@@ -5173,7 +5173,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Monoko 276mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68e51812939834.21556337/images/720X720-feet_collectionner_color (1).jpg",
+        "img_url": "images/bulkamancer/monoko_276mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-feet-collectionner-276mm-682603",
         "bust_url": null,
         "spicy_url": null,
@@ -5184,7 +5184,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Golden Rapper 226mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68de5e99e59275.75860010/images/720X720-golden_rapper_color (1).jpg",
+        "img_url": "images/bulkamancer/golden_rapper_226mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-golden-rapper-226mm-678943",
         "bust_url": null,
         "spicy_url": null,
@@ -5195,7 +5195,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Delivery Man 258mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68dbe714acb107.45841385/images/720X720-delivery_man_color (1).jpg",
+        "img_url": "images/bulkamancer/delivery_man_258mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-delivery-man-258mm-677716",
         "bust_url": null,
         "spicy_url": null,
@@ -5206,7 +5206,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Short Tempered Wizard 340mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68d504c3062cd7.16982250/images/720X720-short-tempered_wizard_color (1).jpg",
+        "img_url": "images/bulkamancer/short_tempered_wizard_340mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-short-tempered-wizard-340mm-671711",
         "bust_url": null,
         "spicy_url": null,
@@ -5217,7 +5217,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Triple Agent 227mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68cd578724f470.21169415/images/720X720-triple_agent_color (1).jpg",
+        "img_url": "images/bulkamancer/triple_agent_227mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-triple-agent-227mm-666573",
         "bust_url": null,
         "spicy_url": null,
@@ -5228,7 +5228,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Divine Huntress 283mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68c81931ec6e89.10736147/images/720X720-divine_huntress_color (1).jpg",
+        "img_url": "images/bulkamancer/divine_huntress_283mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-divine-huntress-283mm-663775",
         "bust_url": null,
         "spicy_url": null,
@@ -5239,7 +5239,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Threadspinner 111mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68c420640f1fb8.22309717/images/720X720-threadspinner_color.jpg",
+        "img_url": "images/bulkamancer/threadspinner_111mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-threadspinner-111mm-661428",
         "bust_url": null,
         "spicy_url": null,
@@ -5250,7 +5250,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Golden Vocalist 243mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68c17f0e7ca215.21140997/images/720X720-golden_vocalist_color (1).jpg",
+        "img_url": "images/bulkamancer/golden_vocalist_243mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-golden-vocalist-243mm-660186",
         "bust_url": null,
         "spicy_url": null,
@@ -5261,7 +5261,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Sciel 267mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68bc3762142631.68572343/images/720X720-expedition_swimmer_color (1).jpg",
+        "img_url": "images/bulkamancer/sciel_267mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-expedition-swimmer-267mm-658180",
         "bust_url": null,
         "spicy_url": null,
@@ -5272,7 +5272,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Fallen Prince 284mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/66eeeedd164f92.74286973/images/720X720-fallen_prince_color (1).jpg",
+        "img_url": "images/bulkamancer/fallen_prince_284mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-fallen-prince-284mm-412160",
         "bust_url": null,
         "spicy_url": null,
@@ -5283,7 +5283,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Judgemental Warrior 277mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/66d95d9c02dd17.78017772/images/720X720-judgemental_warrior_color (1).jpg",
+        "img_url": "images/bulkamancer/judgemental_warrior_277mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-judgemental-warrior-277mm-408849",
         "bust_url": null,
         "spicy_url": null,
@@ -5294,7 +5294,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Knight Of The Kind Lord 220mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/66b7abd24d1963.76042405/images/720X720-knight_of_the_kind_lord_color (1).jpg",
+        "img_url": "images/bulkamancer/knight_of_the_kind_lord_220mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-knight-of-the-kind-lord-220mm-402037",
         "bust_url": null,
         "spicy_url": null,
@@ -5305,7 +5305,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Great Tomb Overseer 224mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/6686ad53588092.40638445/images/720X720-great_tomb_overseer_color (2).jpg",
+        "img_url": "images/bulkamancer/great_tomb_overseer_224mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-great-tomb-overseer-224mm-391596",
         "bust_url": null,
         "spicy_url": null,
@@ -5316,7 +5316,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Ruined Luck 278mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68b198d3e6f6e8.14072809/images/720X720-ruined_luck_color (1).jpg",
+        "img_url": "images/bulkamancer/ruined_luck_278mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-ruined-luck-278mm-652667",
         "bust_url": null,
         "spicy_url": null,
@@ -5327,7 +5327,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Urban Songstress 250mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68ac513b536923.30844411/images/720X720-urban_songstress_color (1).jpg",
+        "img_url": "images/bulkamancer/urban_songstress_250mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-urban-songstress-250mm-650149",
         "bust_url": null,
         "spicy_url": null,
@@ -5338,7 +5338,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Death Incarnate 321mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/689f3ab44cfb82.07012795/images/720X720-death_incarnate_color (1).jpg",
+        "img_url": "images/bulkamancer/death_incarnate_321mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-death-incarnate-321mm-644325",
         "bust_url": null,
         "spicy_url": null,
@@ -5349,7 +5349,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Toy Rock",
-        "img_url": "https://dl2.myminifactory.com/object-assets/689a20ea544d79.38380832/images/720X720-toy_rock_color (1).jpg",
+        "img_url": "images/bulkamancer/toy_rock.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-toy-rock-641835",
         "bust_url": null,
         "spicy_url": null,
@@ -5360,7 +5360,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Esquie 300mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/689a04cd36fc22.42983040/images/720X720-mon_ami_color (1).jpg",
+        "img_url": "images/bulkamancer/esquie_300mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-mon-ami-300mm-641821",
         "bust_url": null,
         "spicy_url": null,
@@ -5371,7 +5371,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Duskwalker 269mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68920e531afb64.33562412/images/720X720-duskwalker_color (1).jpg",
+        "img_url": "images/bulkamancer/duskwalker_269mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-duskwalker-269mm-637760",
         "bust_url": null,
         "spicy_url": null,
@@ -5382,7 +5382,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Child Of Destiny Stylized 281mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/688a143d96c6a7.25404596/images/720X720-child_of_destiny_stylized_color (1).jpg",
+        "img_url": "images/bulkamancer/child_of_destiny_stylized_281mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-child-of-destiny-stylized-281mm-631591",
         "bust_url": null,
         "spicy_url": null,
@@ -5393,7 +5393,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Wily Plunderer 316mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/688388e4a1db14.97628039/images/720X720-wily_plunderer_color (1).jpg",
+        "img_url": "images/bulkamancer/wily_plunderer_316mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-wily-plunderer-316mm-627591",
         "bust_url": null,
         "spicy_url": null,
@@ -5404,7 +5404,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Verso 246mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/687a5611a35ce1.71022501/images/720X720-expedition_outsider_color (1).jpg",
+        "img_url": "images/bulkamancer/verso_246mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-expedition-outsider-246mm-621456",
         "bust_url": null,
         "spicy_url": null,
@@ -5415,7 +5415,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Guts 263mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/687638bb899902.29434939/images/720X720-young_berserker_color (1).jpg",
+        "img_url": "images/bulkamancer/guts_263mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-young-berserker-263mm-620195",
         "bust_url": null,
         "spicy_url": null,
@@ -5426,7 +5426,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Wednesday Toad",
-        "img_url": "https://dl2.myminifactory.com/object-assets/686558f8e31bf9.99973511/images/720X720-toad_color (1).jpg",
+        "img_url": "images/bulkamancer/wednesday_toad.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-wednesday-toad-611737",
         "bust_url": null,
         "spicy_url": null,
@@ -5437,7 +5437,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Feline Hunter 137mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/68651e02c5f951.04787857/images/720X720-feline_hunter_color (1).jpg",
+        "img_url": "images/bulkamancer/feline_hunter_137mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-feline-hunter-137mm-611557",
         "bust_url": null,
         "spicy_url": null,
@@ -5448,7 +5448,7 @@ window.catalogData = [
     {
         "creator": "Bulkamancer",
         "name": "Pyramid Head 326mm",
-        "img_url": "https://dl2.myminifactory.com/object-assets/670e647a481534.14123467/images/720X720-executioner_color (1).jpg",
+        "img_url": "images/bulkamancer/pyramid_head_326mm.jpg",
         "url": "https://www.myminifactory.com/object/3d-print-the-executioner-326mm-418784",
         "bust_url": null,
         "spicy_url": null,
@@ -5459,7 +5459,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Cartethyia - Wuthering Waves Game Figure For 3D Printing",
-        "img_url": "https://images.cults3d.com/ZNonAWzd0ZPru4fH_UMDbqgjIqI=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/2ca13895-b7b8-4767-b1cc-0a079480ae80/Cartethyia_1_L_Puppet.png",
+        "img_url": "images/neko_figurines/cartethyia_-_wuthering_waves_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/cartethyia-wuthering-waves-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5470,7 +5470,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Frieren - Beyond Journey's End Anime Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/Ur9gNBO7ptzzWyc9SDoAqRHvN8o=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/06414e63-5c43-482a-95df-3506a81a652c/Frieren_Close_4_S.png",
+        "img_url": "images/neko_figurines/frieren_-_beyond_journey_s_end_anime_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/frieren-beyond-journey-s-end-anime-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5481,7 +5481,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Goldship - Uma Musume Game Figure For 3D Printing",
-        "img_url": "https://images.cults3d.com/lRKACzFojP2G1d2KRRMLlsWBbN8=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/066a0e44-58d4-4362-8603-e2b2ce579402/Goldship_L1.png",
+        "img_url": "images/neko_figurines/goldship_-_uma_musume_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/goldship-uma-musume-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5492,7 +5492,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Gustave - Expedition 33 Game Figure for 3D Printing",
-        "img_url": "https://fbi.cults3d.com/uploaders/25829540/illustration-file/4e58ee35-a307-48fb-a200-7330e732e555/Gustave_1_L.jpg",
+        "img_url": "images/neko_figurines/gustave_-_expedition_33_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/gustave-expedition-33-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5503,7 +5503,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Hinako - Silent Hill F Game Figure for 3DPrinting",
-        "img_url": "https://images.cults3d.com/IYJa3qVDVsfNfnV9MPGi5A628dw=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/2aa66b10-cca2-4681-946c-1084eb9f3ae6/Hinako_Mid1_logo.png",
+        "img_url": "images/neko_figurines/hinako_-_silent_hill_f_game_figure_for_3dprinting.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hinako-silent-hill-f-game-figure-for-3dprinting",
         "bust_url": null,
         "spicy_url": null,
@@ -5514,7 +5514,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Hornet - Hollow Knight Silksong Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/5Zj1k4vlBz_2MU-ubJWPeq6YPKE=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/5117e535-6567-4183-8b21-ac5f48c6450c/Render_Main_1_L.png",
+        "img_url": "images/neko_figurines/hornet_-_hollow_knight_silksong_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hornet-hollow-knight-silksong-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5525,7 +5525,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Hoshimi Miyabi - Zenless Zone Zero Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/EuCq2P5KUfN2IV4bHQHhZs-7sck=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/942b72a7-94ae-44dd-aaef-918b0a4998ed/Miyabi_L_1.png",
+        "img_url": "images/neko_figurines/hoshimi_miyabi_-_zenless_zone_zero_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hoshimi-miyabi-zenless-zone-zero-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5536,7 +5536,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Verso - Expedition 33 Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/7dD-cTjm52OACZINo4XFgky7Xu8=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/3c3bdb45-c333-44f6-a687-85119733d396/verso_mid1_.png",
+        "img_url": "images/neko_figurines/verso_-_expedition_33_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/verso-expedition-33-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5547,7 +5547,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Sciel - Expedition 33 Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/Nu5F5mB_ENapdZClZuaEY8ZpzHw=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/a942c0f0-707a-41ff-a3a5-3f55727d91f1/Sciel_midshot1_logo.png",
+        "img_url": "images/neko_figurines/sciel_-_expedition_33_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/sciel-expedition-33-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5558,7 +5558,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Monoco - Expedition 33 Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/pvJxhi9f53WsZG5LbM1mSMlWyGc=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/91349ae1-a523-4183-8195-d836f84d179a/Monoco_main1_logo.png",
+        "img_url": "images/neko_figurines/monoco_-_expedition_33_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/monoco-expedition-33-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5569,7 +5569,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Lune - Expedition 33 Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/jfYwdTis6Wo9WDaaCIQTP0Drm7k=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/d4df9738-ac28-4758-be76-c6541ed60429/Lune_1.png",
+        "img_url": "images/neko_figurines/lune_-_expedition_33_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lune-expedition-33-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5580,7 +5580,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Maelle - Expedition 33 Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/qDd5v6BSUDS_kg49eU9SKWaQeGo=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/5a297a2d-f214-4efe-9de2-004fc26258b0/Maelle_CloseUp_1.png",
+        "img_url": "images/neko_figurines/maelle_-_expedition_33_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/maelle-expedition-33-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5591,7 +5591,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Marin Kitagawa Yukata - My Dress Up Darling Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/g7FK6caiSWSmeoHpMZKlkZtfPKw=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/8bcf91fb-2937-496f-90e3-9000fb20e1b9/MarinYukata_1_L.png",
+        "img_url": "images/neko_figurines/marin_kitagawa_yukata_-_my_dress_up_darling_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/marin-kitagawa-yukata-my-dress-up-darling-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5602,7 +5602,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Mira - Kpop Demon Hunters Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/danZPYn7O0wNSVdvxfFAye1k2cE=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/1b7fd1e7-189a-4cfc-a6fa-3dddc1f78a2d/Mira_Main1_logo.png",
+        "img_url": "images/neko_figurines/mira_-_kpop_demon_hunters_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mira-kpop-demon-hunters-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5613,7 +5613,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Zoey - Kpop Demon Hunters Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/6Yg_ZlpvIJsin5YWUNrmUc0Zyow=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/6fa70c12-1d16-4847-be45-a2dbad45b322/Zoey_Main01_logo.png",
+        "img_url": "images/neko_figurines/zoey_-_kpop_demon_hunters_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/zoey-kpop-demon-hunters-figure-for-3d-printing-neko_figurines_3dprinting",
         "bust_url": null,
         "spicy_url": null,
@@ -5624,7 +5624,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Rumi - Kpop Demon Hunters Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/UCR3-cieVtuOiyzVkcmMuckWLFI=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/0aa0162f-a58a-45bd-94c7-f24ac7d555c1/Rumi_Main_1_L.png",
+        "img_url": "images/neko_figurines/rumi_-_kpop_demon_hunters_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rumi-kpop-demon-hunters-figure-for-3d-printing-neko_figurines_3dprinting-2",
         "bust_url": null,
         "spicy_url": null,
@@ -5635,7 +5635,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Recluse - Elden Ring Nightreign Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/kPWWt19o86mEG-oHELPK_vjzD2s=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/118d627e-da94-4db3-9724-ecbe61b7388f/Recluse_1.jpg",
+        "img_url": "images/neko_figurines/recluse_-_elden_ring_nightreign_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/recluse-elden-ring-nightreign-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5646,7 +5646,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Reze - Chainsawman Anime Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/lHMztRz8PMm4xkjZroSdpTsDSjA=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/2aeab530-5a81-40d8-9e27-b792f326555a/Reze_5_L.png",
+        "img_url": "images/neko_figurines/reze_-_chainsawman_anime_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/reze-chainsawman-anime-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5657,7 +5657,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Seed - Zenless Zone Zero Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/G4DIkGFxFMaW4K1c5ZJoMqc6Mfk=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/0e1e3d60-7b77-4e1e-a236-0aebfc9e936f/For-Cults.png",
+        "img_url": "images/neko_figurines/seed_-_zenless_zone_zero_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/seed-zenless-zone-zero-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5668,7 +5668,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Skirk - Genshin Impact Game Figure For 3D Printing",
-        "img_url": "https://images.cults3d.com/-MiLZHYg3281wtIBf8-kolE3LhY=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/bc221a6a-d711-49a3-a4c1-5b926ec5419f/Skirk_Main_1Closedup.png",
+        "img_url": "images/neko_figurines/skirk_-_genshin_impact_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/skirk-genshin-impact-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5679,7 +5679,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Trigger - Zenless Zone Zero Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/oc0LnXrldDNrv1QBq3e1HA_WEZo=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/e3e638f4-45b1-474b-a875-be69c1c335dd/Trigger_5_L.png",
+        "img_url": "images/neko_figurines/trigger_-_zenless_zone_zero_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/trigger-zenless-zone-zero-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5690,7 +5690,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Yshtola Rhul (Final Fantasy) - Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/Py8aQjo_4_6SbmpDIQ8KiwmmKsQ=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/acb77946-83cd-4d78-bae3-16e5c462f05a/yshtola_1_L.png",
+        "img_url": "images/neko_figurines/yshtola_rhul_final_fantasy_-_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/y-shtola-rhul-final-fantasy-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5701,7 +5701,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Zani 2ndform - Wuthering Waves Game Figure For 3D Printing",
-        "img_url": "https://images.cults3d.com/0KvfEfL7kgubTof_bFSgwSE1ZZM=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/be283adf-b9d8-4b9d-9395-b3ceeb2450a3/Zani_Form2_1_L.png",
+        "img_url": "images/neko_figurines/zani_2ndform_-_wuthering_waves_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/zani-2ndform-wuthering-waves-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5712,7 +5712,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Zani - Wuthering Waves Game Figure For 3D Printing",
-        "img_url": "https://images.cults3d.com/xvmWjDxUmr4J7XCMyFXpiEsbGeU=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/897a2041-e9fe-4343-be36-d5c0dea9d611/Zani_1.5_L.png",
+        "img_url": "images/neko_figurines/zani_-_wuthering_waves_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/zani-wuthering-waves-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5723,7 +5723,7 @@ window.catalogData = [
     {
         "creator": "Neko Figurines",
         "name": "Arlecchino - Genshin Impact Game Figure for 3D Printing",
-        "img_url": "https://images.cults3d.com/O0n9KbTI1EYRMBvJyGdCfL-aVJI=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/25829540/illustration-file/c49a6f10-df35-46e4-9727-3ff9f15f2a45/Arlecchino_1_L.png",
+        "img_url": "images/neko_figurines/arlecchino_-_genshin_impact_game_figure_for_3d_printing.jpg",
         "url": "https://cults3d.com/en/3d-model/art/arlecchino-genshin-impact-game-figure-for-3d-printing",
         "bust_url": null,
         "spicy_url": null,
@@ -5734,7 +5734,7 @@ window.catalogData = [
     {
         "creator": "Nympha3D",
         "name": "Raven (Dc Comics) STL Ready-to-print model",
-        "img_url": "https://images.cults3d.com/Wt8xwKIu7UjABHlmKuwbHWOX3gQ=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/28683308/illustration-file/98fdd8f5-53ee-4d78-a42a-d2d04b0d1dde/1.jpg",
+        "img_url": "images/nympha3d/raven_dc_comics_stl_ready-to-print_model.jpg",
         "url": "https://cults3d.com/en/3d-model/art/raven-dc-comics-stl-ready-to-print-model",
         "bust_url": null,
         "spicy_url": null,
@@ -5745,7 +5745,7 @@ window.catalogData = [
     {
         "creator": "Nympha3D",
         "name": "2B (Nier Automata) STL Ready-to-print model",
-        "img_url": "https://images.cults3d.com/TghXwo2GSxQYilkPPW0YkkDHD6E=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/28683308/illustration-file/87a3bbc2-662a-4d31-a0d8-496556b7a3d0/1.png",
+        "img_url": "images/nympha3d/2b_nier_automata_stl_ready-to-print_model.jpg",
         "url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-stl-ready-to-print-model",
         "bust_url": null,
         "spicy_url": null,
@@ -5756,7 +5756,7 @@ window.catalogData = [
     {
         "creator": "Nympha3D",
         "name": "Ann Takamaki (Persona 5) STL Ready-to-print model (with variation",
-        "img_url": "https://images.cults3d.com/X6FEgpygPEig-ZixOVeVZu--Z94=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/28683308/illustration-file/c656fc49-aeb3-4c56-abd9-a1fdf1c50981/sfw2.jpg",
+        "img_url": "images/nympha3d/ann_takamaki_persona_5_stl_ready-to-print_model_with_variation.jpg",
         "url": null,
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/ann-takamaki-persona-5-stl-ready-to-print-model-with-nsfw-variation",
@@ -5767,7 +5767,7 @@ window.catalogData = [
     {
         "creator": "Nympha3D",
         "name": "Jinx (Arcane) STL Ready-To-Print Model",
-        "img_url": "https://images.cults3d.com/mUoObJMbhcbNR8C8FperiAsqk8M=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/28683308/illustration-file/bf58a66b-c542-4ad8-8911-64c522aa26f8/1.jpg",
+        "img_url": "images/nympha3d/jinx_arcane_stl_ready-to-print_model.jpg",
         "url": "https://cults3d.com/en/3d-model/art/jinx-arcane-stl-ready-to-print-model",
         "bust_url": null,
         "spicy_url": null,
@@ -5778,7 +5778,7 @@ window.catalogData = [
     {
         "creator": "Nympha3D",
         "name": "Tifa Lockhart (Final Fantasy VII 7",
-        "img_url": "https://images.cults3d.com/Z2mhuz7EmmHWyRK3ZU5CKdfRKMM=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/28683308/illustration-file/a791021c-6286-405d-99f4-40d2db1aaeab/1.png",
+        "img_url": "images/nympha3d/tifa_lockhart_final_fantasy_vii_7.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tifa-lockhart-final-fantasy-vii-7",
         "bust_url": null,
         "spicy_url": null,
@@ -5789,7 +5789,7 @@ window.catalogData = [
     {
         "creator": "Nympha3D",
         "name": "Yuzuriha (Hell's Paradise) STL READY-TO-PRINT W/ VARIATION",
-        "img_url": "https://images.cults3d.com/DJ6E0RbCiUJvnrJjvNZ3FR7flDA=/246x246/filters:no_upscale()/https://fbi.cults3d.com/uploaders/28683308/illustration-file/e00b14d6-db36-438f-b3cf-b2f20f4c3750/4.png",
+        "img_url": "images/nympha3d/yuzuriha_hell_s_paradise_stl_ready-to-print_w_variation.jpg",
         "url": null,
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/yuzuriha-hell-s-paradise-stl-ready-to-print-w-nsfw-variation",

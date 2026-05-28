@@ -177,6 +177,10 @@ def parse_catalog():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_json = os.path.join(script_dir, "data.json")
     output_js = os.path.join(script_dir, "data.js")
+    images_dir = os.path.join(script_dir, "images")
+
+    # Clean, download, and organize remote preview photos locally
+    download_local_images(all_models, images_dir)
     
     # Write JSON output for backend consumption
     with open(output_json, "w", encoding="utf-8") as f:
@@ -193,6 +197,218 @@ def parse_catalog():
     print(f"SUCCESS: Exported {len(all_models)} total models dynamically!")
     print(f"Web database synced successfully: {output_json} and {output_js}")
     print("==============================================================")
+
+def slugify(s):
+    """Normalize string, convert to lowercase, remove non-alphanumeric chars."""
+    import re
+    s = str(s).lower().strip()
+    s = re.sub(r'[^a-z0-9\-_]', '_', s)
+    return re.sub(r'_+', '_', s).strip('_')
+
+def compress_and_save_image(img_data, save_path):
+    """Resizes and compresses raw image binary data to a web-optimized JPEG format (<100KB)."""
+    from PIL import Image
+    try:
+        img = Image.open(io.BytesIO(img_data))
+        
+        # Convert RGBA/Palette transparent modes to standard RGB with a white background
+        if img.mode in ("RGBA", "P"):
+            bg = Image.new("RGB", img.size, (255, 255, 255))
+            if img.mode == "RGBA":
+                bg.paste(img, mask=img.split()[3])
+            else:
+                bg.paste(img)
+            img = bg
+        elif img.mode != "RGB":
+            img = img.convert("RGB")
+            
+        # Resize down if either dimension exceeds 1000px
+        max_size = 1000
+        width, height = img.size
+        if width > max_size or height > max_size:
+            if width > height:
+                new_width = max_size
+                new_height = int(height * (max_size / width))
+            else:
+                new_height = max_size
+                new_width = int(width * (max_size / height))
+            img = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
+            
+        img.save(save_path, "JPEG", quality=80, optimize=True)
+        return True
+    except Exception as e:
+        print(f"  [WARNING] Compression failed: {e}")
+        return False
+
+def download_local_images(models, base_images_dir):
+    """Downloads remote images locally, organized in partitioned directories by creator dynamically.
+    Each directory will hold at most 98 images to support drag-and-drop uploads on GitHub.
+    Compresses all images to under 100KB and auto-reorganizes existing files on disk dynamically.
+    """
+    import re
+    if not os.path.exists(base_images_dir):
+        os.makedirs(base_images_dir, exist_ok=True)
+
+    print("\n--------------------------------------------------------------")
+    print("Checking, compressing, and downloading remote model preview photos locally...")
+    print("This runs incrementally: already downloaded images will be skipped.")
+    print("Each creator folder is partitioned to hold at most 98 files.")
+    print("--------------------------------------------------------------")
+
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, Gecko) Chrome/120.0.0.0 Safari/537.36"
+    })
+
+    downloaded = 0
+    skipped = 0
+    failed = 0
+    
+    # Tracks the assigned file counts per partition for this run
+    partition_file_counts = {}
+
+    for idx, model in enumerate(models):
+        img_url = model.get("img_url")
+        if not img_url:
+            continue
+
+        # If it is already a local path, skip
+        if not img_url.startswith("http"):
+            skipped += 1
+            continue
+
+        # Dynamic Creator & Model naming slugification (future-proof, no hardcoding)
+        creator_name = model.get("creator") or "Other"
+        creator_slug = slugify(creator_name)
+        model_slug = slugify(model.get("name", "model"))
+        
+        # Force all compiled extensions to be standard web-optimized .jpg
+        filename = f"{model_slug}.jpg"
+        
+        # 1. Determine the designated partition name (max 98 files per folder)
+        part_idx = 0
+        allocated_partition = creator_slug
+        while True:
+            part_name = creator_slug if part_idx == 0 else f"{creator_slug}_{part_idx}"
+            if partition_file_counts.get(part_name, 0) < 98:
+                partition_file_counts[part_name] = partition_file_counts.get(part_name, 0) + 1
+                allocated_partition = part_name
+                break
+            part_idx += 1
+            
+        creator_dir = os.path.join(base_images_dir, allocated_partition)
+        local_path = os.path.join(creator_dir, filename)
+        relative_path = f"images/{allocated_partition}/{filename}"
+
+        # Ensure selected partition directory exists
+        if not os.path.exists(creator_dir):
+            os.makedirs(creator_dir, exist_ok=True)
+
+        # 2. Check if the file already exists and is already compressed (< 120KB) at designated path
+        if os.path.exists(local_path) and os.path.getsize(local_path) < 120 * 1024:
+            model["img_url"] = relative_path
+            skipped += 1
+            continue
+
+        # 3. Check if the file exists in ANY other partition folder or with ANY other extension (.png, .webp, .jpeg, etc.)
+        # to avoid redownloading, and compress/convert/move it to the designated partition as a .jpg!
+        found_and_reorganized = False
+        extensions_to_check = [".jpg", ".png", ".webp", ".jpeg", ".JPG", ".PNG"]
+        other_part_idx = 0
+        while True:
+            other_part_name = creator_slug if other_part_idx == 0 else f"{creator_slug}_{other_part_idx}"
+            other_part_dir = os.path.join(base_images_dir, other_part_name)
+            
+            # Check all possible extensions in this other directory
+            for check_ext in extensions_to_check:
+                other_filename = f"{model_slug}{check_ext}"
+                other_path = os.path.join(other_part_dir, other_filename)
+                if os.path.exists(other_path):
+                    # Found the file on disk! Let's compress and save it as a .jpg in the allocated partition
+                    try:
+                        from PIL import Image
+                        with Image.open(other_path) as img:
+                            # Convert transparent modes to standard RGB
+                            if img.mode in ("RGBA", "P"):
+                                bg = Image.new("RGB", img.size, (255, 255, 255))
+                                if img.mode == "RGBA":
+                                    bg.paste(img, mask=img.split()[3])
+                                else:
+                                    bg.paste(img)
+                                img = bg
+                            elif img.mode != "RGB":
+                                img = img.convert("RGB")
+                            
+                            # Resize down if either dimension exceeds 1000px
+                            max_size = 1000
+                            width, height = img.size
+                            if width > max_size or height > max_size:
+                                if width > height:
+                                    new_width = max_size
+                                    new_height = int(height * (max_size / width))
+                                else:
+                                    new_height = max_size
+                                    new_width = int(width * (max_size / height))
+                                img = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
+                            
+                            img.save(local_path, "JPEG", quality=80, optimize=True)
+                        
+                        # Delete the old file if it was in a different path or had a different extension
+                        if other_path != local_path:
+                            os.remove(other_path)
+                            print(f"  [COMPRESSED & MOVED] Optimized '{other_filename}' from '{other_part_name}' to '{allocated_partition}/{filename}' ({os.path.getsize(local_path) // 1024} KB)")
+                        else:
+                            print(f"  [COMPRESSED] Optimized '{filename}' in-place ({os.path.getsize(local_path) // 1024} KB)")
+                        
+                        model["img_url"] = relative_path
+                        skipped += 1
+                        found_and_reorganized = True
+                    except Exception as e:
+                        print(f"  [WARNING] Failed to compress existing file {other_filename}: {e}")
+                    break
+            
+            if found_and_reorganized:
+                break
+                
+            # If the directory doesn't exist, we stop checking further increments
+            if not os.path.exists(other_part_dir):
+                break
+            other_part_idx += 1
+
+        if found_and_reorganized:
+            continue
+
+        # 4. If file is not found anywhere on disk, fetch, compress, and download it
+        try:
+            resp = session.get(img_url, timeout=15)
+            if resp.status_code == 200:
+                success = compress_and_save_image(resp.content, local_path)
+                if success:
+                    model["img_url"] = relative_path
+                    downloaded += 1
+                    print(f"  [{downloaded}] Downloaded & Compressed: {allocated_partition}/{filename} ({os.path.getsize(local_path) // 1024} KB)")
+                else:
+                    failed += 1
+            else:
+                print(f"  [WARNING] Failed status {resp.status_code} for: {model['name']}")
+                failed += 1
+        except Exception as e:
+            print(f"  [WARNING] Error downloading {model['name']}: {e}")
+            failed += 1
+
+    # Clean up empty partition directories
+    for part_name in list(partition_file_counts.keys()):
+        part_dir = os.path.join(base_images_dir, part_name)
+        if os.path.exists(part_dir) and not os.listdir(part_dir):
+            try:
+                os.rmdir(part_dir)
+                print(f"  [CLEANUP] Removed empty directory: '{part_name}'")
+            except Exception:
+                pass
+
+    print("--------------------------------------------------------------")
+    print(f"Local Image sync complete: {downloaded} downloaded, {skipped} skipped, {failed} failed.")
+    print("--------------------------------------------------------------\n")
 
 if __name__ == "__main__":
     parse_catalog()
