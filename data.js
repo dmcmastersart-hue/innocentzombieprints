@@ -9,18 +9,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/2b-nsfw-3d-print-carlose",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "NieR: Automata"
     },
     {
         "creator": "CA3D Studios",
-        "name": "2B - Nier Automata",
-        "img_url": "images/ca3d_studios/2b_-_nier_automata.jpg",
+        "name": "2B",
+        "img_url": "images/ca3d_studios/2b_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/2b-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "NieR: Automata"
     },
     {
         "creator": "CA3D Studios",
@@ -31,7 +33,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/a2-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "NieR: Automata"
     },
     {
         "creator": "CA3D Studios",
@@ -42,7 +45,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/ada-wong-extra-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Resident Evil"
     },
     {
         "creator": "CA3D Studios",
@@ -53,7 +57,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Afro Samurai"
     },
     {
         "creator": "CA3D Studios",
@@ -64,7 +69,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -75,7 +81,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -86,7 +93,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -97,7 +105,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/akali-nsfw-3d-print",
         "category": "LoL",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "League of Legends"
     },
     {
         "creator": "CA3D Studios",
@@ -108,7 +117,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Akame ga Kill!"
     },
     {
         "creator": "CA3D Studios",
@@ -119,7 +129,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/akasha-nsfw-3d-print",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Queen of the Damned"
     },
     {
         "creator": "CA3D Studios",
@@ -130,18 +141,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Street Fighter"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Akuma 2",
-        "img_url": "images/ca3d_studios/akuma_2.jpg",
+        "name": "Akuma",
+        "img_url": "images/ca3d_studios/akuma_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/akuma-3d-print",
         "bust_url": null,
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Street Fighter"
     },
     {
         "creator": "CA3D Studios",
@@ -152,7 +165,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Alice in Wonderland"
     },
     {
         "creator": "CA3D Studios",
@@ -163,7 +177,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": 2,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Alien"
     },
     {
         "creator": "CA3D Studios",
@@ -174,7 +189,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Alita: Battle Angel"
     },
     {
         "creator": "CA3D Studios",
@@ -185,7 +201,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Alita: Battle Angel"
     },
     {
         "creator": "CA3D Studios",
@@ -196,7 +213,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/aloy-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Horizon Zero Dawn"
     },
     {
         "creator": "CA3D Studios",
@@ -207,18 +225,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hellsing"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Alucard 2",
-        "img_url": "images/ca3d_studios/alucard_2.jpg",
+        "name": "Alucard",
+        "img_url": "images/ca3d_studios/alucard_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/alucard-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/alucard-bust-3d-print",
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hellsing"
     },
     {
         "creator": "CA3D Studios",
@@ -229,7 +249,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/amaterasu-nsfw-3d-print-carlose",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Okami"
     },
     {
         "creator": "CA3D Studios",
@@ -240,7 +261,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -251,7 +273,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/android-18-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dragon Ball"
     },
     {
         "creator": "CA3D Studios",
@@ -262,7 +285,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Pirates of the Caribbean"
     },
     {
         "creator": "CA3D Studios",
@@ -273,7 +297,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Van Helsing"
     },
     {
         "creator": "CA3D Studios",
@@ -284,7 +309,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Egyptian Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -295,18 +321,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/aphrodite-3d-print-carlose",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Aphrodite 2",
-        "img_url": "images/ca3d_studios/aphrodite_2.jpg",
+        "name": "Aphrodite",
+        "img_url": "images/ca3d_studios/aphrodite_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/aphrodite-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/aphrodite-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/aphrodite-nsfw-3d-print",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -317,7 +345,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -328,7 +357,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/april-o-neil-nsfw-3d-print",
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Teenage Mutant Ninja Turtles"
     },
     {
         "creator": "CA3D Studios",
@@ -339,7 +369,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/aragorn-nsfw-3d-print",
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
@@ -350,7 +381,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Christian Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -361,7 +393,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -372,7 +405,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/artemis-nsfw-3d-print",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -383,18 +417,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/arwen-nsfw-3d-print",
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Arwen 2",
-        "img_url": "images/ca3d_studios/arwen_2.jpg",
+        "name": "Arwen",
+        "img_url": "images/ca3d_studios/arwen_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/arwen-3d-print-carlose",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/arwen-nsfw-3d-print-carlose",
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
@@ -405,7 +441,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Neon Genesis Evangelion"
     },
     {
         "creator": "CA3D Studios",
@@ -416,7 +453,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -427,7 +465,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/atom-eve-nsfw-3d-print",
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Invincible"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Azashara",
+        "img_url": "images/ca3d_studios/azashara.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/azashara-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Uncategorized",
+        "rank": null,
+        "file_location": null,
+        "franchise": "World of Warcraft"
     },
     {
         "creator": "CA3D Studios",
@@ -438,7 +489,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/aztec-nsfw-3d-print",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Aztec Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -449,7 +501,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Avatar: The Last Airbender"
     },
     {
         "creator": "CA3D Studios",
@@ -460,7 +513,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/baba-yaga-nsfw-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Slavic Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -471,7 +525,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
@@ -482,18 +537,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/barbarian-queen-nsfw-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Barbarian Thor",
-        "img_url": "images/ca3d_studios/barbarian_thor.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/barbarian-thor-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Marvel",
-        "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -504,7 +549,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/bastila-shan-3d-print",
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -515,7 +561,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/batgirl-nsfw-3d-print",
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -526,7 +573,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/batgirl-nsfw-3d-print-carlose",
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -537,29 +585,32 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Batman 2",
-        "img_url": "images/ca3d_studios/batman_2.jpg",
+        "name": "Batman",
+        "img_url": "images/ca3d_studios/batman_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/batman-vampire-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/batman-bust-3d-print",
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Beast Samurai",
-        "img_url": "images/ca3d_studios/beast_samurai.jpg",
+        "name": "Beast - Samurai",
+        "img_url": "images/ca3d_studios/beast_-_samurai.jpg",
         "url": "https://cults3d.com/en/3d-model/art/beast-samurai-3d-print",
         "bust_url": null,
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "X-Men"
     },
     {
         "creator": "CA3D Studios",
@@ -570,7 +621,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "BioShock"
     },
     {
         "creator": "CA3D Studios",
@@ -581,18 +633,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/black-cat-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Black Cat 2",
-        "img_url": "images/ca3d_studios/black_cat_2.jpg",
+        "name": "Black Cat",
+        "img_url": "images/ca3d_studios/black_cat_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/black-cat-3d-print-carlose",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/black-cat-nsfw-3d-print-carlose",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -603,7 +657,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -614,7 +669,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -625,7 +681,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "FromSoft",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Elden Ring"
     },
     {
         "creator": "CA3D Studios",
@@ -636,7 +693,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/blonde-blazer-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dispatch"
     },
     {
         "creator": "CA3D Studios",
@@ -647,18 +705,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LoL",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "League of Legends"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Bloodrayne",
+        "name": "BloodRayne",
         "img_url": "images/ca3d_studios/bloodrayne.jpg",
         "url": "https://cults3d.com/en/3d-model/art/bloodrayne-3dprint",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/bloodrayne-nsfw-3dprint",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "BloodRayne"
     },
     {
         "creator": "CA3D Studios",
@@ -669,7 +729,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -680,7 +741,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dragon Ball"
     },
     {
         "creator": "CA3D Studios",
@@ -691,7 +753,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -702,7 +765,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/cammy-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Street Fighter"
     },
     {
         "creator": "CA3D Studios",
@@ -713,7 +777,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Street Fighter"
     },
     {
         "creator": "CA3D Studios",
@@ -724,7 +789,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/carmilla-nsfw-3d-print",
         "category": "Other",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Castlevania"
     },
     {
         "creator": "CA3D Studios",
@@ -735,7 +801,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -746,7 +813,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Berserk"
     },
     {
         "creator": "CA3D Studios",
@@ -757,18 +825,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/catwoman-nsfw-3d-print",
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Chani - Dune",
-        "img_url": "images/ca3d_studios/chani_-_dune.jpg",
+        "name": "Chani",
+        "img_url": "images/ca3d_studios/chani.jpg",
         "url": "https://cults3d.com/en/3d-model/art/chani-dune-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/chani-dune-bust-3d-print",
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dune"
     },
     {
         "creator": "CA3D Studios",
@@ -779,7 +849,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Road to El Dorado"
     },
     {
         "creator": "CA3D Studios",
@@ -790,7 +861,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Christian Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -801,7 +873,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Street Fighter"
     },
     {
         "creator": "CA3D Studios",
@@ -812,18 +885,32 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/chun-li-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Street Fighter"
     },
     {
         "creator": "CA3D Studios",
         "name": "Ciri",
         "img_url": "images/ca3d_studios/ciri.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/cyberpunk-ciri-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Video Games",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Cyberpunk / The Witcher"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Ciri",
+        "img_url": "images/ca3d_studios/ciri_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ciri-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/ciri-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Witcher"
     },
     {
         "creator": "CA3D Studios",
@@ -834,7 +921,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Claymore"
     },
     {
         "creator": "CA3D Studios",
@@ -845,7 +933,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/cleopatra-nsfw-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "History"
     },
     {
         "creator": "CA3D Studios",
@@ -856,7 +945,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/cleopatra-nsfw-3d-print-carlose",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "History"
     },
     {
         "creator": "CA3D Studios",
@@ -867,7 +957,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -878,7 +969,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/conan-nsfw-3d-print",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Conan the Barbarian"
     },
     {
         "creator": "CA3D Studios",
@@ -889,7 +981,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Conan the Barbarian"
     },
     {
         "creator": "CA3D Studios",
@@ -900,7 +993,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -911,7 +1005,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "101 Dalmatians"
     },
     {
         "creator": "CA3D Studios",
@@ -922,18 +1017,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/cyber-samurai-nsfw-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Cyberpunk Ciri",
-        "img_url": "images/ca3d_studios/cyberpunk_ciri.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/cyberpunk-ciri-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Video Games",
-        "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -944,7 +1029,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -955,7 +1041,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "My Hero Academia"
     },
     {
         "creator": "CA3D Studios",
@@ -966,7 +1053,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/daenerys-targaryen-nsfw-3d-print",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Game of Thrones"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Dani Moonstar Mirage",
+        "img_url": "images/ca3d_studios/dani_moonstar_mirage.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/dani-moonstar-mirage-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Uncategorized",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -977,7 +1077,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Devil May Cry"
     },
     {
         "creator": "CA3D Studios",
@@ -988,7 +1089,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dante's Inferno"
     },
     {
         "creator": "CA3D Studios",
@@ -999,7 +1101,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -1010,7 +1113,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -1021,7 +1125,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/darth-talon-3d-print-carlose",
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -1032,7 +1137,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -1043,7 +1149,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -1054,7 +1161,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": 2,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Cyberpunk: Edgerunners"
     },
     {
         "creator": "CA3D Studios",
@@ -1065,29 +1173,32 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Pirates of the Caribbean"
     },
     {
         "creator": "CA3D Studios",
         "name": "Death",
-        "img_url": "images/ca3d_studios/death.jpg",
+        "img_url": "images/ca3d_studios_1/death.jpg",
         "url": "https://cults3d.com/en/3d-model/art/death-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/death-bust-3d-print",
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Darksiders"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Death 2",
-        "img_url": "images/ca3d_studios_1/death_2.jpg",
+        "name": "Death",
+        "img_url": "images/ca3d_studios_1/death_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/death-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/death-bust-3d-print-carlose",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/death-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1098,7 +1209,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/dejah-thoris-nsfw-3d-print",
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "John Carter of Mars"
     },
     {
         "creator": "CA3D Studios",
@@ -1109,7 +1221,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/demon-queen-nsfw-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -1120,7 +1233,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/demona-nsfw-3d-print",
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Gargoyles"
     },
     {
         "creator": "CA3D Studios",
@@ -1131,7 +1245,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Gargoyles"
     },
     {
         "creator": "CA3D Studios",
@@ -1142,7 +1257,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -1153,7 +1269,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1164,7 +1281,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/domino-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1175,7 +1293,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Teenage Mutant Ninja Turtles"
     },
     {
         "creator": "CA3D Studios",
@@ -1186,7 +1305,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -1197,29 +1317,32 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
         "name": "Dracula",
         "img_url": "images/ca3d_studios_1/dracula.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/dracula-3d-print-carlose-2",
-        "bust_url": "https://cults3d.com/en/3d-model/art/dracula-bust-3d-print-carlose",
-        "spicy_url": null,
-        "category": "Fantasy",
-        "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Dracula 2",
-        "img_url": "images/ca3d_studios_1/dracula_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dracula-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/dracula-bust-3d-print",
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Castlevania"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Dracula",
+        "img_url": "images/ca3d_studios_1/dracula_1.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/dracula-3d-print-carlose-2",
+        "bust_url": "https://cults3d.com/en/3d-model/art/dracula-bust-3d-print-carlose",
+        "spicy_url": null,
+        "category": "Fantasy",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Dracula"
     },
     {
         "creator": "CA3D Studios",
@@ -1230,7 +1353,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/dragon-lady-extra-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -1241,7 +1365,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -1252,7 +1377,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/elektra-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1263,7 +1389,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -1274,29 +1401,32 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/emma-frost-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Emma Frost 2",
-        "img_url": "images/ca3d_studios_1/emma_frost_2.jpg",
+        "name": "Emma Frost",
+        "img_url": "images/ca3d_studios_1/emma_frost_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/emma-frost-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/emma-frost-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/emma-frost-nsfw-3d-print-carlose",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Emma Frost 3",
-        "img_url": "images/ca3d_studios_1/emma_frost_3.jpg",
+        "name": "Emma Frost",
+        "img_url": "images/ca3d_studios_1/emma_frost_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/emma-frost-3d-print-carlose-2",
         "bust_url": "https://cults3d.com/en/3d-model/art/emma-frost-bust-3d-print-carlose",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/emma-frost-nsfw-3d-print-carlose-2",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1307,7 +1437,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
@@ -1318,7 +1449,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/eve-extra-3d-print-carlose",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Stellar Blade"
     },
     {
         "creator": "CA3D Studios",
@@ -1329,7 +1461,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/evil-lyn-nsfw-3d-print",
         "category": "Other",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Masters of the Universe"
     },
     {
         "creator": "CA3D Studios",
@@ -1340,7 +1473,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/evil-queen-nsfw-3d-print",
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Snow White"
     },
     {
         "creator": "CA3D Studios",
@@ -1351,7 +1485,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Assassin's Creed"
     },
     {
         "creator": "CA3D Studios",
@@ -1362,7 +1497,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/ezio-auditore-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Assassin's Creed"
     },
     {
         "creator": "CA3D Studios",
@@ -1373,7 +1509,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -1384,7 +1521,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/faye-valentine-extra-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Cowboy Bebop"
     },
     {
         "creator": "CA3D Studios",
@@ -1395,7 +1533,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/felicia-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Darkstalkers"
     },
     {
         "creator": "CA3D Studios",
@@ -1406,7 +1545,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/female-conan-nsfw-3d-print",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Conan the Barbarian"
     },
     {
         "creator": "CA3D Studios",
@@ -1417,7 +1557,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Bloodsport"
     },
     {
         "creator": "CA3D Studios",
@@ -1428,7 +1569,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Frankenstein"
     },
     {
         "creator": "CA3D Studios",
@@ -1439,7 +1581,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/freyja-nsfw-3d-print",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Norse Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -1450,18 +1593,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/galadriel-nsfw-3d-print-carlose",
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Galadriel 2",
-        "img_url": "images/ca3d_studios_1/galadriel_2.jpg",
+        "name": "Galadriel",
+        "img_url": "images/ca3d_studios_1/galadriel_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/galadriel-3d-print-carlose",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/galadriel-nsfw-3d-print",
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
@@ -1472,7 +1617,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1483,7 +1629,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/gemma-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Monster Hunter Wilds"
     },
     {
         "creator": "CA3D Studios",
@@ -1494,18 +1641,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Witcher"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Geralt 2",
-        "img_url": "images/ca3d_studios_1/geralt_2.jpg",
+        "name": "Geralt",
+        "img_url": "images/ca3d_studios_1/geralt_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/geralt-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/geralt-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Witcher"
     },
     {
         "creator": "CA3D Studios",
@@ -1516,7 +1665,32 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Ghost Spider",
+        "img_url": "images/ca3d_studios_1/ghost_spider.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/spider-gwen-ghost-spider-3d-print",
+        "bust_url": "https://cults3d.com/en/3d-model/art/spider-gwen-ghost-spider-bust-3d-print",
+        "spicy_url": null,
+        "category": "Marvel",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Marvel"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Gladiator",
+        "img_url": "images/ca3d_studios_1/gladiator.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/gladiator-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Uncategorized",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -1527,7 +1701,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1538,7 +1713,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dragon Ball"
     },
     {
         "creator": "CA3D Studios",
@@ -1549,7 +1725,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Gargoyles"
     },
     {
         "creator": "CA3D Studios",
@@ -1560,7 +1737,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LotR",
         "rank": 2,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
@@ -1571,7 +1749,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -1582,7 +1761,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -1593,7 +1773,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Berserk"
     },
     {
         "creator": "CA3D Studios",
@@ -1604,7 +1785,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -1615,7 +1797,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Berserk"
     },
     {
         "creator": "CA3D Studios",
@@ -1626,7 +1809,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/gwenom-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1637,7 +1821,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -1648,7 +1833,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -1659,7 +1845,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hercules"
     },
     {
         "creator": "CA3D Studios",
@@ -1670,7 +1857,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/harley-quinn-nsfw-3d-print",
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -1681,7 +1869,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Other",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Masters of the Universe"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Hela",
+        "img_url": "images/ca3d_studios_1/hela.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/hela-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Uncategorized",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1692,18 +1893,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hellboy"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Hellboy 2",
-        "img_url": "images/ca3d_studios_1/hellboy_2.jpg",
+        "name": "Hellboy",
+        "img_url": "images/ca3d_studios_1/hellboy_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/hellboy-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/hellboy-bust-3d-print",
         "spicy_url": null,
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hellboy"
     },
     {
         "creator": "CA3D Studios",
@@ -1714,7 +1917,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/hellgirl-model2-3d-print",
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hellboy"
     },
     {
         "creator": "CA3D Studios",
@@ -1725,7 +1929,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -1736,7 +1941,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -1747,7 +1953,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Naruto"
     },
     {
         "creator": "CA3D Studios",
@@ -1758,7 +1965,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Boys"
     },
     {
         "creator": "CA3D Studios",
@@ -1769,7 +1977,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1780,7 +1989,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "World of Warcraft"
     },
     {
         "creator": "CA3D Studios",
@@ -1791,7 +2001,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Other",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Inspector Gadget"
     },
     {
         "creator": "CA3D Studios",
@@ -1802,7 +2013,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/invisible-woman-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1813,7 +2025,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1824,7 +2037,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": 1,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dead Space"
     },
     {
         "creator": "CA3D Studios",
@@ -1835,7 +2049,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Naruto"
     },
     {
         "creator": "CA3D Studios",
@@ -1846,7 +2061,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/jaina-proudmoore-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "World of Warcraft"
     },
     {
         "creator": "CA3D Studios",
@@ -1857,7 +2073,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Aladdin"
     },
     {
         "creator": "CA3D Studios",
@@ -1868,7 +2085,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/jean-grey-phoenix-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1879,7 +2097,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/jessica-rabbit-nsfw-3d-print",
         "category": "Other",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Who Framed Roger Rabbit"
     },
     {
         "creator": "CA3D Studios",
@@ -1890,7 +2109,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/jester-extra-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Critical Role"
     },
     {
         "creator": "CA3D Studios",
@@ -1901,7 +2121,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/jinx-nsfw-3d-print",
         "category": "LoL",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "League of Legends"
     },
     {
         "creator": "CA3D Studios",
@@ -1912,7 +2133,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "History"
     },
     {
         "creator": "CA3D Studios",
@@ -1923,7 +2145,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Red Dead Redemption"
     },
     {
         "creator": "CA3D Studios",
@@ -1934,7 +2157,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": 2,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Cyberpunk 2077"
     },
     {
         "creator": "CA3D Studios",
@@ -1945,7 +2169,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/jubilee-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1956,7 +2181,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Judge Dredd"
     },
     {
         "creator": "CA3D Studios",
@@ -1967,7 +2193,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -1978,7 +2205,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/juri-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Street Fighter"
     },
     {
         "creator": "CA3D Studios",
@@ -1989,7 +2217,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -2000,7 +2229,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LoL",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "League of Legends"
     },
     {
         "creator": "CA3D Studios",
@@ -2011,18 +2241,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Akira"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Karl",
-        "img_url": "images/ca3d_studios_1/karl.jpg",
+        "name": "Karl Ruprect Kroenen",
+        "img_url": "images/ca3d_studios_1/karl_ruprect_kroenen.jpg",
         "url": "https://cults3d.com/en/3d-model/art/karl-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/karl-bust-3d-print",
         "spicy_url": null,
         "category": "Comic",
         "rank": 2,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hellboy"
     },
     {
         "creator": "CA3D Studios",
@@ -2033,7 +2265,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/karlach-nsfw-3d-print",
         "category": "Video Games",
         "rank": 2,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Baldur's Gate 3"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Kazuya",
+        "img_url": "images/ca3d_studios_1/kazuya.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/kazuya-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Uncategorized",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Tekken"
     },
     {
         "creator": "CA3D Studios",
@@ -2044,7 +2289,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Street Fighter"
     },
     {
         "creator": "CA3D Studios",
@@ -2055,7 +2301,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Street Fighter"
     },
     {
         "creator": "CA3D Studios",
@@ -2066,7 +2313,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Rurouni Kenshin"
     },
     {
         "creator": "CA3D Studios",
@@ -2077,7 +2325,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/kida-nsfw-3d-print",
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Atlantis: The Lost Empire"
     },
     {
         "creator": "CA3D Studios",
@@ -2088,18 +2337,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "King Thor",
-        "img_url": "images/ca3d_studios_1/king_thor.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/king-thor-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Marvel",
-        "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Kaiju No. 8"
     },
     {
         "creator": "CA3D Studios",
@@ -2110,51 +2349,68 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/kitty-pryde-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
         "name": "Korra",
-        "img_url": "images/ca3d_studios_1/korra.jpg",
+        "img_url": "images/ca3d_studios_2/korra.jpg",
         "url": "https://cults3d.com/en/3d-model/art/korra-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/korra-bust-3d-print",
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Legend of Korra"
     },
     {
         "creator": "CA3D Studios",
         "name": "Kratos",
-        "img_url": "images/ca3d_studios_1/kratos.jpg",
+        "img_url": "images/ca3d_studios_2/kratos.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kratos-3d-print",
         "bust_url": null,
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "God of War"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Kratos",
+        "img_url": "images/ca3d_studios_2/kratos_1.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/kratos-3d-print-carlose",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Uncategorized",
+        "rank": null,
+        "file_location": null,
+        "franchise": "God of War"
     },
     {
         "creator": "CA3D Studios",
         "name": "Kyla",
-        "img_url": "images/ca3d_studios_1/kyla.jpg",
+        "img_url": "images/ca3d_studios_2/kyla.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kyla-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/kyla-bust-3d-print",
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
         "name": "Lady Dimitrescu",
-        "img_url": "images/ca3d_studios_1/lady_dimitrescu.jpg",
+        "img_url": "images/ca3d_studios_2/lady_dimitrescu.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lady-dimitrescu-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lady-dimitrescu-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lady-dimitrescu-extra-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Resident Evil"
     },
     {
         "creator": "CA3D Studios",
@@ -2165,7 +2421,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -2176,18 +2433,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Lady Loki 2",
-        "img_url": "images/ca3d_studios_2/lady_loki_2.jpg",
+        "name": "Lady Loki",
+        "img_url": "images/ca3d_studios_2/lady_loki_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lady-loki-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/lady-loki-bust-3d-print",
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -2198,7 +2457,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "FromSoft",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Bloodborne"
     },
     {
         "creator": "CA3D Studios",
@@ -2209,7 +2469,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lady-mechanika-nsfw-3d-print",
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lady Mechanika"
     },
     {
         "creator": "CA3D Studios",
@@ -2220,7 +2481,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lady-of-the-lake-extra-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Arthurian Legend"
     },
     {
         "creator": "CA3D Studios",
@@ -2231,7 +2493,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lady-thor-extra-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": "H:\\3D Printing Models\\CA 3D Studios\\Lady Thor"
+        "file_location": "H:\\3D Printing Models\\CA 3D Studios\\Lady Thor",
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -2242,7 +2505,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Tomb Raider"
     },
     {
         "creator": "CA3D Studios",
@@ -2253,7 +2517,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lara-croft-nsfw-3d-print-carlose",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Tomb Raider"
     },
     {
         "creator": "CA3D Studios",
@@ -2264,7 +2529,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/leeloo-extra-3d-print",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Fifth Element"
     },
     {
         "creator": "CA3D Studios",
@@ -2275,7 +2541,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -2286,7 +2553,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lenora-queen-of-crows-extra-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -2297,7 +2565,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lenore-nsfw-castlevania-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Castlevania"
     },
     {
         "creator": "CA3D Studios",
@@ -2308,7 +2577,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Teenage Mutant Ninja Turtles"
     },
     {
         "creator": "CA3D Studios",
@@ -2319,7 +2589,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "History"
     },
     {
         "creator": "CA3D Studios",
@@ -2330,7 +2601,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Attack on Titan"
     },
     {
         "creator": "CA3D Studios",
@@ -2341,7 +2613,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "World of Warcraft"
     },
     {
         "creator": "CA3D Studios",
@@ -2352,7 +2625,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Death Note"
     },
     {
         "creator": "CA3D Studios",
@@ -2363,29 +2637,32 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Final Fantasy XIII"
     },
     {
         "creator": "CA3D Studios",
         "name": "Lilith",
         "img_url": "images/ca3d_studios_2/lilith.jpg",
-        "url": "https://gumroad.com/d/204d203d36ed5632369b72b63c38bfeb",
-        "bust_url": "https://cults3d.com/en/3d-model/art/lilith-bust-3d-print-carlose",
-        "spicy_url": "https://cults3d.com/en/3d-model/naughties/lilith-extra-3d-print",
-        "category": "Video Games",
-        "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Lilith",
-        "img_url": "images/ca3d_studios_2/lilith_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lilith-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/lilith-bust-3d-print",
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Darkstalkers"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Lilith",
+        "img_url": "images/ca3d_studios_2/lilith_1.jpg",
+        "url": "https://gumroad.com/d/204d203d36ed5632369b72b63c38bfeb",
+        "bust_url": "https://cults3d.com/en/3d-model/art/lilith-bust-3d-print-carlose",
+        "spicy_url": "https://cults3d.com/en/3d-model/naughties/lilith-extra-3d-print",
+        "category": "Video Games",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Diablo"
     },
     {
         "creator": "CA3D Studios",
@@ -2396,7 +2673,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -2407,18 +2685,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Other",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Power Rangers"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Lucy Cyberpunk Edgerunners",
-        "img_url": "images/ca3d_studios_2/lucy_cyberpunk_edgerunners.jpg",
+        "name": "Lucy",
+        "img_url": "images/ca3d_studios_2/lucy.jpg",
         "url": "https://cults3d.com/en/3d-model/art/lucy-cyberpunk-edgerunners-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lucy-cyberpunk-edgerunners-nsfw-3d-print",
         "category": "Anime",
         "rank": 2,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Cyberpunk: Edgerunners"
     },
     {
         "creator": "CA3D Studios",
@@ -2429,7 +2709,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/luna-snow-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -2440,7 +2721,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Claire Obscur: Expedition 33"
     },
     {
         "creator": "CA3D Studios",
@@ -2451,7 +2733,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/lust-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Fullmetal Alchemist"
     },
     {
         "creator": "CA3D Studios",
@@ -2462,7 +2745,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/madelyne-pryor-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -2473,7 +2757,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Magdalena"
     },
     {
         "creator": "CA3D Studios",
@@ -2484,7 +2769,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/magik-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -2495,7 +2781,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -2506,7 +2793,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/makima-extra-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Chainsaw Man"
     },
     {
         "creator": "CA3D Studios",
@@ -2517,7 +2805,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Sailor Moon"
     },
     {
         "creator": "CA3D Studios",
@@ -2528,7 +2817,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/maleficent-nsfw-3d-print",
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Sleeping Beauty"
     },
     {
         "creator": "CA3D Studios",
@@ -2539,29 +2829,32 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/malenia-nsfw-3d-print",
         "category": "FromSoft",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Elden Ring"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Malenia 2",
-        "img_url": "images/ca3d_studios_2/malenia_2.jpg",
+        "name": "Malenia",
+        "img_url": "images/ca3d_studios_2/malenia_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/malenia-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/malenia-bust-3d-print",
         "spicy_url": null,
         "category": "FromSoft",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Elden Ring"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Marika - Elden Ring",
-        "img_url": "images/ca3d_studios_2/marika_-_elden_ring.jpg",
+        "name": "Marika",
+        "img_url": "images/ca3d_studios_2/marika.jpg",
         "url": "https://cults3d.com/en/3d-model/art/marika-elden-ring-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/marika-nsfw-elden-ring-3d-print",
         "category": "FromSoft",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Elden Ring"
     },
     {
         "creator": "CA3D Studios",
@@ -2572,18 +2865,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/mary-jane-nsfw-3d-print-carlose",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Mary Jane 2",
-        "img_url": "images/ca3d_studios_2/mary_jane_2.jpg",
+        "name": "Mary Jane",
+        "img_url": "images/ca3d_studios_2/mary_jane_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mary-jane-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/mary-jane-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/mary-jane-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -2594,7 +2889,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Brazilian Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -2605,29 +2901,32 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/medusa-nsfw-3d-print",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Medusa 2",
-        "img_url": "images/ca3d_studios_2/medusa_2.jpg",
+        "name": "Medusa",
+        "img_url": "images/ca3d_studios_2/medusa_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/medusa-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/medusa-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/medusa-nsfw-3d-print-carlose",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Medusa 3",
-        "img_url": "images/ca3d_studios_2/medusa_3.jpg",
+        "name": "Medusa",
+        "img_url": "images/ca3d_studios_2/medusa_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/medusa-3d-print-carlose-2",
         "bust_url": "https://cults3d.com/en/3d-model/art/medusa-bust-3d-print-carlose",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/medusa-nsfw-3d-print-carlose-2",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -2638,7 +2937,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/meg-nsfw-3d-print",
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hercules"
     },
     {
         "creator": "CA3D Studios",
@@ -2649,7 +2949,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Sailor Moon"
     },
     {
         "creator": "CA3D Studios",
@@ -2660,7 +2961,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/mermaid-extra-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -2671,7 +2973,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Teenage Mutant Ninja Turtles"
     },
     {
         "creator": "CA3D Studios",
@@ -2682,7 +2985,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Attack on Titan"
     },
     {
         "creator": "CA3D Studios",
@@ -2693,7 +2997,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Attack on Titan"
     },
     {
         "creator": "CA3D Studios",
@@ -2704,7 +3009,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Sailor Moon"
     },
     {
         "creator": "CA3D Studios",
@@ -2715,7 +3021,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/misa-amane-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Death Note"
     },
     {
         "creator": "CA3D Studios",
@@ -2726,7 +3033,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LoL",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "League of Legends"
     },
     {
         "creator": "CA3D Studios",
@@ -2737,7 +3045,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/mizora-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Baldur's Gate 3"
     },
     {
         "creator": "CA3D Studios",
@@ -2748,7 +3057,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dandadan"
     },
     {
         "creator": "CA3D Studios",
@@ -2759,7 +3069,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LoL",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "League of Legends"
     },
     {
         "creator": "CA3D Studios",
@@ -2770,7 +3081,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/morrigan-dragon-age-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dragon Age"
     },
     {
         "creator": "CA3D Studios",
@@ -2781,7 +3093,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/morrigan-aensland-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Darkstalkers"
     },
     {
         "creator": "CA3D Studios",
@@ -2792,7 +3105,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/morticia-addams-nsfw-3d-print",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Addams Family"
     },
     {
         "creator": "CA3D Studios",
@@ -2803,29 +3117,44 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/motoko-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Ghost in the Shell"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Motoko Kusanagi",
+        "img_url": "images/ca3d_studios_2/motoko_kusanagi.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/motoko-kusanagi-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Uncategorized",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Ghost in the Shell"
     },
     {
         "creator": "CA3D Studios",
         "name": "Mulan",
         "img_url": "images/ca3d_studios_2/mulan.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/mulan-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Disney",
-        "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Mulan",
-        "img_url": "images/ca3d_studios_2/mulan_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/mulan-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/mulan-bust-3d-print",
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Chinese Mythology"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Mulan",
+        "img_url": "images/ca3d_studios_2/mulan_1.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/mulan-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Fantasy",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Chinese Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -2836,7 +3165,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Vagabond"
     },
     {
         "creator": "CA3D Studios",
@@ -2847,7 +3177,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -2858,7 +3189,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -2869,7 +3201,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -2880,7 +3213,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/nami-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "One Piece"
     },
     {
         "creator": "CA3D Studios",
@@ -2891,7 +3225,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/nancy-callahan-nsfw-3d-print",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Sin City"
     },
     {
         "creator": "CA3D Studios",
@@ -2902,7 +3237,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/nelliel-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Bleach"
     },
     {
         "creator": "CA3D Studios",
@@ -2913,7 +3249,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/neytiri-nsfw-3d-print",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Avatar"
     },
     {
         "creator": "CA3D Studios",
@@ -2924,7 +3261,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/nico-robin-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "One Piece"
     },
     {
         "creator": "CA3D Studios",
@@ -2935,7 +3273,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Nillai and BBlue",
+        "img_url": "images/ca3d_studios_2/nillai_and_bblue.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/nillai-and-bblue-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Uncategorized",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -2946,7 +3297,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/nova-starcraft-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "StarCraft"
     },
     {
         "creator": "CA3D Studios",
@@ -2957,7 +3309,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -2968,7 +3321,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -2979,7 +3333,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -2990,7 +3345,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/oni-nsfw-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -3001,7 +3357,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/orin-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Baldur's Gate 3"
     },
     {
         "creator": "CA3D Studios",
@@ -3012,7 +3369,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/persephone-nsfw-3d-print",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -3023,7 +3381,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/pinup-nsfw-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -3034,7 +3393,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/pirate-extra-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -3045,7 +3405,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/pirotess-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Record of Lodoss War"
     },
     {
         "creator": "CA3D Studios",
@@ -3056,7 +3417,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "FromSoft",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Bloodborne"
     },
     {
         "creator": "CA3D Studios",
@@ -3067,7 +3429,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/pocahontas-nsfw-3d-print",
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Pocahontas"
     },
     {
         "creator": "CA3D Studios",
@@ -3078,7 +3441,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -3089,7 +3453,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -3100,7 +3465,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/power-chainsawman-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Chainsaw Man"
     },
     {
         "creator": "CA3D Studios",
@@ -3111,7 +3477,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Predator"
     },
     {
         "creator": "CA3D Studios",
@@ -3122,7 +3489,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -3133,7 +3501,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -3144,7 +3513,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Princess Mononoke"
     },
     {
         "creator": "CA3D Studios",
@@ -3155,84 +3525,92 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/psylocke-extra-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Psylocke 2",
-        "img_url": "images/ca3d_studios_2/psylocke_2.jpg",
+        "name": "Psylocke",
+        "img_url": "images/ca3d_studios_3/psylocke_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/psylocke-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/psylocke-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
         "name": "Pyrrha Nikos",
-        "img_url": "images/ca3d_studios_2/pyrrha_nikos.jpg",
+        "img_url": "images/ca3d_studios_3/pyrrha_nikos.jpg",
         "url": "https://cults3d.com/en/3d-model/art/pyrrha-nikos-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/pyrrha-nikos-bust-3d-print",
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "RWBY"
     },
     {
         "creator": "CA3D Studios",
         "name": "Queen of Hearts",
-        "img_url": "images/ca3d_studios_2/queen_of_hearts.jpg",
+        "img_url": "images/ca3d_studios_3/queen_of_hearts.jpg",
         "url": "https://cults3d.com/en/3d-model/art/queen-of-hearts-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/queen-of-hearts-bust-3d-print",
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Alice in Wonderland"
     },
     {
         "creator": "CA3D Studios",
         "name": "Queen Spider",
-        "img_url": "images/ca3d_studios_2/queen_spider.jpg",
+        "img_url": "images/ca3d_studios_3/queen_spider.jpg",
         "url": "https://cults3d.com/en/3d-model/art/queen-spider-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/queen-spider-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/queen-spider-extra-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
         "name": "Qui-Gon Jinn",
-        "img_url": "images/ca3d_studios_2/qui-gon_jinn.jpg",
+        "img_url": "images/ca3d_studios_3/qui-gon_jinn.jpg",
         "url": "https://cults3d.com/en/3d-model/art/qui-gon-jinn-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/qui-gon-jinn-bust-3d-print",
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
         "name": "Quiet",
-        "img_url": "images/ca3d_studios_2/quiet.jpg",
+        "img_url": "images/ca3d_studios_3/quiet.jpg",
         "url": "https://cults3d.com/en/3d-model/art/quiet-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/quiet-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Metal Gear Solid V"
     },
     {
         "creator": "CA3D Studios",
         "name": "Quorra",
-        "img_url": "images/ca3d_studios_2/quorra.jpg",
+        "img_url": "images/ca3d_studios_3/quorra.jpg",
         "url": "https://cults3d.com/en/3d-model/art/quorra-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/quorra-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/quorra-extra-3d-print",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Tron: Legacy"
     },
     {
         "creator": "CA3D Studios",
@@ -3243,7 +3621,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Rambo"
     },
     {
         "creator": "CA3D Studios",
@@ -3254,7 +3633,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/ranni-nsfw-3d-print",
         "category": "FromSoft",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Elden Ring"
     },
     {
         "creator": "CA3D Studios",
@@ -3265,7 +3645,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Teenage Mutant Ninja Turtles"
     },
     {
         "creator": "CA3D Studios",
@@ -3276,7 +3657,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Tangled"
     },
     {
         "creator": "CA3D Studios",
@@ -3287,7 +3669,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/raven-nsfw-3d-print",
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -3298,18 +3681,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Cyberpunk: Edgerunners"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Rebecca Smasher",
-        "img_url": "images/ca3d_studios_3/rebecca_smasher.jpg",
+        "name": "Rebecca - Smasher",
+        "img_url": "images/ca3d_studios_3/rebecca_-_smasher.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rebecca-smasher-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rebecca-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/rebecca-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Cyberpunk: Edgerunners"
     },
     {
         "creator": "CA3D Studios",
@@ -3320,7 +3705,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Other",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -3331,7 +3717,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/red-monika-nsfw-3d-print",
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Battle Chasers"
     },
     {
         "creator": "CA3D Studios",
@@ -3342,7 +3729,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Fairy Tale"
     },
     {
         "creator": "CA3D Studios",
@@ -3353,18 +3741,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/red-sonja-nsfw-3d-print",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Red Sonja"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Red Sonja 2",
-        "img_url": "images/ca3d_studios_3/red_sonja_2.jpg",
+        "name": "Red Sonja",
+        "img_url": "images/ca3d_studios_3/red_sonja_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/red-sonja-3d-print-carlose",
         "bust_url": "https://cults3d.com/en/3d-model/art/red-sonja-bust-3d-print-carlose",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/red-sonja-nsfw-3d-print-carlose-2",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Red Sonja"
     },
     {
         "creator": "CA3D Studios",
@@ -3375,7 +3765,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Neon Genesis Evangelion"
     },
     {
         "creator": "CA3D Studios",
@@ -3386,7 +3777,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Sailor Moon"
     },
     {
         "creator": "CA3D Studios",
@@ -3397,7 +3789,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/retro-pinup-astronaut-nsfw-3d-print",
         "category": "Other",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -3408,7 +3801,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -3419,7 +3813,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Chronicles of Riddick"
     },
     {
         "creator": "CA3D Studios",
@@ -3430,18 +3825,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Firefly"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Rocket",
-        "img_url": "images/ca3d_studios_3/rocket.jpg",
+        "name": "Rocket Raccoon",
+        "img_url": "images/ca3d_studios_3/rocket_raccoon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rocket-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rocket-bust-3d-print",
         "spicy_url": null,
         "category": "Marvel",
         "rank": 1,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3452,7 +3849,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Rocketeer"
     },
     {
         "creator": "CA3D Studios",
@@ -3463,40 +3861,44 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/rogue-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Rogue - XMen Evolution",
-        "img_url": "images/ca3d_studios_3/rogue_-_xmen_evolution.jpg",
+        "name": "Rogue",
+        "img_url": "images/ca3d_studios_3/rogue_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rogue-xmen-evolution-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/rogue-xmen-evolution-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Rogue 2",
+        "name": "Rogue",
         "img_url": "images/ca3d_studios_3/rogue_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rogue-3d-print-carlose",
         "bust_url": null,
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Rogue Savage",
-        "img_url": "images/ca3d_studios_3/rogue_savage.jpg",
+        "name": "Rogue - Savage",
+        "img_url": "images/ca3d_studios_3/rogue_-_savage.jpg",
         "url": "https://cults3d.com/en/3d-model/art/rogue-savage-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/rogue-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/rogue-nsfw-3d-print-carlose",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3507,7 +3909,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Bleach"
     },
     {
         "creator": "CA3D Studios",
@@ -3518,7 +3921,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Street Fighter"
     },
     {
         "creator": "CA3D Studios",
@@ -3529,7 +3933,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Fate/stay night"
     },
     {
         "creator": "CA3D Studios",
@@ -3540,7 +3945,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Sabrina the Teenage Witch"
     },
     {
         "creator": "CA3D Studios",
@@ -3551,7 +3957,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Sailor Moon"
     },
     {
         "creator": "CA3D Studios",
@@ -3562,7 +3969,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sally-whitemane-extra-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "World of Warcraft"
     },
     {
         "creator": "CA3D Studios",
@@ -3573,7 +3981,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Samurai Jack"
     },
     {
         "creator": "CA3D Studios",
@@ -3584,7 +3993,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -3595,7 +4005,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sara-pezzini-nsfw-witchblade-3d-print",
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Witchblade"
     },
     {
         "creator": "CA3D Studios",
@@ -3606,7 +4017,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sarah-kerrigan-extra-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "StarCraft"
     },
     {
         "creator": "CA3D Studios",
@@ -3617,7 +4029,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
@@ -3628,7 +4041,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3639,7 +4053,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/scarlet-witch-extra-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3650,18 +4065,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Underworld"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Selene Underworld",
-        "img_url": "images/ca3d_studios_3/selene_underworld.jpg",
+        "name": "Selene",
+        "img_url": "images/ca3d_studios_3/selene_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/selene-underworld-3d-print",
         "bust_url": null,
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Underworld"
     },
     {
         "creator": "CA3D Studios",
@@ -3672,7 +4089,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Final Fantasy VII"
     },
     {
         "creator": "CA3D Studios",
@@ -3683,7 +4101,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -3694,7 +4113,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/seras-victoria-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hellsing"
     },
     {
         "creator": "CA3D Studios",
@@ -3705,7 +4125,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sexy-woman-nsfw-luis-royo-3d-print",
         "category": "Other",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -3716,7 +4137,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/shadowheart-extra-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Baldur's Gate 3"
     },
     {
         "creator": "CA3D Studios",
@@ -3727,7 +4149,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/shae-vizla-nsfw-3d-print",
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -3738,7 +4161,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/she-hulk-extra-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3749,18 +4173,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/she-hulk-model-2-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "She-hulk 2",
-        "img_url": "images/ca3d_studios_3/she-hulk_2.jpg",
+        "name": "She-Hulk",
+        "img_url": "images/ca3d_studios_3/she-hulk_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/she-hulk-model3-3d-print",
         "bust_url": null,
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3771,7 +4197,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/shego-nsfw-3d-print",
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Kim Possible"
     },
     {
         "creator": "CA3D Studios",
@@ -3782,7 +4209,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/silk-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3793,7 +4221,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sirena-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -3804,7 +4233,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
@@ -3815,7 +4245,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Snow White"
     },
     {
         "creator": "CA3D Studios",
@@ -3826,7 +4257,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/soi-fon-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Bleach"
     },
     {
         "creator": "CA3D Studios",
@@ -3837,7 +4269,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Spawn"
     },
     {
         "creator": "CA3D Studios",
@@ -3848,29 +4281,20 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/art/sphinx-nsfw-3d-print",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Egyptian Mythology"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Spider Gwen - Ghost Spider",
-        "img_url": "images/ca3d_studios_3/spider_gwen_-_ghost_spider.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/spider-gwen-ghost-spider-3d-print",
-        "bust_url": "https://cults3d.com/en/3d-model/art/spider-gwen-ghost-spider-bust-3d-print",
+        "name": "Spider Man Noir",
+        "img_url": "images/ca3d_studios_3/spider_man_noir.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/spider-man-noir-3d-print",
+        "bust_url": null,
         "spicy_url": null,
-        "category": "Marvel",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Spider Punk",
-        "img_url": "images/ca3d_studios_3/spider_punk.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/spider-punk-3d-print",
-        "bust_url": "https://cults3d.com/en/3d-model/art/spider-punk-bust-3d-print",
-        "spicy_url": null,
-        "category": "Marvel",
-        "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3881,7 +4305,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Spider-Girl",
+        "img_url": "images/ca3d_studios_3/spider-girl_1.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/spidergirl-3d-print",
+        "bust_url": "https://cults3d.com/en/3d-model/art/spidergirl-bust-3d-print",
+        "spicy_url": null,
+        "category": "Marvel",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3892,29 +4329,32 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Spidergirl",
-        "img_url": "images/ca3d_studios_3/spidergirl.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/spidergirl-3d-print",
-        "bust_url": "https://cults3d.com/en/3d-model/art/spidergirl-bust-3d-print",
+        "name": "Spider-Punk",
+        "img_url": "images/ca3d_studios_3/spider-punk.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/spider-punk-3d-print",
+        "bust_url": "https://cults3d.com/en/3d-model/art/spider-punk-bust-3d-print",
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Spinneret Mary Jane",
-        "img_url": "images/ca3d_studios_3/spinneret_mary_jane.jpg",
+        "name": "Spinneret",
+        "img_url": "images/ca3d_studios_3/spinneret.jpg",
         "url": null,
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/spinneret-mary-jane-nsfw",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3925,7 +4365,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Star Wars",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Star Wars"
     },
     {
         "creator": "CA3D Studios",
@@ -3936,7 +4377,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": 1,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3947,7 +4389,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "FromSoft",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Elden Ring"
     },
     {
         "creator": "CA3D Studios",
@@ -3958,7 +4401,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/storm-nsfw-3dprint",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3969,7 +4413,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/storm-nsfw-3d-print-carlose",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3980,7 +4425,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -3991,7 +4437,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/succubus-nsfw-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -4002,18 +4449,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Supergirl 2",
-        "img_url": "images/ca3d_studios_3/supergirl_2.jpg",
+        "name": "Supergirl",
+        "img_url": "images/ca3d_studios_3/supergirl_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/supergirl-3d-print-carlose",
         "bust_url": null,
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -4024,7 +4473,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -4035,7 +4485,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -4046,7 +4497,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/sylvanas-windrunner-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "World of Warcraft"
     },
     {
         "creator": "CA3D Studios",
@@ -4057,7 +4509,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/taarna-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Heavy Metal"
     },
     {
         "creator": "CA3D Studios",
@@ -4068,7 +4521,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Kung Fu Panda"
     },
     {
         "creator": "CA3D Studios",
@@ -4079,7 +4533,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/war-girl-extra-3d-print",
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Tank Girl"
     },
     {
         "creator": "CA3D Studios",
@@ -4090,18 +4545,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Terminator"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Terminator 2",
-        "img_url": "images/ca3d_studios_3/terminator_2.jpg",
+        "name": "Terminator",
+        "img_url": "images/ca3d_studios_3/terminator_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/terminator-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/terminator-bust-3d-print",
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Terminator"
     },
     {
         "creator": "CA3D Studios",
@@ -4112,7 +4569,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Crow"
     },
     {
         "creator": "CA3D Studios",
@@ -4123,7 +4581,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "World of Warcraft"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "The Hunter",
+        "img_url": "images/ca3d_studios_3/the_hunter.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/the-hunter-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Uncategorized",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Bloodborne"
     },
     {
         "creator": "CA3D Studios",
@@ -4134,7 +4605,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Arthurian Legend"
     },
     {
         "creator": "CA3D Studios",
@@ -4145,7 +4617,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Mask"
     },
     {
         "creator": "CA3D Studios",
@@ -4156,7 +4629,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/the-queen-of-the-ashen-vale-extra-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
@@ -4167,7 +4641,32 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/the-underworld-s-grand-matriarch-extra-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Thor - Barbarian",
+        "img_url": "images/ca3d_studios_3/thor_-_barbarian.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/barbarian-thor-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Marvel",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Marvel"
+    },
+    {
+        "creator": "CA3D Studios",
+        "name": "Thor - King",
+        "img_url": "images/ca3d_studios_3/thor_-_king.jpg",
+        "url": "https://cults3d.com/en/3d-model/art/king-thor-3d-print",
+        "bust_url": null,
+        "spicy_url": null,
+        "category": "Marvel",
+        "rank": null,
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -4178,7 +4677,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
@@ -4189,7 +4689,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/tifa-lockhart-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Final Fantasy VII"
     },
     {
         "creator": "CA3D Studios",
@@ -4200,128 +4701,140 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/tina-armstrong-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dead or Alive"
     },
     {
         "creator": "CA3D Studios",
         "name": "Tinkerbell",
-        "img_url": "images/ca3d_studios_3/tinkerbell.jpg",
+        "img_url": "images/ca3d_studios_4/tinkerbell.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tinkerbell-3d-print",
         "bust_url": null,
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Peter Pan"
     },
     {
         "creator": "CA3D Studios",
         "name": "TMNT Diorama",
-        "img_url": "images/ca3d_studios_3/tmnt_diorama.jpg",
+        "img_url": "images/ca3d_studios_4/tmnt_diorama.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tmnt-diorama-3d-print",
         "bust_url": null,
         "spicy_url": null,
         "category": "Comic",
         "rank": 2,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Teenage Mutant Ninja Turtles"
     },
     {
         "creator": "CA3D Studios",
         "name": "Toothless/Hiccup",
-        "img_url": "images/ca3d_studios_3/toothless_hiccup.jpg",
+        "img_url": "images/ca3d_studios_4/toothless_hiccup.jpg",
         "url": "https://cults3d.com/en/3d-model/art/toothless-hiccup-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/toothless-hiccup-bust-3d-print",
         "spicy_url": null,
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "How to Train Your Dragon"
     },
     {
         "creator": "CA3D Studios",
         "name": "Toph",
-        "img_url": "images/ca3d_studios_3/toph.jpg",
+        "img_url": "images/ca3d_studios_4/toph.jpg",
         "url": "https://cults3d.com/en/3d-model/art/toph-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/toph-bust-3d-print",
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Avatar: The Last Airbender"
     },
     {
         "creator": "CA3D Studios",
         "name": "Triss Merigold",
-        "img_url": "images/ca3d_studios_3/triss_merigold.jpg",
+        "img_url": "images/ca3d_studios_4/triss_merigold.jpg",
         "url": "https://cults3d.com/en/3d-model/art/triss-merigold-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/triss-merigold-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Witcher"
     },
     {
         "creator": "CA3D Studios",
         "name": "Tyrande Whisperwind",
-        "img_url": "images/ca3d_studios_3/tyrande_whisperwind.jpg",
+        "img_url": "images/ca3d_studios_4/tyrande_whisperwind.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tyrande-whisperwind-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/tyrande-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/art/tyrande-whisperwind-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "World of Warcraft"
     },
     {
         "creator": "CA3D Studios",
         "name": "Undead Bride",
-        "img_url": "images/ca3d_studios_3/undead_bride.jpg",
+        "img_url": "images/ca3d_studios_4/undead_bride.jpg",
         "url": "https://cults3d.com/en/3d-model/art/undead-bride-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/undead-bride-bust-3d-print",
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/undead-bride-extra-3d-print",
         "category": "Fantasy",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Original"
     },
     {
         "creator": "CA3D Studios",
         "name": "Ursula",
-        "img_url": "images/ca3d_studios_3/ursula.jpg",
+        "img_url": "images/ca3d_studios_4/ursula.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ursula-3d-print",
         "bust_url": "https://cults3d.com/en/3d-model/art/ursula-bust-3d-print",
         "spicy_url": null,
         "category": "Disney",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Little Mermaid"
     },
     {
         "creator": "CA3D Studios",
         "name": "Val-Zod",
-        "img_url": "images/ca3d_studios_3/val-zod.jpg",
+        "img_url": "images/ca3d_studios_4/val-zod.jpg",
         "url": "https://cults3d.com/en/3d-model/art/val-zod-3d-print",
         "bust_url": null,
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
         "name": "Valkyrie",
-        "img_url": "images/ca3d_studios_3/valkyrie.jpg",
+        "img_url": "images/ca3d_studios_4/valkyrie.jpg",
         "url": "https://cults3d.com/en/3d-model/art/valkyrie-3d-print",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/valkyrie-nsfw-3d-print",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Norse Mythology"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Valkyrie 2",
-        "img_url": "images/ca3d_studios_4/valkyrie_2.jpg",
+        "name": "Valkyrie",
+        "img_url": "images/ca3d_studios_4/valkyrie_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/valkyrie-3d-print-carlose",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/valkyrie-nsfw-3d-print-carlose",
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Norse Mythology"
     },
     {
         "creator": "CA3D Studios",
@@ -4332,7 +4845,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Trigun"
     },
     {
         "creator": "CA3D Studios",
@@ -4343,7 +4857,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/vi-nsfw-3d-print",
         "category": "LoL",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "League of Legends"
     },
     {
         "creator": "CA3D Studios",
@@ -4354,7 +4869,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Fullmetal Alchemist"
     },
     {
         "creator": "CA3D Studios",
@@ -4365,7 +4881,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LotR",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Lord of the Rings"
     },
     {
         "creator": "CA3D Studios",
@@ -4376,7 +4893,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -4387,7 +4905,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -4398,7 +4917,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -4409,7 +4929,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "DC Comics",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -4420,7 +4941,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Black Myth: Wukong"
     },
     {
         "creator": "CA3D Studios",
@@ -4431,7 +4953,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/x-23-nsfw-3d-print",
         "category": "Marvel",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "CA3D Studios",
@@ -4442,7 +4965,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/xena-nsfw-3d-print",
         "category": "Movie",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Xena: Warrior Princess"
     },
     {
         "creator": "CA3D Studios",
@@ -4453,7 +4977,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/yamato-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "One Piece"
     },
     {
         "creator": "CA3D Studios",
@@ -4464,7 +4989,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/yennefer-nsfw-3d-print",
         "category": "Video Games",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "The Witcher"
     },
     {
         "creator": "CA3D Studios",
@@ -4475,7 +5001,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Gurren Lagann"
     },
     {
         "creator": "CA3D Studios",
@@ -4486,7 +5013,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/yor-forger-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Spy x Family"
     },
     {
         "creator": "CA3D Studios",
@@ -4497,7 +5025,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/yoruichi-nsfw-3d-print",
         "category": "Anime",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Bleach"
     },
     {
         "creator": "CA3D Studios",
@@ -4508,7 +5037,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Anime",
         "rank": 3,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Yu-Gi-Oh!"
     },
     {
         "creator": "CA3D Studios",
@@ -4519,7 +5049,8 @@ window.catalogData = [
         "spicy_url": "https://cults3d.com/en/3d-model/naughties/zatanna-nsfw-3d-print",
         "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "CA3D Studios",
@@ -4530,117 +5061,32 @@ window.catalogData = [
         "spicy_url": null,
         "category": "God",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Greek Mythology"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Azashara",
-        "img_url": "images/ca3d_studios_4/azashara.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/azashara-3d-print",
+        "name": "Obelix",
+        "img_url": "images/ca3d_studios_4/obelix.jpg",
+        "url": null,
         "bust_url": null,
         "spicy_url": null,
-        "category": "Uncategorized",
+        "category": "Comic",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Asterix"
     },
     {
         "creator": "CA3D Studios",
-        "name": "Dani Moonstar Mirage",
-        "img_url": "images/ca3d_studios_4/dani_moonstar_mirage.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/dani-moonstar-mirage-3d-print",
+        "name": "Asterix",
+        "img_url": "images/ca3d_studios_4/asterix.jpg",
+        "url": null,
         "bust_url": null,
         "spicy_url": null,
-        "category": "Uncategorized",
+        "category": "Comic",
         "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Gladiator",
-        "img_url": "images/ca3d_studios_4/gladiator.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/gladiator-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Uncategorized",
-        "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Hela",
-        "img_url": "images/ca3d_studios_4/hela.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/hela-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Uncategorized",
-        "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Kazuya",
-        "img_url": "images/ca3d_studios_4/kazuya.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/kazuya-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Uncategorized",
-        "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Kratos",
-        "img_url": "images/ca3d_studios_4/kratos_1.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/kratos-3d-print-carlose",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Uncategorized",
-        "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Motoko Kusanagi",
-        "img_url": "images/ca3d_studios_4/motoko_kusanagi.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/motoko-kusanagi-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Uncategorized",
-        "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Nillai and BBlue",
-        "img_url": "images/ca3d_studios_4/nillai_and_bblue.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/nillai-and-bblue-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Uncategorized",
-        "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "Spider Man Noir",
-        "img_url": "images/ca3d_studios_4/spider_man_noir.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/spider-man-noir-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Uncategorized",
-        "rank": null,
-        "file_location": null
-    },
-    {
-        "creator": "CA3D Studios",
-        "name": "The Hunter",
-        "img_url": "images/ca3d_studios_4/the_hunter.jpg",
-        "url": "https://cults3d.com/en/3d-model/art/the-hunter-3d-print",
-        "bust_url": null,
-        "spicy_url": null,
-        "category": "Uncategorized",
-        "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Asterix"
     },
     {
         "creator": "Tanuki Figures",
@@ -4649,9 +5095,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/zodd-berserk-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/zodd-berserk-bust",
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Berserk"
     },
     {
         "creator": "Tanuki Figures",
@@ -4660,9 +5107,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/zenitsu-kimetsu-no-yaiba-demon-slayer-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/zenitsu-kimetsu-no-yaiba-demon-slayer-bust",
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Kimetsu no Yaiba (Demon Slayer)"
     },
     {
         "creator": "Tanuki Figures",
@@ -4671,9 +5119,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/zagreus-hades-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/zagreus-hades-bust",
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hades"
     },
     {
         "creator": "Tanuki Figures",
@@ -4682,9 +5131,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/yamato-one-piece-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/yamato-one-piece-bust-tanukifigures",
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "One Piece"
     },
     {
         "creator": "Tanuki Figures",
@@ -4693,9 +5143,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/war-darksiders-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/war-darksiders-bust",
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Darksiders"
     },
     {
         "creator": "Tanuki Figures",
@@ -4704,9 +5155,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/sabo-one-piece-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/sabo-one-piece-bust",
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "One Piece"
     },
     {
         "creator": "Tanuki Figures",
@@ -4715,9 +5167,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/ryuk-death-note-chibi",
         "bust_url": null,
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Death Note"
     },
     {
         "creator": "Tanuki Figures",
@@ -4726,9 +5179,10 @@ window.catalogData = [
         "url": null,
         "bust_url": "https://cults3d.com/en/3d-model/art/richter-belmont-castlevania-bust",
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Castlevania"
     },
     {
         "creator": "Tanuki Figures",
@@ -4737,9 +5191,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/raziel-soul-reaver-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/raziel-soul-reaver-bust",
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Soul Reaver"
     },
     {
         "creator": "Tanuki Figures",
@@ -4748,9 +5203,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/ori-ori-and-the-blind-forest-extra",
         "bust_url": null,
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Ori and the Blind Forest"
     },
     {
         "creator": "Tanuki Figures",
@@ -4759,9 +5215,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/joker-persona-5-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/joker-persona-5-bust",
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Persona 5"
     },
     {
         "creator": "Tanuki Figures",
@@ -4770,9 +5227,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/itachi-naruto-chibi",
         "bust_url": null,
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Naruto"
     },
     {
         "creator": "Tanuki Figures",
@@ -4781,9 +5239,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/heisenberg-breaking-bad-toon",
         "bust_url": null,
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Breaking Bad"
     },
     {
         "creator": "Tanuki Figures",
@@ -4792,9 +5251,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/cyclops-x-men-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/cyclops-x-men-bust-tanukifigures",
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "Tanuki Figures",
@@ -4803,9 +5263,10 @@ window.catalogData = [
         "url": "https://cults3d.com/en/3d-model/art/behelit-bersek",
         "bust_url": null,
         "spicy_url": null,
-        "category": "Anime",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Berserk"
     },
     {
         "creator": "Tanuki Figures",
@@ -4816,18 +5277,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Metal Gear"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Chocobo - Final Fantasy - Chibi",
-        "img_url": "images/tanuki_figures/chocobo_-_final_fantasy_-_chibi.jpg",
+        "name": "Chocobo - Chibi",
+        "img_url": "images/tanuki_figures/chocobo_-_chibi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/chocobo-final-fantasy-chibi",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Final Fantasy"
     },
     {
         "creator": "Tanuki Figures",
@@ -4838,51 +5301,56 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Dovahkiin - Skyrim",
-        "img_url": "images/tanuki_figures/dovahkiin_-_skyrim.jpg",
+        "name": "Dovahkiin",
+        "img_url": "images/tanuki_figures/dovahkiin.jpg",
         "url": "https://cults3d.com/en/3d-model/art/dovahkiin-skyrim",
         "bust_url": "https://cults3d.com/en/3d-model/art/dovahkiin-skyrim-bust",
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Skyrim"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Gohan SSJ2 - Dragon Ball",
-        "img_url": "images/tanuki_figures/gohan_ssj2_-_dragon_ball.jpg",
+        "name": "Gohan SSJ2",
+        "img_url": "images/tanuki_figures/gohan_ssj2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/gohan-ssj2-dragon-ball-tanukifigures",
         "bust_url": "https://cults3d.com/en/3d-model/art/gohan-ssj2-dragon-ball-bust",
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dragon Ball"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Juggernaut - X-Men",
-        "img_url": "images/tanuki_figures/juggernaut_-_x-men.jpg",
+        "name": "Juggernaut",
+        "img_url": "images/tanuki_figures/juggernaut_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/juggernaut-x-men-tanukifigures",
         "bust_url": "https://cults3d.com/en/3d-model/art/juggernaut-x-men-bust",
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Kon - Bleach - Extra",
-        "img_url": "images/tanuki_figures/kon_-_bleach_-_extra.jpg",
+        "name": "Kon",
+        "img_url": "images/tanuki_figures/kon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kon-bleach-extra",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Bleach"
     },
     {
         "creator": "Tanuki Figures",
@@ -4893,7 +5361,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Jujutsu Kaisen"
     },
     {
         "creator": "Tanuki Figures",
@@ -4904,18 +5373,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Naruto"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "2B - NieR: Automata",
-        "img_url": "images/tanuki_figures/2b_-_nier_automata_1.jpg",
+        "name": "2B",
+        "img_url": "images/tanuki_figures/2b_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-bust-tanukifigures",
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "NieR: Automata"
     },
     {
         "creator": "Tanuki Figures",
@@ -4926,51 +5397,56 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Goku SSJ4 - Dragon Ball",
-        "img_url": "images/tanuki_figures/goku_ssj4_-_dragon_ball.jpg",
+        "name": "Goku SSJ4",
+        "img_url": "images/tanuki_figures/goku_ssj4.jpg",
         "url": "https://cults3d.com/en/3d-model/art/goku-ssj4-dragon-ball-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/goku-ssj4-dragon-ball-bust",
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Dragon Ball"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Kratos - God of War",
-        "img_url": "images/tanuki_figures/kratos_-_god_of_war.jpg",
+        "name": "Kratos",
+        "img_url": "images/tanuki_figures/kratos_2.jpg",
         "url": "https://cults3d.com/en/3d-model/art/kratos-god-of-war-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/kratos-god-of-war-bust-tanukifigures",
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "God of War"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Leonardo - TMNT - Toon",
-        "img_url": "images/tanuki_figures/leonardo_-_tmnt_-_toon.jpg",
+        "name": "Leonardo - Toon",
+        "img_url": "images/tanuki_figures/leonardo_-_toon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/leonardo-tmnt-toon",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Teenage Mutant Ninja Turtles"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Luffy - One Piece",
-        "img_url": "images/tanuki_figures/luffy_-_one_piece.jpg",
+        "name": "Luffy",
+        "img_url": "images/tanuki_figures/luffy.jpg",
         "url": "https://cults3d.com/en/3d-model/art/luffy-one-piece-fullsize",
         "bust_url": "https://cults3d.com/en/3d-model/art/luffy-one-piece-bust",
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "One Piece"
     },
     {
         "creator": "Tanuki Figures",
@@ -4981,18 +5457,20 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Naruto"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Pennywise - It - Chibi",
-        "img_url": "images/tanuki_figures/pennywise_-_it_-_chibi.jpg",
+        "name": "Pennywise - Chibi",
+        "img_url": "images/tanuki_figures/pennywise_-_chibi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/pennywise-it-chibi-tanukifigures",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "It"
     },
     {
         "creator": "Tanuki Figures",
@@ -5003,7 +5481,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "Tanuki Figures",
@@ -5014,62 +5493,68 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Vivi - Final Fantasy IX - Extra",
-        "img_url": "images/tanuki_figures/vivi_-_final_fantasy_ix_-_extra.jpg",
+        "name": "Vivi",
+        "img_url": "images/tanuki_figures/vivi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/vivi-final-fantasy-ix-extra",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Final Fantasy"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Black Myth Wukong - Chibi",
-        "img_url": "images/tanuki_figures/black_myth_wukong_-_chibi.jpg",
+        "name": "Wukong - Chibi",
+        "img_url": "images/tanuki_figures/wukong_-_chibi.jpg",
         "url": "https://cults3d.com/en/3d-model/art/black-myth-wukong-chibi",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Black Myth Wukong"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "May - It Takes Two",
-        "img_url": "images/tanuki_figures/may_-_it_takes_two.jpg",
+        "name": "May",
+        "img_url": "images/tanuki_figures/may.jpg",
         "url": "https://cults3d.com/en/3d-model/art/may-it-takes-two-tanukifigures",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "It Takes Two"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Wolverine - Toon - FREE",
-        "img_url": "images/tanuki_figures/wolverine_-_toon_-_free.jpg",
+        "name": "Wolverine - Toon",
+        "img_url": "images/tanuki_figures/wolverine_-_toon.jpg",
         "url": "https://cults3d.com/en/3d-model/art/wolverine-toon-free",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Marvel"
     },
     {
         "creator": "Tanuki Figures",
-        "name": "Pyramid Head - Silent Hill",
-        "img_url": "images/tanuki_figures/pyramid_head_-_silent_hill.jpg",
+        "name": "Pyramid Head",
+        "img_url": "images/tanuki_figures/pyramid_head.jpg",
         "url": "https://cults3d.com/en/3d-model/art/pyramid-head-silent-hill-fullsize",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Silent Hill"
     },
     {
         "creator": "Tanuki Figures",
@@ -5080,7 +5565,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Invincible"
     },
     {
         "creator": "Tanuki Figures",
@@ -5091,7 +5577,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hollow Knight"
     },
     {
         "creator": "Bulkamancer",
@@ -5102,7 +5589,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5113,7 +5601,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5124,7 +5613,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5135,7 +5625,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5146,7 +5637,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5157,7 +5649,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5168,7 +5661,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5179,7 +5673,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5190,7 +5685,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5201,7 +5697,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5212,7 +5709,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5223,7 +5721,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5234,7 +5733,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5245,7 +5745,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5256,7 +5757,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5267,7 +5769,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5278,7 +5781,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5289,7 +5793,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5300,7 +5805,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "LoL",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5311,7 +5817,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5322,7 +5829,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5333,7 +5841,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5344,7 +5853,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5355,7 +5865,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5366,7 +5877,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5377,7 +5889,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5388,7 +5901,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5399,7 +5913,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5410,7 +5925,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5421,7 +5937,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5432,7 +5949,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5443,7 +5961,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Bulkamancer",
@@ -5454,7 +5973,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5465,7 +5985,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5476,7 +5997,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5487,7 +6009,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5498,7 +6021,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5509,7 +6033,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5520,7 +6045,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5531,7 +6057,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5542,7 +6069,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5553,7 +6081,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5564,7 +6093,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5575,7 +6105,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5586,7 +6117,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5597,7 +6129,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5608,7 +6141,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5619,7 +6153,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5630,7 +6165,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5641,7 +6177,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5652,7 +6189,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5663,7 +6201,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5674,7 +6213,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5685,7 +6225,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5696,7 +6237,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5707,7 +6249,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5718,7 +6261,8 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Neko Figurines",
@@ -5729,72 +6273,79 @@ window.catalogData = [
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Undefined"
     },
     {
         "creator": "Nympha3D",
-        "name": "Raven (Dc Comics)",
-        "img_url": "images/nympha3d/raven_dc_comics.jpg",
+        "name": "Raven",
+        "img_url": "images/nympha3d/raven_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/raven-dc-comics-stl-ready-to-print-model",
         "bust_url": null,
         "spicy_url": null,
-        "category": "Other",
+        "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "DC Comics"
     },
     {
         "creator": "Nympha3D",
-        "name": "2B (Nier Automata)",
-        "img_url": "images/nympha3d/2b_nier_automata.jpg",
+        "name": "2B",
+        "img_url": "images/nympha3d/2b_3.jpg",
         "url": "https://cults3d.com/en/3d-model/art/2b-nier-automata-stl-ready-to-print-model",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "NieR: Automata"
     },
     {
         "creator": "Nympha3D",
-        "name": "Ann Takamaki (Persona 5)",
-        "img_url": "images/nympha3d/ann_takamaki_persona_5.jpg",
+        "name": "Ann Takamaki",
+        "img_url": "images/nympha3d/ann_takamaki.jpg",
         "url": "https://cults3d.com/en/3d-model/art/ann-takamaki-persona-5-stl-ready-to-print-model-with-nsfw-variation",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/ann-takamaki-persona-5-stl-ready-to-print-model-with-nsfw-variation",
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Persona 5"
     },
     {
         "creator": "Nympha3D",
-        "name": "Jinx (Arcane)",
-        "img_url": "images/nympha3d/jinx_arcane.jpg",
+        "name": "Jinx",
+        "img_url": "images/nympha3d/jinx_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/jinx-arcane-stl-ready-to-print-model",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "League of Legends"
     },
     {
         "creator": "Nympha3D",
-        "name": "Tifa Lockhart (Final Fantasy VII 7)",
-        "img_url": "images/nympha3d/tifa_lockhart_final_fantasy_vii_7.jpg",
+        "name": "Tifa Lockhart",
+        "img_url": "images/nympha3d/tifa_lockhart_1.jpg",
         "url": "https://cults3d.com/en/3d-model/art/tifa-lockhart-final-fantasy-vii-7",
         "bust_url": null,
         "spicy_url": null,
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Final Fantasy"
     },
     {
         "creator": "Nympha3D",
-        "name": "Yuzuriha (Hell's Paradise)",
-        "img_url": "images/nympha3d/yuzuriha_hell_s_paradise.jpg",
+        "name": "Yuzuriha",
+        "img_url": "images/nympha3d/yuzuriha.jpg",
         "url": "https://cults3d.com/en/3d-model/art/yuzuriha-hell-s-paradise-stl-ready-to-print-w-nsfw-variation",
         "bust_url": null,
         "spicy_url": "https://cults3d.com/en/3d-model/art/yuzuriha-hell-s-paradise-stl-ready-to-print-w-nsfw-variation",
         "category": "Uncategorized",
         "rank": null,
-        "file_location": null
+        "file_location": null,
+        "franchise": "Hell's Paradise"
     }
 ];

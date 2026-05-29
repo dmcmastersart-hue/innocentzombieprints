@@ -48,17 +48,54 @@
             </div>
 
             <div class="filters-row">
-                <!-- Creator Select Filter -->
-                <div class="filter-group">
-                    <span class="filter-label">Creator</span>
+                <!-- Balanced Controls Bar (Drawer buttons & NSFW Toggle) -->
+                <div class="filter-controls-row">
+                    <button class="filter-drawer-btn" id="creator-drawer-btn" type="button">
+                        <span class="btn-text">Filter by Creator</span>
+                        <svg class="drawer-arrow-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+
+                    <button class="filter-drawer-btn" id="type-drawer-btn" type="button">
+                        <span class="btn-text">Filter by Model Type</span>
+                        <svg class="drawer-arrow-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+
+                    <button class="filter-drawer-btn" id="category-drawer-btn" type="button">
+                        <span class="btn-text">Filter by Category</span>
+                        <svg class="drawer-arrow-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+
+                    <button class="filter-drawer-btn" id="franchise-drawer-btn" type="button">
+                        <span class="btn-text">Filter by Franchise</span>
+                        <svg class="drawer-arrow-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+
+                    <div class="filter-group" id="nsfw-toggle-group">
+                        <label class="nsfw-toggle-label">
+                            Show NSFW Models
+                            <input type="checkbox" id="nsfw-toggle" />
+                            <span class="switch"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Dynamic Creator Drawer Shelf -->
+                <div class="filter-drawer-content" id="creator-drawer-content">
                     <div class="filter-pills" id="creator-pills">
                         <!-- Dynamic creator pills will be generated via JavaScript -->
                     </div>
                 </div>
 
-                <!-- Model Variant/Type Filter -->
-                <div class="filter-group">
-                    <span class="filter-label">Model Type</span>
+                <!-- Dynamic Model Type Drawer Shelf -->
+                <div class="filter-drawer-content" id="type-drawer-content">
                     <div class="filter-pills" id="type-pills">
                         <div class="filter-pill active" data-type="all">All Types</div>
                         <div class="filter-pill" data-type="bust">Bust Available</div>
@@ -67,20 +104,19 @@
                     </div>
                 </div>
 
-                <div class="filter-group" id="nsfw-toggle-group">
-                    <label class="nsfw-toggle-label">
-                        Show NSFW Models
-                        <input type="checkbox" id="nsfw-toggle" />
-                        <span class="switch"></span>
-                    </label>
-                </div>
-
-                <!-- Dynamic Categories Filter -->
-                <div class="filter-group">
-                    <span class="filter-label">Category</span>
+                <!-- Dynamic Categories Drawer Shelf -->
+                <div class="filter-drawer-content" id="category-drawer-content">
                     <div class="filter-pills" id="category-pills">
                         <div class="filter-pill active" data-category="all">All Categories</div>
-                        <!-- Appended dynamically via javascript -->
+                        <!-- Dynamic category pills appended here -->
+                    </div>
+                </div>
+
+                <!-- Dynamic Franchise Drawer Shelf -->
+                <div class="filter-drawer-content" id="franchise-drawer-content">
+                    <div class="filter-pills" id="franchise-pills">
+                        <div class="filter-pill active" data-franchise="all">All Franchises</div>
+                        <!-- Dynamic franchise pills appended here -->
                     </div>
                 </div>
             </div>

@@ -42,7 +42,7 @@ def detect_layout_and_parse(sheet_name: str, df: pd.DataFrame) -> list:
     has_sub_header = False
     if len(df) > 0:
         first_row_values = [str(x).lower().strip() for x in df.iloc[0]]
-        keywords = {"img url", "image", "model name", "model url", "bust", "spicy", "category", "file location"}
+        keywords = {"img url", "image", "model name", "model url", "bust", "spicy", "category", "file location", "franchise"}
         matches = sum(1 for val in first_row_values if any(kw in val for kw in keywords))
         if matches >= 3:
             has_sub_header = True
@@ -58,6 +58,7 @@ def detect_layout_and_parse(sheet_name: str, df: pd.DataFrame) -> list:
         cat_col = 12
         rank_col = 14
         loc_col = 15
+        fran_col = 9 # Default to Column J (index 9) for CA3DModels style
     else:
         # Format 2: Tanuki layout style (generally 14 columns)
         img_col = 0
@@ -68,6 +69,7 @@ def detect_layout_and_parse(sheet_name: str, df: pd.DataFrame) -> list:
         cat_col = 11
         rank_col = None
         loc_col = 13
+        fran_col = None
 
     # 3. Refine column indexes dynamically by inspecting headers
     header_source = [str(x).lower().strip() for x in df.columns]
@@ -102,6 +104,8 @@ def detect_layout_and_parse(sheet_name: str, df: pd.DataFrame) -> list:
             rank_col = idx
         elif "file location" in h or "location" in h or "file" in h or "path" in h:
             loc_col = idx
+        elif "franchise" in h or h == "fran":
+            fran_col = idx
 
     # 4. Parse rows
     start_row = 1 if has_sub_header else 0
@@ -116,6 +120,7 @@ def detect_layout_and_parse(sheet_name: str, df: pd.DataFrame) -> list:
         category = clean_value(row.iloc[cat_col]) if cat_col < len(row) else None
         rank = clean_value(row.iloc[rank_col]) if (rank_col is not None and rank_col < len(row)) else None
         file_location = clean_value(row.iloc[loc_col]) if loc_col < len(row) else None
+        franchise = clean_value(row.iloc[fran_col]) if (fran_col is not None and fran_col < len(row)) else None
 
         if not model_name and not img_url:
             continue
@@ -132,7 +137,8 @@ def detect_layout_and_parse(sheet_name: str, df: pd.DataFrame) -> list:
             "spicy_url": spicy_url,
             "category": category or default_cat,
             "rank": rank,
-            "file_location": file_location
+            "file_location": file_location,
+            "franchise": franchise or "undefined"
         })
 
     return parsed_models
@@ -275,8 +281,13 @@ def download_local_images(models, base_images_dir):
         if not img_url:
             continue
 
-        # If it is already a local path, skip
-        if not img_url.startswith("http"):
+        # Check if this is a local file path that exists on disk (outside our images directory)
+        is_local_file = False
+        if img_url and not img_url.startswith("http") and os.path.exists(img_url):
+            is_local_file = True
+
+        # If it is already a local path inside our images directory, skip download
+        if img_url and not img_url.startswith("http") and not is_local_file:
             skipped += 1
             continue
 
@@ -389,22 +400,36 @@ def download_local_images(models, base_images_dir):
         if found_and_reorganized:
             continue
 
-        # 4. If file is not found anywhere on disk, fetch, compress, and download it
+        # 4. If file is not found anywhere on disk, fetch, compress, and download/import it
         try:
-            resp = session.get(img_url, timeout=15)
-            if resp.status_code == 200:
-                success = compress_and_save_image(resp.content, local_path)
+            if is_local_file:
+                with open(img_url, "rb") as lf:
+                    img_data = lf.read()
+                success = compress_and_save_image(img_data, local_path)
                 if success:
                     model["img_url"] = relative_path
                     downloaded += 1
-                    print(f"  [{downloaded}] Downloaded & Compressed: {allocated_partition}/{filename} ({os.path.getsize(local_path) // 1024} KB)")
+                    print(f"  [{downloaded}] Imported & Compressed Local Image: {allocated_partition}/{filename} ({os.path.getsize(local_path) // 1024} KB)")
                 else:
                     failed += 1
             else:
-                print(f"  [WARNING] Failed status {resp.status_code} for: {model['name']}")
-                failed += 1
+                resp = session.get(img_url, timeout=15)
+                if resp.status_code == 200:
+                    success = compress_and_save_image(resp.content, local_path)
+                    if success:
+                        model["img_url"] = relative_path
+                        downloaded += 1
+                        print(f"  [{downloaded}] Downloaded & Compressed: {allocated_partition}/{filename} ({os.path.getsize(local_path) // 1024} KB)")
+                    else:
+                        failed += 1
+                else:
+                    print(f"  [WARNING] Failed status {resp.status_code} for: {model['name']}")
+                    failed += 1
         except Exception as e:
-            print(f"  [WARNING] Error downloading {model['name']}: {e}")
+            if is_local_file:
+                print(f"  [WARNING] Error reading local file {img_url}: {e}")
+            else:
+                print(f"  [WARNING] Error downloading {model['name']}: {e}")
             failed += 1
 
     # Clean up empty partition directories

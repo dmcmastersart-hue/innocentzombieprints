@@ -106,6 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
         creator: "all",
         type: "all",
         category: "all",
+        franchise: "all",
         nsfw: true // NSFW toggle default on
     };
     
@@ -115,9 +116,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // DOM Elements Cache
     const searchInput = document.getElementById("catalog-search");
     const statsCounter = document.getElementById("stats-counter");
+    // Creator Drawer Elements Cache
+    const creatorDrawerBtn = document.getElementById("creator-drawer-btn");
+    const creatorDrawerContent = document.getElementById("creator-drawer-content");
     const creatorPills = document.getElementById("creator-pills");
+    // Model Type Drawer Elements Cache
+    const typeDrawerBtn = document.getElementById("type-drawer-btn");
+    const typeDrawerContent = document.getElementById("type-drawer-content");
     const typePills = document.getElementById("type-pills");
+    // Category Drawer Elements Cache
+    const categoryDrawerBtn = document.getElementById("category-drawer-btn");
+    const categoryDrawerContent = document.getElementById("category-drawer-content");
     const categoryPills = document.getElementById("category-pills");
+    // Franchise Drawer Elements Cache
+    const franchiseDrawerBtn = document.getElementById("franchise-drawer-btn");
+    const franchiseDrawerContent = document.getElementById("franchise-drawer-content");
+    const franchisePills = document.getElementById("franchise-pills");
     const catalogGrid = document.getElementById("catalog-grid");
     const loadMoreBtn = document.getElementById("load-more-btn");
     const loadMoreWrapper = document.getElementById("load-more-wrapper");
@@ -140,6 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
             allModels.sort((a, b) => (a.name || "").localeCompare(b.name || "", undefined, { sensitivity: 'base', numeric: true }));
             filteredModels = [...allModels];
             buildCategoriesFilter();
+            buildFranchiseFilter();
             buildCreatorFilter();
             applyFiltersAndRender();
         } else {
@@ -157,6 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     allModels.sort((a, b) => (a.name || "").localeCompare(b.name || "", undefined, { sensitivity: 'base', numeric: true }));
                     filteredModels = [...allModels];
                     buildCategoriesFilter();
+                    buildFranchiseFilter();
                     buildCreatorFilter();
                     applyFiltersAndRender();
                 })
@@ -178,6 +194,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Build Category pills dynamically based on active categories in database
     function buildCategoriesFilter() {
+        if (!categoryPills) return;
+
+        // Clear all except "All Categories"
+        const allPill = categoryPills.querySelector('[data-category="all"]');
+        categoryPills.innerHTML = "";
+        if (allPill) {
+            categoryPills.appendChild(allPill);
+        }
+
         const categories = new Set();
         allModels.forEach(model => {
             if (model.category && model.category !== "Other") {
@@ -205,6 +230,47 @@ document.addEventListener("DOMContentLoaded", () => {
             pill.setAttribute("data-category", "Other");
             pill.innerText = "Other / Uncategorized";
             categoryPills.appendChild(pill);
+        }
+    }
+
+    // Build Franchise pills dynamically based on active franchises in database
+    function buildFranchiseFilter() {
+        if (!franchisePills) return;
+
+        // Clear all except "All Franchises"
+        const allPill = franchisePills.querySelector('[data-franchise="all"]');
+        franchisePills.innerHTML = "";
+        if (allPill) {
+            franchisePills.appendChild(allPill);
+        }
+
+        const franchises = new Set();
+        allModels.forEach(model => {
+            if (model.franchise && model.franchise !== "undefined") {
+                franchises.add(model.franchise);
+            }
+        });
+        
+        // Sort franchises alphabetically
+        const sortedFranchises = Array.from(franchises).sort();
+        
+        // Append dynamic franchises to DOM
+        sortedFranchises.forEach(fran => {
+            const pill = document.createElement("div");
+            pill.className = "filter-pill";
+            pill.setAttribute("data-franchise", fran);
+            pill.innerText = fran;
+            franchisePills.appendChild(pill);
+        });
+
+        // Add 'undefined' to the very end if it exists in models
+        const hasUndefined = allModels.some(m => !m.franchise || m.franchise === "undefined");
+        if (hasUndefined) {
+            const pill = document.createElement("div");
+            pill.className = "filter-pill";
+            pill.setAttribute("data-franchise", "undefined");
+            pill.innerText = "Other / Undefined";
+            franchisePills.appendChild(pill);
         }
     }
 
@@ -242,7 +308,88 @@ document.addEventListener("DOMContentLoaded", () => {
     // Handle filter pills clicks
     bindPillGroup(creatorPills, "creator");
     bindPillGroup(typePills, "type");
-    bindPillGroup(categoryPills, "category");
+
+    // Creator Drawer Toggle
+    if (creatorDrawerBtn && creatorDrawerContent) {
+        creatorDrawerBtn.addEventListener("click", () => {
+            creatorDrawerBtn.classList.toggle("open");
+            creatorDrawerContent.classList.toggle("open");
+        });
+    }
+
+    // Model Type Drawer Toggle
+    if (typeDrawerBtn && typeDrawerContent) {
+        typeDrawerBtn.addEventListener("click", () => {
+            typeDrawerBtn.classList.toggle("open");
+            typeDrawerContent.classList.toggle("open");
+        });
+    }
+
+    // Category Drawer Toggle
+    if (categoryDrawerBtn && categoryDrawerContent) {
+        categoryDrawerBtn.addEventListener("click", () => {
+            categoryDrawerBtn.classList.toggle("open");
+            categoryDrawerContent.classList.toggle("open");
+        });
+    }
+
+    // Franchise Drawer Toggle
+    if (franchiseDrawerBtn && franchiseDrawerContent) {
+        franchiseDrawerBtn.addEventListener("click", () => {
+            franchiseDrawerBtn.classList.toggle("open");
+            franchiseDrawerContent.classList.toggle("open");
+        });
+    }
+
+    // Category Drawer Pill clicks
+    if (categoryPills) {
+        categoryPills.addEventListener("click", (e) => {
+            const pill = e.target.closest(".filter-pill");
+            if (!pill) return;
+
+            // Remove active from peers
+            categoryPills.querySelectorAll(".filter-pill").forEach(p => p.classList.remove("active"));
+            pill.classList.add("active");
+
+            // Update state
+            const selectedVal = pill.getAttribute("data-category");
+            activeFilters.category = selectedVal;
+
+            // Highlight drawer button if filter selected
+            if (selectedVal === "all") {
+                categoryDrawerBtn.classList.remove("active-filter-selected");
+            } else {
+                categoryDrawerBtn.classList.add("active-filter-selected");
+            }
+
+            applyFiltersAndRender();
+        });
+    }
+
+    // Franchise Drawer Pill clicks
+    if (franchisePills) {
+        franchisePills.addEventListener("click", (e) => {
+            const pill = e.target.closest(".filter-pill");
+            if (!pill) return;
+
+            // Remove active from peers
+            franchisePills.querySelectorAll(".filter-pill").forEach(p => p.classList.remove("active"));
+            pill.classList.add("active");
+
+            // Update state
+            const selectedVal = pill.getAttribute("data-franchise");
+            activeFilters.franchise = selectedVal;
+
+            // Highlight drawer button if filter selected
+            if (selectedVal === "all") {
+                franchiseDrawerBtn.classList.remove("active-filter-selected");
+            } else {
+                franchiseDrawerBtn.classList.add("active-filter-selected");
+            }
+
+            applyFiltersAndRender();
+        });
+    }
     // NSFW toggle event listener
     const nsfwToggle = document.getElementById("nsfw-toggle");
     if (nsfwToggle) {
@@ -265,7 +412,18 @@ document.addEventListener("DOMContentLoaded", () => {
             pill.classList.add("active");
 
             // Update state
-            activeFilters[filterKey] = pill.getAttribute(`data-${filterKey}`);
+            const selectedVal = pill.getAttribute(`data-${filterKey}`);
+            activeFilters[filterKey] = selectedVal;
+            
+            // Highlight drawer button if filter selected
+            const btn = document.getElementById(`${filterKey}-drawer-btn`);
+            if (btn) {
+                if (selectedVal === "all") {
+                    btn.classList.remove("active-filter-selected");
+                } else {
+                    btn.classList.add("active-filter-selected");
+                }
+            }
             
             applyFiltersAndRender();
         });
@@ -274,12 +432,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // Main Filtering logic
     function applyFiltersAndRender() {
         filteredModels = allModels.filter(model => {
-            // 1. Search Query filter (matches Name, Category, or Creator)
+            // 1. Search Query filter (matches Name, Category, Creator, or Franchise)
             if (activeFilters.search) {
                 const nameMatch = model.name && model.name.toLowerCase().includes(activeFilters.search);
                 const catMatch = model.category && model.category.toLowerCase().includes(activeFilters.search);
                 const creatorMatch = model.creator && model.creator.toLowerCase().includes(activeFilters.search);
-                if (!nameMatch && !catMatch && !creatorMatch) return false;
+                const franchiseMatch = model.franchise && model.franchise.toLowerCase().includes(activeFilters.search);
+                if (!nameMatch && !catMatch && !creatorMatch && !franchiseMatch) return false;
             }
 
             // 2. Creator filter
@@ -290,6 +449,14 @@ document.addEventListener("DOMContentLoaded", () => {
             // 3. Category filter
             if (activeFilters.category !== "all" && model.category !== activeFilters.category) {
                 return false;
+            }
+
+            // 3.5 Franchise filter
+            if (activeFilters.franchise !== "all") {
+                const modelFranchise = model.franchise || "undefined";
+                if (modelFranchise !== activeFilters.franchise) {
+                    return false;
+                }
             }
 
             // 4. Model Type variant filter
@@ -343,7 +510,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     const nameMatch = model.name && model.name.toLowerCase().includes(activeFilters.search);
                     const catMatch = model.category && model.category.toLowerCase().includes(activeFilters.search);
                     const creatorMatch = model.creator && model.creator.toLowerCase().includes(activeFilters.search);
-                    if (!nameMatch && !catMatch && !creatorMatch) return false;
+                    const franchiseMatch = model.franchise && model.franchise.toLowerCase().includes(activeFilters.search);
+                    if (!nameMatch && !catMatch && !creatorMatch && !franchiseMatch) return false;
                 }
                 return !activeFilters.nsfw && model.spicy_url;
             });
@@ -423,9 +591,12 @@ document.addEventListener("DOMContentLoaded", () => {
         // Build HTML template
         card.innerHTML = `
             <div class="card-media-wrapper">
-                <div class="card-badges">
+                <div class="card-creator-badge-wrapper">
                     <span class="badge ${creatorClass}">${model.creator}</span>
+                </div>
+                <div class="card-badges">
                     <span class="badge badge-category">${model.category || "Other"}</span>
+                    <span class="badge badge-franchise">${model.franchise || "undefined"}</span>
                 </div>
                 ${
                     model.img_url 
