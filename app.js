@@ -136,6 +136,33 @@ document.addEventListener("DOMContentLoaded", () => {
     const loadMoreBtn = document.getElementById("load-more-btn");
     const loadMoreWrapper = document.getElementById("load-more-wrapper");
     
+    // Intersection Observer for scroll entrance animations (fades/slides in cards row-by-row)
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+        const intersecting = entries.filter(e => e.isIntersecting);
+        if (intersecting.length === 0) return;
+
+        intersecting.forEach((entry, idx) => {
+            const card = entry.target;
+            
+            // Stagger inside an animation frame
+            requestAnimationFrame(() => {
+                card.style.transitionDelay = `${idx * 60}ms`;
+                card.classList.add("reveal");
+                
+                // Remove animation classes once finished to make hover actions instantly responsive
+                setTimeout(() => {
+                    card.style.transitionDelay = "";
+                    card.classList.remove("scroll-reveal-card");
+                }, 800 + (idx * 60));
+            });
+            
+            observer.unobserve(card);
+        });
+    }, {
+        rootMargin: "0px 0px -40px 0px", // Trigger when card enters slightly into the viewport from the bottom
+        threshold: 0.05
+    });
+    
     // Modal Elements
     const detailModal = document.getElementById("detail-modal");
     const modalClose = document.getElementById("modal-close");
@@ -570,7 +597,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Helper: Create individual model card DOM element
     function createModelCard(model, idx) {
         const card = document.createElement("article");
-        card.className = "model-card";
+        card.className = "model-card scroll-reveal-card";
         card.setAttribute("data-index", idx);
 
         // Creator classification class

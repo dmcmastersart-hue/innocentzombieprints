@@ -1380,20 +1380,13 @@ body {
         letter-spacing: 0.08em; /* slightly tighter on mobile to guarantee a perfect viewport fit for extended fonts */
     }
     
-    /* Catalog pills scroll instead of stacking to save vertical space (very premium mobile look!) */
+    /* Catalog pills wrap on mobile to provide a premium, easy-to-tap grid inside expandable drawers */
     .filter-pills {
         display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
+        flex-wrap: wrap;
         width: 100%;
         padding-bottom: 0.5rem;
-        gap: 0.4rem;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none; /* Hide scrollbar for clean look */
-    }
-    
-    .filter-pills::-webkit-scrollbar {
-        display: none; /* Hide scrollbar in Safari/Chrome */
+        gap: 0.5rem;
     }
     
     .filter-pill {
